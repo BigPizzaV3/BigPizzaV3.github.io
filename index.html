@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>IT王 - 专注逆向教育</title>
+    <script>
+      (function () {
+        if (!window.location.search.startsWith('?/')) return;
+
+        var route = window.location.search.slice(1).replace(/~and~/g, '&');
+        window.history.replaceState(null, '', route + window.location.hash);
+      })();
+    </script>
     <script type="module" crossorigin src="/assets/index-rmJSeKFu.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-te9EHYxr.css">
   </head>
@@ -12,4 +20,3 @@
     <div id="root"></div>
   </body>
 </html>
-
