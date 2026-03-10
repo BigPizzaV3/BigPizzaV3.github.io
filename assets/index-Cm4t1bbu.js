@@ -242,7 +242,7 @@ id: 7
 year: 2025
 title: Unity 逆向
 instructor: ITKing
-price: '699.00'
+price: '599.00'
 image: >-
   https://bkimg.cdn.bcebos.com/pic/03087bf40ad162d9f2d3c4f7688bbeec8a1362276799?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
 tag: 已完结
@@ -370,7 +370,7 @@ year: 2025
 title: 虚幻逆向
 subtitle: 实战游戏：人渣、喋血复仇、SJZ、PUBG、三角洲、无畏契约
 instructor: ITKing
-price: '799.00'
+price: '599.00'
 image: >-
   https://bkimg.cdn.bcebos.com/pic/bd315c6034a85edf8db1ea2c2a1f1e23dd54564edf23?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
 tag: 更新中
@@ -511,10 +511,10 @@ studentCount: '3,260'
 - 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
 `,Kv=`---
 id: 6
-year: 2025
+year: 2026
 title: 永恒之塔 2 逆向
 instructor: ITKing
-price: '699.00'
+price: '599.00'
 image: >-
   https://bkimg.cdn.bcebos.com/pic/2e2eb9389b504fc2d562fe831487f01190ef77c6c7b8?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
 tag: 更新中
@@ -785,7 +785,7 @@ studentCount: '5,680'
 - 简介: 课程聚焦真实 UE 游戏逆向流程，强调从基址定位、SDK Dump、坐标解密到骨骼透视绘制的完整落地链路。
 `,Xv=`---
 id: 9
-year: 2024
+year: 2026
 title: 特惠 20元合集
 subtitle: 网络收集整理
 instructor: ITKing
