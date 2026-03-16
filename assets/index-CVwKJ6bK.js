@@ -220,8 +220,8 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
  */const Mv=[["path",{d:"m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5",key:"ftymec"}],["rect",{x:"2",y:"6",width:"14",height:"12",rx:"2",key:"158x01"}]],jv=Ae("video",Mv);function zv(){return x.jsx("header",{className:"sticky top-0 z-50 w-full border-b border-slate-800 bg-background-dark/80 px-4 py-3 backdrop-blur-md md:px-10",children:x.jsxs("div",{className:"mx-auto flex max-w-7xl items-center justify-between gap-4",children:[x.jsxs(It,{to:"/",className:"flex items-center gap-2 text-primary",children:[x.jsx(ro,{className:"h-8 w-8"}),x.jsx("h2",{className:"text-xl font-bold tracking-tight text-slate-100",children:"ITKING"})]}),x.jsx("nav",{className:"flex items-center gap-4 sm:gap-6",children:x.jsx(It,{to:"/",className:"text-sm font-medium text-slate-300 transition-colors hover:text-primary",children:"全部课程"})})]})})}function Rv(){return Vt().pathname.includes("/course")?x.jsx("footer",{className:"mt-20 border-t border-slate-800 bg-[#020617] px-6 py-12 md:px-20",children:x.jsxs("div",{className:"mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between",children:[x.jsxs("div",{className:"flex items-center gap-4 text-slate-600",children:[x.jsx("div",{className:"text-primary/50",children:x.jsx(ro,{className:"h-6 w-6"})}),x.jsx("span",{className:"text-xs tracking-tight",children:"Copyright 2024 ITKing. All rights reserved."})]}),x.jsxs("div",{className:"flex flex-wrap gap-6 text-xs font-medium",children:[x.jsx(It,{to:"/",className:"text-slate-500 transition-colors hover:text-primary",children:"返回课程列表"}),x.jsx("a",{href:"https://t.me/itking0",target:"_blank",rel:"noopener noreferrer",className:"text-slate-500 transition-colors hover:text-primary",children:"Telegram"})]})]})}):x.jsx("footer",{className:"border-t border-slate-900 bg-slate-950 py-12 md:py-16",children:x.jsxs("div",{className:"mx-auto max-w-7xl px-4 md:px-10",children:[x.jsxs("div",{className:"mb-12 grid gap-10 md:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)]",children:[x.jsxs("div",{children:[x.jsxs(It,{to:"/",className:"mb-6 flex items-center gap-2 text-primary",children:[x.jsx(ro,{className:"h-8 w-8"}),x.jsx("h2",{className:"text-xl font-bold text-slate-100",children:"ITKing"})]}),x.jsx("p",{className:"mb-6 max-w-xl text-sm leading-relaxed text-slate-400",children:"站点当前聚焦课程列表、课程详情和课程内容展示，只保留课程本身相关内容。"}),x.jsxs("div",{className:"flex gap-4",children:[x.jsx("a",{href:"https://t.me/itking0",target:"_blank",rel:"noopener noreferrer",className:"text-slate-500 transition-colors hover:text-primary",children:x.jsx(Ev,{className:"h-5 w-5"})}),x.jsx("a",{href:"https://t.me/itking0",target:"_blank",rel:"noopener noreferrer",className:"text-slate-500 transition-colors hover:text-primary",children:x.jsx(jv,{className:"h-5 w-5"})})]})]}),x.jsxs("div",{children:[x.jsx("h4",{className:"mb-6 font-bold text-white",children:"课程"}),x.jsxs("ul",{className:"space-y-4 text-sm text-slate-400",children:[x.jsx("li",{children:x.jsx(It,{to:"/",className:"transition-colors hover:text-primary",children:"所有课程"})}),x.jsx("li",{children:x.jsx("a",{href:"/#courses",className:"transition-colors hover:text-primary",children:"浏览课程列表"})}),x.jsx("li",{children:x.jsx("a",{href:"https://t.me/itking0",target:"_blank",rel:"noopener noreferrer",className:"transition-colors hover:text-primary",children:"课程咨询"})})]})]})]}),x.jsxs("div",{className:"flex flex-col items-center justify-between gap-4 border-t border-slate-900 pt-8 text-xs text-slate-500 md:flex-row",children:[x.jsx("p",{children:"Copyright 2024 ITKing. All rights reserved."}),x.jsxs("div",{className:"flex gap-6",children:[x.jsx(It,{to:"/",className:"hover:text-primary",children:"课程首页"}),x.jsx("a",{href:"/#courses",className:"hover:text-primary",children:"课程列表"})]})]})]})})}const Uv=`---
 id: 7
 year: 2025
-title: Unity 逆向
-instructor: ITKing
+title: Unity 逆向 - 笔耘
+instructor: 笔耘
 image: >-
   https://bkimg.cdn.bcebos.com/pic/03087bf40ad162d9f2d3c4f7688bbeec8a1362276799?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
 updating: false
@@ -344,9 +344,9 @@ studentCount: '2,840'
 `,kv=`---
 id: 5
 year: 2025
-title: 虚幻逆向
+title: 虚幻逆向 - uintptr
 subtitle: 实战游戏：人渣、喋血复仇、SJZ、PUBG、三角洲、无畏契约
-instructor: ITKing
+instructor: uintptr
 image: >-
   https://bkimg.cdn.bcebos.com/pic/bd315c6034a85edf8db1ea2c2a1f1e23dd54564edf23?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
 updating: false
@@ -716,8 +716,8 @@ studentCount: '3,260'
 `,qv=`---
 id: 6
 year: 2026
-title: 永恒之塔 2 逆向
-instructor: ITKing
+title: 永恒之塔 2 逆向 - 笔耘
+instructor: 笔耘
 image: >-
   https://bkimg.cdn.bcebos.com/pic/2e2eb9389b504fc2d562fe831487f01190ef77c6c7b8?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
 updating: true
