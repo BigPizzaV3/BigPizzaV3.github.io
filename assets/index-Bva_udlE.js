@@ -412,458 +412,6 @@ description: >-
 - 头衔: 逆向实战 / C++ 底层开发讲师
 - 简介: 长期聚焦 Windows 底层开发、游戏逆向、脚本系统与多进程工程化实践，课程强调把零散知识点整理成可复用、可扩展、可持续维护的完整项目能力。
 `,kv=`---
-id: 7
-year: 2025
-instructor: 笔耘
-image: >-
-  https://bkimg.cdn.bcebos.com/pic/03087bf40ad162d9f2d3c4f7688bbeec8a1362276799?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
-updating: false
-category: 逆向工程
-rating: 4.8
-reviews: '520'
-hasQAGroup: true
-tags:
-  - 逆向工程
-  - Unity
-  - ImGui
-description: 覆盖 Unity 安装、DX11 Hook、ImGui 绘制、UnitySdk 生成、对象遍历、骨骼透视，以及第二章的背包、寻路、选服选角和任务等功能分析。
-reviewCount: 520+
-studentCount: '2,840'
----
-
-这套 Unity 课程分为两大章节。第一章包含 31 个视频，重点是 Unity 逆向基础、DX11 Hook、ImGui、UnitySdk、对象系统、骨骼透视和自瞄逻辑；第二章包含 24 个视频，偏向具体游戏功能分析与实现。
-
-整体内容不是停留在理论层面，而是从 Hook 和 SDK 生成开始，一直推进到对象遍历、坐标绘制、队伍识别、骨骼透视、雷达、自瞄，再到背包、寻路、选服、选角、任务与维修等实战功能，适合做 Unity 游戏逆向的系统入门和落地开发参考。
-
-## 亮点
-
-- 两大章节，共 55 个视频内容
-- 第一章覆盖 DX11 Hook、ImGui、UnitySdk、对象遍历、骨骼透视和自瞄
-- 第二章覆盖 DumpSdk、全局对象/函数、人物血量、怪物遍历、背包和寻路
-- 包含选择服务器、角色选择、创建角色、任务和维修等功能分析
-- 配有 UnityDemo、源码压缩包和演示视频，适合边看边做
-
-## 包含
-
-- Clock | 55 节视频课程
-- BarChart | 从基础绘制到游戏功能分析
-- Award | 含 Hook、Sdk、骨骼、自瞄与功能实现
-- Infinity | 支持长期回看
-- MessageCircle | 购买后可联系 QQ 咨询
-
-## 大纲
-
-### 第 1 阶段: Unity 基础、Hook 与绘制链路
-
-- Unity安装 | 环境
-- Unity遍历场景所有对象 | 对象
-- 分析Dx11Hook函数 | Hook
-- 手撸DxHook库 | Hook
-- 实现Hook挂接回调函数 | Hook
-- 创建ImGui窗口 | ImGui
-- 静态生成UnitySdk | SDK
-- 获取unity模块导出函数 | 导出
-- 获取unity类methond的方法 | Method
-- 取FindObjectsOfType函数地址 | 地址
-- 遍历游戏对象 | 遍历
-- 输出对象的ClassName和NameSpace | 类型
-- WorldToScreen | 坐标
-- 获取对象坐标绘制到屏幕 | 绘制
-- 查找队伍数组 | 队伍
-- 编写队伍数组遍历 | 队伍
-- 查找GameObjectManager | GOM
-- Gom链表结构讲解 | GOM
-- 编写Gom | GOM
-
-### 第 2 阶段: 骨骼透视、雷达与自瞄实战
-
-- 获取骨骼信息 | 骨骼
-- 绘制敌方头部骨骼 | 骨骼
-- 实现骨骼透视 | 透视
-- 实现血量绘制 | 血量
-- 绘制敌方朝向 | 绘制
-- 绘制敌方名字 | 绘制
-- 绘制2D雷达 | 雷达
-- 碰撞检测 | 检测
-- 自瞄逻辑分析 | 自瞄
-- 内存自瞄实现 | 自瞄
-- 静默自瞄+子弹追踪 | 高阶
-- 演示视频 | 演示
-
-### 第 3 阶段: 第二章对象系统、血量与怪物遍历
-
-- DumpSdk | SDK
-- Gom查找 | GOM
-- 代码实现全局对象遍历 | 遍历
-- 代码实现全局函数遍历 | 遍历
-- 人物血量分析 | 血量
-- 代码实现人物血量和坐标 | 坐标
-- 周围怪物遍历分析 | 怪物
-- 代码遍历周围怪物 | 怪物
-- 代码实现获取对象坐标获取 | 坐标
-
-### 第 4 阶段: 背包、寻路、选服选角与任务功能
-
-- 打开背包功能 | 背包
-- 背包整理堆叠功能 | 背包
-- 查找背包数组 | 背包
-- 代码遍历背包数组 | 背包
-- 寻路功能查找 | 寻路
-- 代码实现寻路功能 | 寻路
-- 选择服务器功能分析 | 选服
-- 代码实现选择服务器功能 | 选服
-- 选择角色功能分析 | 选角
-- 代码实现角色选择功能 | 选角
-- 任务功能分析 | 任务
-- 创建角色选择卡功能 | 创角
-- 进入创建角色界面功能 | 创角
-- 创建角色起名功能 | 创角
-- 维修功能 | 维修
-
-## 资料
-
-- 第一章 UnityDemo 系列压缩包 | 配套工程
-- ShootHouseV1.34_PC | 练习样本
-- 第二章源码.rar | 配套源码
-- 第一章演示视频 | 演示资料
-- FFOutput 转码视频文件 | 备份视频
-
-## 讲师
-
-- 姓名: ITKing
-- 头衔: 逆向工程讲师 / 游戏安全研究员
-- 简介: ITKing 团队核心讲师，课程偏重 Unity 游戏逆向实战，覆盖 Hook、Sdk、对象系统、骨骼透视、自瞄和功能开发等完整链路。
-- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
-`,Bv=`---
-id: 50
-year: 2025
-subtitle: 最完整的
-instructor: ITKing
-image: https://sce8a9b1c3d39a-sb-qn.qiqiuyun.net/files/system/2022/02-09/123333d79574049898.png?version=23.4.7
-updating: false
-category: Windows内核
-rating: 5.0
-reviews: '680'
-hasQAGroup: true
-tags:
-  - 逆向工程
-  - 虚幻引擎
-  - 游戏安全
-reviewCount: 680+
-studentCount: '3,260'
----
-
-01. C/C++零基础到提高训练营
-02. Windows安全开发训练营（SDK&MFC&API&PE&SOCKET）
-03. x86_64架构汇编与逆向
-04. Windows驱动开发（基于Windows10 21h2）
-05. Windows内核攻防（第二阶段：内核原理）
-06. Windows内核攻防（第三阶段：内核进阶）
-07. Windows内核攻防（第四阶段：实战项目）
-![合集包含的全部课程目录](https://publish-01.obsidian.md/access/e5cb26fd034b7d1102ca988da8201f95/fcmit/99%20tools/Pasted%20image%2020241120120821.png)
-
-## 讲师
-
-- 姓名: 极安御信
-- 头衔: 逆向工程讲师 / 游戏安全研究员
-- 简介: ITKing 团队核心讲师，专注游戏逆向与安全研究领域多年，拥有丰富的虚幻引擎逆向实战经验。
-- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
-`,Hv=`---
-id: 6
-year: 2026
-instructor: 笔耘
-image: >-
-  https://bkimg.cdn.bcebos.com/pic/2e2eb9389b504fc2d562fe831487f01190ef77c6c7b8?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
-updating: true
-category: 逆向工程
-rating: 4.7
-reviews: '320'
-hasQAGroup: true
-tags:
-  - 逆向工程
-  - 游戏安全
-  - 虚幻引擎
-description: >-
-  针对永恒之塔 2（Tarisland）的虚幻引擎逆向课程，覆盖 UE 三大件、SDK Dump、玩家数据、世界遍历、寻路、任务系统、采集与技能等完整功能分析与实现。
-reviewCount: 320+
-studentCount: '1,580'
----
-
-本课程围绕永恒之塔 2 游戏客户端，从虚幻引擎三大件获取、SDK Dump 到玩家数据分析、世界遍历、寻路系统、任务系统、采集与技能遍历，系统讲解 UE 游戏逆向分析与功能实现的完整流程，持续更新中。
-
-## 亮点
-
-- 虚幻引擎三大件获取与 GetName 源码级分析
-- SDK Dump、世界遍历、明文发包等核心技术
-- 任务系统十四节深度拆解，覆盖完整任务链路
-- 寻路、采集、技能遍历等实战功能从分析到实现
-
-## 包含
-
-- Clock | 持续更新，内容不断增加
-- BarChart | 中级到高级
-- Infinity | 终身访问权限
-- MessageCircle | 专属答疑群
-
-## 大纲
-
-### 第 1 阶段: UE 基础与 SDK Dump
-
-- 虚幻引擎三大件获取的3种方法
-- DumpSdk
-- FName查找
-- GetName源码分析
-- GetName汇编代码分析
-- GetName实现
-- UObjectArray查找
-- GWorld查找
-
-### 第 2 阶段: 玩家数据与世界遍历
-
-- 游戏玩家指针查找
-- 玩家坐标分析
-- 世界遍历
-- 明文发包分析
-- StaticFindObject查找
-- StaticFindObject实现
-
-### 第 3 阶段: 自动寻路
-
-- 自动寻路功能查找
-- 自动寻路功能第一个参数分析
-- 寻路功能实现
-- 第二种寻路方式
-- 第二种寻路参数分析
-- 自动寻路功能实现
-
-### 第 4 阶段: 任务系统
-
-- QuestSystem查找
-- 任务分析（一）
-- 任务分析（二）
-- 任务分析（三）
-- 任务分析（四）
-- 任务分析（五）
-- 任务分析（六）
-- 任务分析（七）
-- 任务分析（八）
-- 任务分析（九）
-- 任务分析（十）
-- 任务分析（十一）
-- 任务分析（十二）
-- 任务分析（十三）
-- 任务分析（十四）
-
-### 第 5 阶段: 采集与技能
-
-- 实现周围遍历
-- 采集物ID查找
-- 采集call查找
-- 采集物名称分析
-- 技能遍历查找（一）
-- 技能遍历查找（二）
-- 实现技能遍历
-- 技能名称查找
-- 取技能名称实现
-
-## 资料
-
-- 课程配套源代码与工具 | 压缩包
-`,qv=`---
-id: 9
-year: 2026
-subtitle: 网络收集整理
-instructor: ITKing
-image: /images/tehui-heji-mulu.png
-updating: true
-category: 逆向工程
-rating: 4.5
-reviews: 2.1k
-hasQAGroup: false
-tags:
-  - 逆向工程
-  - 资源合集
-description: 网络收集整理的逆向工程学习资源合集，适合快速入门。
-reviewCount: '2,100+'
-studentCount: '12,400'
----
-
-网络收集整理的逆向工程相关学习资源，适合初学者快速入门了解逆向工程基础知识。
-![合集包含的全部课程目录](/images/tehui-heji-mulu.png)
-
-## 亮点
-
-- 多种逆向基础教程汇总
-- 常用工具使用指南
-- 入门级实战案例
-- 轻量内容，适合尝鲜
-
-## 包含
-
-- Clock | 录播资源合集
-- BarChart | 入门级
-- Infinity | 终身访问权限
-
-## 大纲
-
-### 第 1 阶段: 逆向工程基础资源
-
-- 逆向工程入门概述 | 25:00
-- 常用逆向工具介绍 | 30:00
-- [doc] 学习路线图与资源索引 | 文档
-
-## 资料
-
-- 资源合集下载 | 压缩包
-
-## 讲师
-
-- 姓名: ITKing
-- 头衔: 逆向工程讲师
-- 简介: ITKing 团队整理收录的网络优质逆向学习资源。
-- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
-`,Gv=`---
-id: 5
-year: 2025
-subtitle: 实战游戏：人渣、喋血复仇、SJZ、PUBG、三角洲、无畏契约
-instructor: uintptr
-image: >-
-  https://bkimg.cdn.bcebos.com/pic/bd315c6034a85edf8db1ea2c2a1f1e23dd54564edf23?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
-updating: false
-category: 逆向工程
-rating: 5.0
-reviews: '680'
-hasQAGroup: true
-tags:
-  - 逆向工程
-  - 虚幻引擎
-  - 游戏安全
-description: >-
-  以人渣、喋血复仇、SJZ、PUBG、三角洲、无畏契约等热门游戏为实例，从虚幻引擎基础到 SDK Dump、解密与项目实战，系统掌握 UE
-  逆向全流程。课程提供读写与注入驱动、驱动CE以及虚幻外部框架。
-reviewCount: 680+
-studentCount: '3,260'
----
-
-本课程以多款热门虚幻引擎游戏为实战案例，从引擎结构认知、反射体系、SDK Dump 到多款游戏的解密实战与完整项目开发，系统讲解虚幻引擎逆向全流程。课程提供读写与注入驱动、驱动CE 以及虚幻外部框架，内容也会随课程更新持续扩展。
-
-## 亮点
-
-- 虚幻引擎结构解析与 ida 符号分析
-- 透视、自瞄、骨骼绘制等功能完整实现
-- PUBG / SJZ / 三角洲 / 无畏契约 多游戏 SDK Dump 与解密
-- 提供读写注入驱动、驱动CE、虚幻外部框架
-
-## 包含
-
-- Clock | 持续更新，内容不断增加
-- BarChart | 零基础到高级
-- Infinity | 终身访问权限
-- MessageCircle | 专属答疑群
-
-## 大纲
-
-### 第 1 阶段: 基础篇 · 虚幻基础入门 — 小试牛刀
-
-- 了解 UnrealEngine 的结构
-- UE 的成员分别在游戏中充当什么角色
-- 配置 UnrealEngine 环境生成 ida 符号
-- GEngine / Gworld / GObject / Gname / TArray 结构与宏构
-- Gworld 在 ida 中如何定位、Gworld 是什么
-- GObject 在 ida 中如何定位、GObject 是什么
-- GObject 的内存布局与结构、FUObjectItem / NumElement / NumChunks
-- GName 在 ida 中如何定位、GName 是什么
-- 结合 ida 和源码，分析 GName 算法详解
-- 一法破万门：虚幻源码 + 带符号 ida 文件 + 游戏 ida 文件
-
-### 第 2 阶段: 基础篇 · 虚幻基础入门 — 宝剑磨石
-
-- 找到 ULevel 获取所有 Actor，了解 APawn 和 Actor 的关系
-- 找到所有对象的坐标，了解 FTransForm 结构
-- 获取摄像机组件数据
-- 遍历所有对象，绘制在屏幕上，过滤不需要的对象，完善绘制
-- 找到血量、护甲等数据，浅谈 ACharacter 的结构定义
-- 透视：血量、名字
-- 部分游戏的高跳、移速、射速等变态功能
-- 查找骨骼数组，骨骼名字
-- 完善骨骼算法，完成骨骼透视
-- 编写方框透视，浅谈自适应方框和常规方框
-- 无后座、无扩散
-- 编写自瞄、浅谈算法
-- 单机情况下的秒杀、穿墙、灵魂出窍
-
-### 第 3 阶段: 基础篇 · 从 0 了解虚幻反射结构
-
-- 1.0 前置工作 → 工具的下载
-- 1.1 了解基础反射结构在内存的分布
-- 1.2 反射结构修复
-- 1.3 分析 GName 相关算法以及 GObject 解密（实战）
-- 1.4 GetName 算法修改以及 dump objects（实战）
-- 1.5 修复结构 dump sdk（实战）
-
-### 第 4 阶段: PUBG 解密与 Dump SDK
-
-- 1.0 到离反作弊 dump 游戏内存
-- 1.1 GName 与全局解密函数定位
-- 1.2 全局解密函数的实现
-- 1.3 GetName 算法的实现
-- 1.3.1 GObject 的定位与解密
-- 1.4 UObjectBase 解密的定位
-- 1.4.1 UObject 四个成员的实现
-- 1.5 Objects dump 的完成
-- 1.6 修复基础反射结构
-- 1.7 完成 dump sdk
-
-### 第 5 阶段: 三角洲行动解密与 Dump SDK
-
-- 1.0 使用驱动 dump 游戏内存
-- 1.1 GName 定位与解密
-- 1.2 GObject、GWorld 定位
-- 1.3 dump Objects
-- 1.4 修复基础反射结构
-- 1.5 完成 dump sdk
-- 1.6 从 SDK 中挖掘常用数据偏移
-
-### 第 6 阶段: 无畏契约解密与 Dump SDK
-
-- 1.0 课程前置工作的完成
-- 1.1 GName 定位与解密
-- 1.2 GetName 解密算法的编写
-- 1.3 利用工具快速修复反射结构
-- 1.4 定位 GWorld 和 GObject
-- 1.5 从 SDK 中挖掘常用的数据偏移
-
-### 第 7 阶段: PUBG 项目实战
-
-- 1.1 驱动的使用
-- 1.2 了解外部多线程概念
-- 1.3 从 SDK 中挖掘人物数据
-- 1.4 完成方框透视
-- 1.5 从 SDK 中挖掘骨骼数据
-- 1.6 骨骼绘制算法的实现
-- 1.7 人物血量数据的分析
-- 1.8 分析并且完成血量解密
-- 1.9 地面物资数据的挖掘
-- 2.0 物资数据的解密
-- 2.1 编写哈希表，绘制我们需要的物资数据
-- 2.2 框架的完善
-- 2.3 自瞄的完成 ing……
-
-## 资料
-
-- 读写与注入驱动 | 驱动工具
-- 驱动 CE 工具 | 工具
-- 虚幻外部框架 | 框架源码
-- UE SDK Dump 工具合集 | 工具包
-- 课程配套源代码 | 压缩包
-
-## 讲师
-
-- 姓名: ITKing
-- 头衔: 逆向工程讲师 / 游戏安全研究员
-- 简介: ITKing 团队核心讲师，专注游戏逆向与安全研究领域多年，拥有丰富的虚幻引擎逆向实战经验。
-- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
-`,Kv=`---
 id: 12
 year: 2024
 subtitle: 从C语言基础到游戏辅助开发完整实战，457集超大容量
@@ -1438,6 +986,458 @@ studentCount: '4,560'
 - 姓名: 迪大学院
 - 头衔: C/C++游戏辅助开发讲师
 - 简介: 迪大学院专注C/C++游戏辅助开发教学，课程体系完整，从零基础到完整项目实战，注重实操和架构设计。
+`,Bv=`---
+id: 7
+year: 2025
+instructor: 笔耘
+image: >-
+  https://bkimg.cdn.bcebos.com/pic/03087bf40ad162d9f2d3c4f7688bbeec8a1362276799?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
+updating: false
+category: 逆向工程
+rating: 4.8
+reviews: '520'
+hasQAGroup: true
+tags:
+  - 逆向工程
+  - Unity
+  - ImGui
+description: 覆盖 Unity 安装、DX11 Hook、ImGui 绘制、UnitySdk 生成、对象遍历、骨骼透视，以及第二章的背包、寻路、选服选角和任务等功能分析。
+reviewCount: 520+
+studentCount: '2,840'
+---
+
+这套 Unity 课程分为两大章节。第一章包含 31 个视频，重点是 Unity 逆向基础、DX11 Hook、ImGui、UnitySdk、对象系统、骨骼透视和自瞄逻辑；第二章包含 24 个视频，偏向具体游戏功能分析与实现。
+
+整体内容不是停留在理论层面，而是从 Hook 和 SDK 生成开始，一直推进到对象遍历、坐标绘制、队伍识别、骨骼透视、雷达、自瞄，再到背包、寻路、选服、选角、任务与维修等实战功能，适合做 Unity 游戏逆向的系统入门和落地开发参考。
+
+## 亮点
+
+- 两大章节，共 55 个视频内容
+- 第一章覆盖 DX11 Hook、ImGui、UnitySdk、对象遍历、骨骼透视和自瞄
+- 第二章覆盖 DumpSdk、全局对象/函数、人物血量、怪物遍历、背包和寻路
+- 包含选择服务器、角色选择、创建角色、任务和维修等功能分析
+- 配有 UnityDemo、源码压缩包和演示视频，适合边看边做
+
+## 包含
+
+- Clock | 55 节视频课程
+- BarChart | 从基础绘制到游戏功能分析
+- Award | 含 Hook、Sdk、骨骼、自瞄与功能实现
+- Infinity | 支持长期回看
+- MessageCircle | 购买后可联系 QQ 咨询
+
+## 大纲
+
+### 第 1 阶段: Unity 基础、Hook 与绘制链路
+
+- Unity安装 | 环境
+- Unity遍历场景所有对象 | 对象
+- 分析Dx11Hook函数 | Hook
+- 手撸DxHook库 | Hook
+- 实现Hook挂接回调函数 | Hook
+- 创建ImGui窗口 | ImGui
+- 静态生成UnitySdk | SDK
+- 获取unity模块导出函数 | 导出
+- 获取unity类methond的方法 | Method
+- 取FindObjectsOfType函数地址 | 地址
+- 遍历游戏对象 | 遍历
+- 输出对象的ClassName和NameSpace | 类型
+- WorldToScreen | 坐标
+- 获取对象坐标绘制到屏幕 | 绘制
+- 查找队伍数组 | 队伍
+- 编写队伍数组遍历 | 队伍
+- 查找GameObjectManager | GOM
+- Gom链表结构讲解 | GOM
+- 编写Gom | GOM
+
+### 第 2 阶段: 骨骼透视、雷达与自瞄实战
+
+- 获取骨骼信息 | 骨骼
+- 绘制敌方头部骨骼 | 骨骼
+- 实现骨骼透视 | 透视
+- 实现血量绘制 | 血量
+- 绘制敌方朝向 | 绘制
+- 绘制敌方名字 | 绘制
+- 绘制2D雷达 | 雷达
+- 碰撞检测 | 检测
+- 自瞄逻辑分析 | 自瞄
+- 内存自瞄实现 | 自瞄
+- 静默自瞄+子弹追踪 | 高阶
+- 演示视频 | 演示
+
+### 第 3 阶段: 第二章对象系统、血量与怪物遍历
+
+- DumpSdk | SDK
+- Gom查找 | GOM
+- 代码实现全局对象遍历 | 遍历
+- 代码实现全局函数遍历 | 遍历
+- 人物血量分析 | 血量
+- 代码实现人物血量和坐标 | 坐标
+- 周围怪物遍历分析 | 怪物
+- 代码遍历周围怪物 | 怪物
+- 代码实现获取对象坐标获取 | 坐标
+
+### 第 4 阶段: 背包、寻路、选服选角与任务功能
+
+- 打开背包功能 | 背包
+- 背包整理堆叠功能 | 背包
+- 查找背包数组 | 背包
+- 代码遍历背包数组 | 背包
+- 寻路功能查找 | 寻路
+- 代码实现寻路功能 | 寻路
+- 选择服务器功能分析 | 选服
+- 代码实现选择服务器功能 | 选服
+- 选择角色功能分析 | 选角
+- 代码实现角色选择功能 | 选角
+- 任务功能分析 | 任务
+- 创建角色选择卡功能 | 创角
+- 进入创建角色界面功能 | 创角
+- 创建角色起名功能 | 创角
+- 维修功能 | 维修
+
+## 资料
+
+- 第一章 UnityDemo 系列压缩包 | 配套工程
+- ShootHouseV1.34_PC | 练习样本
+- 第二章源码.rar | 配套源码
+- 第一章演示视频 | 演示资料
+- FFOutput 转码视频文件 | 备份视频
+
+## 讲师
+
+- 姓名: ITKing
+- 头衔: 逆向工程讲师 / 游戏安全研究员
+- 简介: ITKing 团队核心讲师，课程偏重 Unity 游戏逆向实战，覆盖 Hook、Sdk、对象系统、骨骼透视、自瞄和功能开发等完整链路。
+- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
+`,Hv=`---
+id: 50
+year: 2025
+subtitle: 最完整的
+instructor: ITKing
+image: https://sce8a9b1c3d39a-sb-qn.qiqiuyun.net/files/system/2022/02-09/123333d79574049898.png?version=23.4.7
+updating: false
+category: Windows内核
+rating: 5.0
+reviews: '680'
+hasQAGroup: true
+tags:
+  - 逆向工程
+  - 虚幻引擎
+  - 游戏安全
+reviewCount: 680+
+studentCount: '3,260'
+---
+
+01. C/C++零基础到提高训练营
+02. Windows安全开发训练营（SDK&MFC&API&PE&SOCKET）
+03. x86_64架构汇编与逆向
+04. Windows驱动开发（基于Windows10 21h2）
+05. Windows内核攻防（第二阶段：内核原理）
+06. Windows内核攻防（第三阶段：内核进阶）
+07. Windows内核攻防（第四阶段：实战项目）
+![合集包含的全部课程目录](https://publish-01.obsidian.md/access/e5cb26fd034b7d1102ca988da8201f95/fcmit/99%20tools/Pasted%20image%2020241120120821.png)
+
+## 讲师
+
+- 姓名: 极安御信
+- 头衔: 逆向工程讲师 / 游戏安全研究员
+- 简介: ITKing 团队核心讲师，专注游戏逆向与安全研究领域多年，拥有丰富的虚幻引擎逆向实战经验。
+- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
+`,qv=`---
+id: 6
+year: 2026
+instructor: 笔耘
+image: >-
+  https://bkimg.cdn.bcebos.com/pic/2e2eb9389b504fc2d562fe831487f01190ef77c6c7b8?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
+updating: true
+category: 逆向工程
+rating: 4.7
+reviews: '320'
+hasQAGroup: true
+tags:
+  - 逆向工程
+  - 游戏安全
+  - 虚幻引擎
+description: >-
+  针对永恒之塔 2（Tarisland）的虚幻引擎逆向课程，覆盖 UE 三大件、SDK Dump、玩家数据、世界遍历、寻路、任务系统、采集与技能等完整功能分析与实现。
+reviewCount: 320+
+studentCount: '1,580'
+---
+
+本课程围绕永恒之塔 2 游戏客户端，从虚幻引擎三大件获取、SDK Dump 到玩家数据分析、世界遍历、寻路系统、任务系统、采集与技能遍历，系统讲解 UE 游戏逆向分析与功能实现的完整流程，持续更新中。
+
+## 亮点
+
+- 虚幻引擎三大件获取与 GetName 源码级分析
+- SDK Dump、世界遍历、明文发包等核心技术
+- 任务系统十四节深度拆解，覆盖完整任务链路
+- 寻路、采集、技能遍历等实战功能从分析到实现
+
+## 包含
+
+- Clock | 持续更新，内容不断增加
+- BarChart | 中级到高级
+- Infinity | 终身访问权限
+- MessageCircle | 专属答疑群
+
+## 大纲
+
+### 第 1 阶段: UE 基础与 SDK Dump
+
+- 虚幻引擎三大件获取的3种方法
+- DumpSdk
+- FName查找
+- GetName源码分析
+- GetName汇编代码分析
+- GetName实现
+- UObjectArray查找
+- GWorld查找
+
+### 第 2 阶段: 玩家数据与世界遍历
+
+- 游戏玩家指针查找
+- 玩家坐标分析
+- 世界遍历
+- 明文发包分析
+- StaticFindObject查找
+- StaticFindObject实现
+
+### 第 3 阶段: 自动寻路
+
+- 自动寻路功能查找
+- 自动寻路功能第一个参数分析
+- 寻路功能实现
+- 第二种寻路方式
+- 第二种寻路参数分析
+- 自动寻路功能实现
+
+### 第 4 阶段: 任务系统
+
+- QuestSystem查找
+- 任务分析（一）
+- 任务分析（二）
+- 任务分析（三）
+- 任务分析（四）
+- 任务分析（五）
+- 任务分析（六）
+- 任务分析（七）
+- 任务分析（八）
+- 任务分析（九）
+- 任务分析（十）
+- 任务分析（十一）
+- 任务分析（十二）
+- 任务分析（十三）
+- 任务分析（十四）
+
+### 第 5 阶段: 采集与技能
+
+- 实现周围遍历
+- 采集物ID查找
+- 采集call查找
+- 采集物名称分析
+- 技能遍历查找（一）
+- 技能遍历查找（二）
+- 实现技能遍历
+- 技能名称查找
+- 取技能名称实现
+
+## 资料
+
+- 课程配套源代码与工具 | 压缩包
+`,Gv=`---
+id: 9
+year: 2026
+subtitle: 网络收集整理
+instructor: ITKing
+image: /images/tehui-heji-mulu.png
+updating: true
+category: 逆向工程
+rating: 4.5
+reviews: 2.1k
+hasQAGroup: false
+tags:
+  - 逆向工程
+  - 资源合集
+description: 网络收集整理的逆向工程学习资源合集，适合快速入门。
+reviewCount: '2,100+'
+studentCount: '12,400'
+---
+
+网络收集整理的逆向工程相关学习资源，适合初学者快速入门了解逆向工程基础知识。
+![合集包含的全部课程目录](/images/tehui-heji-mulu.png)
+
+## 亮点
+
+- 多种逆向基础教程汇总
+- 常用工具使用指南
+- 入门级实战案例
+- 轻量内容，适合尝鲜
+
+## 包含
+
+- Clock | 录播资源合集
+- BarChart | 入门级
+- Infinity | 终身访问权限
+
+## 大纲
+
+### 第 1 阶段: 逆向工程基础资源
+
+- 逆向工程入门概述 | 25:00
+- 常用逆向工具介绍 | 30:00
+- [doc] 学习路线图与资源索引 | 文档
+
+## 资料
+
+- 资源合集下载 | 压缩包
+
+## 讲师
+
+- 姓名: ITKing
+- 头衔: 逆向工程讲师
+- 简介: ITKing 团队整理收录的网络优质逆向学习资源。
+- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
+`,Kv=`---
+id: 5
+year: 2025
+subtitle: 实战游戏：人渣、喋血复仇、SJZ、PUBG、三角洲、无畏契约
+instructor: uintptr
+image: >-
+  https://bkimg.cdn.bcebos.com/pic/bd315c6034a85edf8db1ea2c2a1f1e23dd54564edf23?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536
+updating: false
+category: 逆向工程
+rating: 5.0
+reviews: '680'
+hasQAGroup: true
+tags:
+  - 逆向工程
+  - 虚幻引擎
+  - 游戏安全
+description: >-
+  以人渣、喋血复仇、SJZ、PUBG、三角洲、无畏契约等热门游戏为实例，从虚幻引擎基础到 SDK Dump、解密与项目实战，系统掌握 UE
+  逆向全流程。课程提供读写与注入驱动、驱动CE以及虚幻外部框架。
+reviewCount: 680+
+studentCount: '3,260'
+---
+
+本课程以多款热门虚幻引擎游戏为实战案例，从引擎结构认知、反射体系、SDK Dump 到多款游戏的解密实战与完整项目开发，系统讲解虚幻引擎逆向全流程。课程提供读写与注入驱动、驱动CE 以及虚幻外部框架，内容也会随课程更新持续扩展。
+
+## 亮点
+
+- 虚幻引擎结构解析与 ida 符号分析
+- 透视、自瞄、骨骼绘制等功能完整实现
+- PUBG / SJZ / 三角洲 / 无畏契约 多游戏 SDK Dump 与解密
+- 提供读写注入驱动、驱动CE、虚幻外部框架
+
+## 包含
+
+- Clock | 持续更新，内容不断增加
+- BarChart | 零基础到高级
+- Infinity | 终身访问权限
+- MessageCircle | 专属答疑群
+
+## 大纲
+
+### 第 1 阶段: 基础篇 · 虚幻基础入门 — 小试牛刀
+
+- 了解 UnrealEngine 的结构
+- UE 的成员分别在游戏中充当什么角色
+- 配置 UnrealEngine 环境生成 ida 符号
+- GEngine / Gworld / GObject / Gname / TArray 结构与宏构
+- Gworld 在 ida 中如何定位、Gworld 是什么
+- GObject 在 ida 中如何定位、GObject 是什么
+- GObject 的内存布局与结构、FUObjectItem / NumElement / NumChunks
+- GName 在 ida 中如何定位、GName 是什么
+- 结合 ida 和源码，分析 GName 算法详解
+- 一法破万门：虚幻源码 + 带符号 ida 文件 + 游戏 ida 文件
+
+### 第 2 阶段: 基础篇 · 虚幻基础入门 — 宝剑磨石
+
+- 找到 ULevel 获取所有 Actor，了解 APawn 和 Actor 的关系
+- 找到所有对象的坐标，了解 FTransForm 结构
+- 获取摄像机组件数据
+- 遍历所有对象，绘制在屏幕上，过滤不需要的对象，完善绘制
+- 找到血量、护甲等数据，浅谈 ACharacter 的结构定义
+- 透视：血量、名字
+- 部分游戏的高跳、移速、射速等变态功能
+- 查找骨骼数组，骨骼名字
+- 完善骨骼算法，完成骨骼透视
+- 编写方框透视，浅谈自适应方框和常规方框
+- 无后座、无扩散
+- 编写自瞄、浅谈算法
+- 单机情况下的秒杀、穿墙、灵魂出窍
+
+### 第 3 阶段: 基础篇 · 从 0 了解虚幻反射结构
+
+- 1.0 前置工作 → 工具的下载
+- 1.1 了解基础反射结构在内存的分布
+- 1.2 反射结构修复
+- 1.3 分析 GName 相关算法以及 GObject 解密（实战）
+- 1.4 GetName 算法修改以及 dump objects（实战）
+- 1.5 修复结构 dump sdk（实战）
+
+### 第 4 阶段: PUBG 解密与 Dump SDK
+
+- 1.0 到离反作弊 dump 游戏内存
+- 1.1 GName 与全局解密函数定位
+- 1.2 全局解密函数的实现
+- 1.3 GetName 算法的实现
+- 1.3.1 GObject 的定位与解密
+- 1.4 UObjectBase 解密的定位
+- 1.4.1 UObject 四个成员的实现
+- 1.5 Objects dump 的完成
+- 1.6 修复基础反射结构
+- 1.7 完成 dump sdk
+
+### 第 5 阶段: 三角洲行动解密与 Dump SDK
+
+- 1.0 使用驱动 dump 游戏内存
+- 1.1 GName 定位与解密
+- 1.2 GObject、GWorld 定位
+- 1.3 dump Objects
+- 1.4 修复基础反射结构
+- 1.5 完成 dump sdk
+- 1.6 从 SDK 中挖掘常用数据偏移
+
+### 第 6 阶段: 无畏契约解密与 Dump SDK
+
+- 1.0 课程前置工作的完成
+- 1.1 GName 定位与解密
+- 1.2 GetName 解密算法的编写
+- 1.3 利用工具快速修复反射结构
+- 1.4 定位 GWorld 和 GObject
+- 1.5 从 SDK 中挖掘常用的数据偏移
+
+### 第 7 阶段: PUBG 项目实战
+
+- 1.1 驱动的使用
+- 1.2 了解外部多线程概念
+- 1.3 从 SDK 中挖掘人物数据
+- 1.4 完成方框透视
+- 1.5 从 SDK 中挖掘骨骼数据
+- 1.6 骨骼绘制算法的实现
+- 1.7 人物血量数据的分析
+- 1.8 分析并且完成血量解密
+- 1.9 地面物资数据的挖掘
+- 2.0 物资数据的解密
+- 2.1 编写哈希表，绘制我们需要的物资数据
+- 2.2 框架的完善
+- 2.3 自瞄的完成 ing……
+
+## 资料
+
+- 读写与注入驱动 | 驱动工具
+- 驱动 CE 工具 | 工具
+- 虚幻外部框架 | 框架源码
+- UE SDK Dump 工具合集 | 工具包
+- 课程配套源代码 | 压缩包
+
+## 讲师
+
+- 姓名: ITKing
+- 头衔: 逆向工程讲师 / 游戏安全研究员
+- 简介: ITKing 团队核心讲师，专注游戏逆向与安全研究领域多年，拥有丰富的虚幻引擎逆向实战经验。
+- 头像: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
 `,wo=Symbol.for("yaml.alias"),oo=Symbol.for("yaml.document"),Jn=Symbol.for("yaml.map"),Gp=Symbol.for("yaml.pair"),en=Symbol.for("yaml.scalar"),ga=Symbol.for("yaml.seq"),Ht=Symbol.for("yaml.node.type"),vl=s=>!!s&&typeof s=="object"&&s[Ht]===wo,gu=s=>!!s&&typeof s=="object"&&s[Ht]===oo,Di=s=>!!s&&typeof s=="object"&&s[Ht]===Jn,Ye=s=>!!s&&typeof s=="object"&&s[Ht]===Gp,Ce=s=>!!s&&typeof s=="object"&&s[Ht]===en,Ci=s=>!!s&&typeof s=="object"&&s[Ht]===ga;function Ge(s){if(s&&typeof s=="object")switch(s[Ht]){case Jn:case ga:return!0}return!1}function Ke(s){if(s&&typeof s=="object")switch(s[Ht]){case wo:case Jn:case en:case ga:return!0}return!1}const Kp=s=>(Ce(s)||Ge(s))&&!!s.anchor,pl=Symbol("break visit"),Yv=Symbol("skip children"),xi=Symbol("remove node");function ba(s,a){const i=Qv(a);gu(s)?ua(null,s.contents,i,Object.freeze([s]))===xi&&(s.contents=null):ua(null,s,i,Object.freeze([]))}ba.BREAK=pl;ba.SKIP=Yv;ba.REMOVE=xi;function ua(s,a,i,u){const o=Xv(s,a,i,u);if(Ke(o)||Ye(o))return Vv(s,u,o),ua(s,o,i,u);if(typeof o!="symbol"){if(Ge(a)){u=Object.freeze(u.concat(a));for(let f=0;f<a.items.length;++f){const h=ua(f,a.items[f],i,u);if(typeof h=="number")f=h-1;else{if(h===pl)return pl;h===xi&&(a.items.splice(f,1),f-=1)}}}else if(Ye(a)){u=Object.freeze(u.concat(a));const f=ua("key",a.key,i,u);if(f===pl)return pl;f===xi&&(a.key=null);const h=ua("value",a.value,i,u);if(h===pl)return pl;h===xi&&(a.value=null)}}return o}function Qv(s){return typeof s=="object"&&(s.Collection||s.Node||s.Value)?Object.assign({Alias:s.Node,Map:s.Node,Scalar:s.Node,Seq:s.Node},s.Value&&{Map:s.Value,Scalar:s.Value,Seq:s.Value},s.Collection&&{Map:s.Collection,Seq:s.Collection},s):s}function Xv(s,a,i,u){var o,f,h,y,p;if(typeof i=="function")return i(s,a,u);if(Di(a))return(o=i.Map)==null?void 0:o.call(i,s,a,u);if(Ci(a))return(f=i.Seq)==null?void 0:f.call(i,s,a,u);if(Ye(a))return(h=i.Pair)==null?void 0:h.call(i,s,a,u);if(Ce(a))return(y=i.Scalar)==null?void 0:y.call(i,s,a,u);if(vl(a))return(p=i.Alias)==null?void 0:p.call(i,s,a,u)}function Vv(s,a,i){const u=a[a.length-1];if(Ge(u))u.items[s]=i;else if(Ye(u))s==="key"?u.key=i:u.value=i;else if(gu(u))u.contents=i;else{const o=vl(u)?"alias":"scalar";throw new Error(`Cannot replace node with ${o} parent`)}}const $v={"!":"%21",",":"%2C","[":"%5B","]":"%5D","{":"%7B","}":"%7D"},Zv=s=>s.replace(/[!,[\]{}]/g,a=>$v[a]);class ut{constructor(a,i){this.docStart=null,this.docEnd=!1,this.yaml=Object.assign({},ut.defaultYaml,a),this.tags=Object.assign({},ut.defaultTags,i)}clone(){const a=new ut(this.yaml,this.tags);return a.docStart=this.docStart,a}atDocument(){const a=new ut(this.yaml,this.tags);switch(this.yaml.version){case"1.1":this.atNextDocument=!0;break;case"1.2":this.atNextDocument=!1,this.yaml={explicit:ut.defaultYaml.explicit,version:"1.2"},this.tags=Object.assign({},ut.defaultTags);break}return a}add(a,i){this.atNextDocument&&(this.yaml={explicit:ut.defaultYaml.explicit,version:"1.1"},this.tags=Object.assign({},ut.defaultTags),this.atNextDocument=!1);const u=a.trim().split(/[ \t]+/),o=u.shift();switch(o){case"%TAG":{if(u.length!==2&&(i(0,"%TAG directive should contain exactly two parts"),u.length<2))return!1;const[f,h]=u;return this.tags[f]=h,!0}case"%YAML":{if(this.yaml.explicit=!0,u.length!==1)return i(0,"%YAML directive should contain exactly one part"),!1;const[f]=u;if(f==="1.1"||f==="1.2")return this.yaml.version=f,!0;{const h=/^\d+\.\d+$/.test(f);return i(6,`Unsupported YAML version ${f}`,h),!1}}default:return i(0,`Unknown directive ${o}`,!0),!1}}tagName(a,i){if(a==="!")return"!";if(a[0]!=="!")return i(`Not a valid tag: ${a}`),null;if(a[1]==="<"){const h=a.slice(2,-1);return h==="!"||h==="!!"?(i(`Verbatim tags aren't resolved, so ${a} is invalid.`),null):(a[a.length-1]!==">"&&i("Verbatim tags must end with a >"),h)}const[,u,o]=a.match(/^(.*!)([^!]*)$/s);o||i(`The ${a} tag has no suffix`);const f=this.tags[u];if(f)try{return f+decodeURIComponent(o)}catch(h){return i(String(h)),null}return u==="!"?a:(i(`Could not resolve tag: ${a}`),null)}tagString(a){for(const[i,u]of Object.entries(this.tags))if(a.startsWith(u))return i+Zv(a.substring(u.length));return a[0]==="!"?a:`!<${a}>`}toString(a){const i=this.yaml.explicit?[`%YAML ${this.yaml.version||"1.2"}`]:[],u=Object.entries(this.tags);let o;if(a&&u.length>0&&Ke(a.contents)){const f={};ba(a.contents,(h,y)=>{Ke(y)&&y.tag&&(f[y.tag]=!0)}),o=Object.keys(f)}else o=[];for(const[f,h]of u)f==="!!"&&h==="tag:yaml.org,2002:"||(!a||o.some(y=>y.startsWith(h)))&&i.push(`%TAG ${f} ${h}`);return i.join(`
 `)}}ut.defaultYaml={explicit:!1,version:"1.2"};ut.defaultTags={"!!":"tag:yaml.org,2002:"};function Yp(s){if(/[\x00-\x19\s,[\]{}]/.test(s)){const i=`Anchor must not contain whitespace or control characters: ${JSON.stringify(s)}`;throw new Error(i)}return!0}function Qp(s){const a=new Set;return ba(s,{Value(i,u){u.anchor&&a.add(u.anchor)}}),a}function Xp(s,a){for(let i=1;;++i){const u=`${s}${i}`;if(!a.has(u))return u}}function Jv(s,a){const i=[],u=new Map;let o=null;return{onAnchor:f=>{i.push(f),o??(o=Qp(s));const h=Xp(a,o);return o.add(h),h},setAnchors:()=>{for(const f of i){const h=u.get(f);if(typeof h=="object"&&h.anchor&&(Ce(h.node)||Ge(h.node)))h.node.anchor=h.anchor;else{const y=new Error("Failed to resolve repeated object (this should not happen)");throw y.source=f,y}}},sourceObjects:u}}function ca(s,a,i,u){if(u&&typeof u=="object")if(Array.isArray(u))for(let o=0,f=u.length;o<f;++o){const h=u[o],y=ca(s,u,String(o),h);y===void 0?delete u[o]:y!==h&&(u[o]=y)}else if(u instanceof Map)for(const o of Array.from(u.keys())){const f=u.get(o),h=ca(s,u,o,f);h===void 0?u.delete(o):h!==f&&u.set(o,h)}else if(u instanceof Set)for(const o of Array.from(u)){const f=ca(s,u,o,o);f===void 0?u.delete(o):f!==o&&(u.delete(o),u.add(f))}else for(const[o,f]of Object.entries(u)){const h=ca(s,u,o,f);h===void 0?delete u[o]:h!==f&&(u[o]=h)}return s.call(a,i,u)}function Bt(s,a,i){if(Array.isArray(s))return s.map((u,o)=>Bt(u,String(o),i));if(s&&typeof s.toJSON=="function"){if(!i||!Kp(s))return s.toJSON(a,i);const u={aliasCount:0,count:1,res:void 0};i.anchors.set(s,u),i.onCreate=f=>{u.res=f,delete i.onCreate};const o=s.toJSON(a,i);return i.onCreate&&i.onCreate(o),o}return typeof s=="bigint"&&!(i!=null&&i.keep)?Number(s):s}class Ao{constructor(a){Object.defineProperty(this,Ht,{value:a})}clone(){const a=Object.create(Object.getPrototypeOf(this),Object.getOwnPropertyDescriptors(this));return this.range&&(a.range=this.range.slice()),a}toJS(a,{mapAsMap:i,maxAliasCount:u,onAnchor:o,reviver:f}={}){if(!gu(a))throw new TypeError("A document argument is required");const h={anchors:new Map,doc:a,keep:!0,mapAsMap:i===!0,mapKeyWarned:!1,maxAliasCount:typeof u=="number"?u:100},y=Bt(this,"",h);if(typeof o=="function")for(const{count:p,res:m}of h.anchors.values())o(m,p);return typeof f=="function"?ca(f,{"":y},"",y):y}}class To extends Ao{constructor(a){super(wo),this.source=a,Object.defineProperty(this,"tag",{set(){throw new Error("Alias nodes cannot have tags")}})}resolve(a,i){let u;i!=null&&i.aliasResolveCache?u=i.aliasResolveCache:(u=[],ba(a,{Node:(f,h)=>{(vl(h)||Kp(h))&&u.push(h)}}),i&&(i.aliasResolveCache=u));let o;for(const f of u){if(f===this)break;f.anchor===this.source&&(o=f)}return o}toJSON(a,i){if(!i)return{source:this.source};const{anchors:u,doc:o,maxAliasCount:f}=i,h=this.resolve(o,i);if(!h){const p=`Unresolved alias (the anchor must be set before the alias): ${this.source}`;throw new ReferenceError(p)}let y=u.get(h);if(y||(Bt(h,null,i),y=u.get(h)),(y==null?void 0:y.res)===void 0){const p="This should not happen: Alias anchor was not resolved?";throw new ReferenceError(p)}if(f>=0&&(y.count+=1,y.aliasCount===0&&(y.aliasCount=su(o,h,u)),y.count*y.aliasCount>f)){const p="Excessive alias count indicates a resource exhaustion attack";throw new ReferenceError(p)}return y.res}toString(a,i,u){const o=`*${this.source}`;if(a){if(Yp(this.source),a.options.verifyAliasOrder&&!a.anchors.has(this.source)){const f=`Unresolved alias (the anchor must be set before the alias): ${this.source}`;throw new Error(f)}if(a.implicitKey)return`${o} `}return o}}function su(s,a,i){if(vl(a)){const u=a.resolve(s),o=i&&u&&i.get(u);return o?o.count*o.aliasCount:0}else if(Ge(a)){let u=0;for(const o of a.items){const f=su(s,o,i);f>u&&(u=f)}return u}else if(Ye(a)){const u=su(s,a.key,i),o=su(s,a.value,i);return Math.max(u,o)}return 1}const Vp=s=>!s||typeof s!="function"&&typeof s!="object";class ae extends Ao{constructor(a){super(en),this.value=a}toJSON(a,i){return i!=null&&i.keep?this.value:Bt(this.value,a,i)}toString(){return String(this.value)}}ae.BLOCK_FOLDED="BLOCK_FOLDED";ae.BLOCK_LITERAL="BLOCK_LITERAL";ae.PLAIN="PLAIN";ae.QUOTE_DOUBLE="QUOTE_DOUBLE";ae.QUOTE_SINGLE="QUOTE_SINGLE";const Fv="tag:yaml.org,2002:";function Wv(s,a,i){if(a){const u=i.filter(f=>f.tag===a),o=u.find(f=>!f.format)??u[0];if(!o)throw new Error(`Tag ${a} not found`);return o}return i.find(u=>{var o;return((o=u.identify)==null?void 0:o.call(u,s))&&!u.format})}function wi(s,a,i){var g,v,w;if(gu(s)&&(s=s.contents),Ke(s))return s;if(Ye(s)){const R=(v=(g=i.schema[Jn]).createNode)==null?void 0:v.call(g,i.schema,null,i);return R.items.push(s),R}(s instanceof String||s instanceof Number||s instanceof Boolean||typeof BigInt<"u"&&s instanceof BigInt)&&(s=s.valueOf());const{aliasDuplicateObjects:u,onAnchor:o,onTagObj:f,schema:h,sourceObjects:y}=i;let p;if(u&&s&&typeof s=="object"){if(p=y.get(s),p)return p.anchor??(p.anchor=o(s)),new To(p.anchor);p={anchor:null,node:null},y.set(s,p)}a!=null&&a.startsWith("!!")&&(a=Fv+a.slice(2));let m=Wv(s,a,h.tags);if(!m){if(s&&typeof s.toJSON=="function"&&(s=s.toJSON()),!s||typeof s!="object"){const R=new ae(s);return p&&(p.node=R),R}m=s instanceof Map?h[Jn]:Symbol.iterator in Object(s)?h[ga]:h[Jn]}f&&(f(m),delete i.onTagObj);const S=m!=null&&m.createNode?m.createNode(i.schema,s,i):typeof((w=m==null?void 0:m.nodeClass)==null?void 0:w.from)=="function"?m.nodeClass.from(i.schema,s,i):new ae(s);return a?S.tag=a:m.default||(S.tag=m.tag),p&&(p.node=S),S}function ou(s,a,i){let u=i;for(let o=a.length-1;o>=0;--o){const f=a[o];if(typeof f=="number"&&Number.isInteger(f)&&f>=0){const h=[];h[f]=u,u=h}else u=new Map([[f,u]])}return wi(u,void 0,{aliasDuplicateObjects:!1,keepUndefined:!1,onAnchor:()=>{throw new Error("This should not happen, please report a bug.")},schema:s,sourceObjects:new Map})}const vi=s=>s==null||typeof s=="object"&&!!s[Symbol.iterator]().next().done;class $p extends Ao{constructor(a,i){super(a),Object.defineProperty(this,"schema",{value:i,configurable:!0,enumerable:!1,writable:!0})}clone(a){const i=Object.create(Object.getPrototypeOf(this),Object.getOwnPropertyDescriptors(this));return a&&(i.schema=a),i.items=i.items.map(u=>Ke(u)||Ye(u)?u.clone(a):u),this.range&&(i.range=this.range.slice()),i}addIn(a,i){if(vi(a))this.add(i);else{const[u,...o]=a,f=this.get(u,!0);if(Ge(f))f.addIn(o,i);else if(f===void 0&&this.schema)this.set(u,ou(this.schema,o,i));else throw new Error(`Expected YAML collection at ${u}. Remaining path: ${o}`)}}deleteIn(a){const[i,...u]=a;if(u.length===0)return this.delete(i);const o=this.get(i,!0);if(Ge(o))return o.deleteIn(u);throw new Error(`Expected YAML collection at ${i}. Remaining path: ${u}`)}getIn(a,i){const[u,...o]=a,f=this.get(u,!0);return o.length===0?!i&&Ce(f)?f.value:f:Ge(f)?f.getIn(o,i):void 0}hasAllNullValues(a){return this.items.every(i=>{if(!Ye(i))return!1;const u=i.value;return u==null||a&&Ce(u)&&u.value==null&&!u.commentBefore&&!u.comment&&!u.tag})}hasIn(a){const[i,...u]=a;if(u.length===0)return this.has(i);const o=this.get(i,!0);return Ge(o)?o.hasIn(u):!1}setIn(a,i){const[u,...o]=a;if(o.length===0)this.set(u,i);else{const f=this.get(u,!0);if(Ge(f))f.setIn(o,i);else if(f===void 0&&this.schema)this.set(u,ou(this.schema,o,i));else throw new Error(`Expected YAML collection at ${u}. Remaining path: ${o}`)}}}const Iv=s=>s.replace(/^(?!$)(?: $)?/gm,"#");function Sn(s,a){return/^\n+$/.test(s)?s.substring(1):a?s.replace(/^(?! *$)/gm,a):s}const yl=(s,a,i)=>s.endsWith(`
 `)?Sn(i,a):i.includes(`
@@ -1568,6 +1568,6 @@ ${i.comment}`:i.comment}this.doc.range[2]=i.offset;break}default:this.errors.pus
 `)+1;for(;i!==0;)this.onNewLine(this.offset+i),i=this.source.indexOf(`
 `,i)+1}yield*this.pop();break;default:yield*this.pop(),yield*this.step()}}*blockMap(a){var u;const i=a.items[a.items.length-1];switch(this.type){case"newline":if(this.onKeyLine=!1,i.value){const o="end"in i.value?i.value.end:void 0,f=Array.isArray(o)?o[o.length-1]:void 0;(f==null?void 0:f.type)==="comment"?o==null||o.push(this.sourceToken):a.items.push({start:[this.sourceToken]})}else i.sep?i.sep.push(this.sourceToken):i.start.push(this.sourceToken);return;case"space":case"comment":if(i.value)a.items.push({start:[this.sourceToken]});else if(i.sep)i.sep.push(this.sourceToken);else{if(this.atIndentedComment(i.start,a.indent)){const o=a.items[a.items.length-2],f=(u=o==null?void 0:o.value)==null?void 0:u.end;if(Array.isArray(f)){Array.prototype.push.apply(f,i.start),f.push(this.sourceToken),a.items.pop();return}}i.start.push(this.sourceToken)}return}if(this.indent>=a.indent){const o=!this.onKeyLine&&this.indent===a.indent,f=o&&(i.sep||i.explicitKey)&&this.type!=="seq-item-ind";let h=[];if(f&&i.sep&&!i.value){const y=[];for(let p=0;p<i.sep.length;++p){const m=i.sep[p];switch(m.type){case"newline":y.push(p);break;case"space":break;case"comment":m.indent>a.indent&&(y.length=0);break;default:y.length=0}}y.length>=2&&(h=i.sep.splice(y[1]))}switch(this.type){case"anchor":case"tag":f||i.value?(h.push(this.sourceToken),a.items.push({start:h}),this.onKeyLine=!0):i.sep?i.sep.push(this.sourceToken):i.start.push(this.sourceToken);return;case"explicit-key-ind":!i.sep&&!i.explicitKey?(i.start.push(this.sourceToken),i.explicitKey=!0):f||i.value?(h.push(this.sourceToken),a.items.push({start:h,explicitKey:!0})):this.stack.push({type:"block-map",offset:this.offset,indent:this.indent,items:[{start:[this.sourceToken],explicitKey:!0}]}),this.onKeyLine=!0;return;case"map-value-ind":if(i.explicitKey)if(i.sep)if(i.value)a.items.push({start:[],key:null,sep:[this.sourceToken]});else if(Zn(i.sep,"map-value-ind"))this.stack.push({type:"block-map",offset:this.offset,indent:this.indent,items:[{start:h,key:null,sep:[this.sourceToken]}]});else if(Ny(i.key)&&!Zn(i.sep,"newline")){const y=ia(i.start),p=i.key,m=i.sep;m.push(this.sourceToken),delete i.key,delete i.sep,this.stack.push({type:"block-map",offset:this.offset,indent:this.indent,items:[{start:y,key:p,sep:m}]})}else h.length>0?i.sep=i.sep.concat(h,this.sourceToken):i.sep.push(this.sourceToken);else if(Zn(i.start,"newline"))Object.assign(i,{key:null,sep:[this.sourceToken]});else{const y=ia(i.start);this.stack.push({type:"block-map",offset:this.offset,indent:this.indent,items:[{start:y,key:null,sep:[this.sourceToken]}]})}else i.sep?i.value||f?a.items.push({start:h,key:null,sep:[this.sourceToken]}):Zn(i.sep,"map-value-ind")?this.stack.push({type:"block-map",offset:this.offset,indent:this.indent,items:[{start:[],key:null,sep:[this.sourceToken]}]}):i.sep.push(this.sourceToken):Object.assign(i,{key:null,sep:[this.sourceToken]});this.onKeyLine=!0;return;case"alias":case"scalar":case"single-quoted-scalar":case"double-quoted-scalar":{const y=this.flowScalar(this.type);f||i.value?(a.items.push({start:h,key:y,sep:[]}),this.onKeyLine=!0):i.sep?this.stack.push(y):(Object.assign(i,{key:y,sep:[]}),this.onKeyLine=!0);return}default:{const y=this.startBlockValue(a);if(y){if(y.type==="block-seq"){if(!i.explicitKey&&i.sep&&!Zn(i.sep,"newline")){yield*this.pop({type:"error",offset:this.offset,message:"Unexpected block-seq-ind on same line with key",source:this.source});return}}else o&&a.items.push({start:h});this.stack.push(y);return}}}}yield*this.pop(),yield*this.step()}*blockSequence(a){var u;const i=a.items[a.items.length-1];switch(this.type){case"newline":if(i.value){const o="end"in i.value?i.value.end:void 0,f=Array.isArray(o)?o[o.length-1]:void 0;(f==null?void 0:f.type)==="comment"?o==null||o.push(this.sourceToken):a.items.push({start:[this.sourceToken]})}else i.start.push(this.sourceToken);return;case"space":case"comment":if(i.value)a.items.push({start:[this.sourceToken]});else{if(this.atIndentedComment(i.start,a.indent)){const o=a.items[a.items.length-2],f=(u=o==null?void 0:o.value)==null?void 0:u.end;if(Array.isArray(f)){Array.prototype.push.apply(f,i.start),f.push(this.sourceToken),a.items.pop();return}}i.start.push(this.sourceToken)}return;case"anchor":case"tag":if(i.value||this.indent<=a.indent)break;i.start.push(this.sourceToken);return;case"seq-item-ind":if(this.indent!==a.indent)break;i.value||Zn(i.start,"seq-item-ind")?a.items.push({start:[this.sourceToken]}):i.start.push(this.sourceToken);return}if(this.indent>a.indent){const o=this.startBlockValue(a);if(o){this.stack.push(o);return}}yield*this.pop(),yield*this.step()}*flowCollection(a){const i=a.items[a.items.length-1];if(this.type==="flow-error-end"){let u;do yield*this.pop(),u=this.peek(1);while((u==null?void 0:u.type)==="flow-collection")}else if(a.end.length===0){switch(this.type){case"comma":case"explicit-key-ind":!i||i.sep?a.items.push({start:[this.sourceToken]}):i.start.push(this.sourceToken);return;case"map-value-ind":!i||i.value?a.items.push({start:[],key:null,sep:[this.sourceToken]}):i.sep?i.sep.push(this.sourceToken):Object.assign(i,{key:null,sep:[this.sourceToken]});return;case"space":case"comment":case"newline":case"anchor":case"tag":!i||i.value?a.items.push({start:[this.sourceToken]}):i.sep?i.sep.push(this.sourceToken):i.start.push(this.sourceToken);return;case"alias":case"scalar":case"single-quoted-scalar":case"double-quoted-scalar":{const o=this.flowScalar(this.type);!i||i.value?a.items.push({start:[],key:o,sep:[]}):i.sep?this.stack.push(o):Object.assign(i,{key:o,sep:[]});return}case"flow-map-end":case"flow-seq-end":a.end.push(this.sourceToken);return}const u=this.startBlockValue(a);u?this.stack.push(u):(yield*this.pop(),yield*this.step())}else{const u=this.peek(2);if(u.type==="block-map"&&(this.type==="map-value-ind"&&u.indent===a.indent||this.type==="newline"&&!u.items[u.items.length-1].sep))yield*this.pop(),yield*this.step();else if(this.type==="map-value-ind"&&u.type!=="flow-collection"){const o=tu(u),f=ia(o);Sp(a);const h=a.end.splice(1,a.end.length);h.push(this.sourceToken);const y={type:"block-map",offset:a.offset,indent:a.indent,items:[{start:f,key:a,sep:h}]};this.onKeyLine=!0,this.stack[this.stack.length-1]=y}else yield*this.lineEnd(a)}}flowScalar(a){if(this.onNewLine){let i=this.source.indexOf(`
 `)+1;for(;i!==0;)this.onNewLine(this.offset+i),i=this.source.indexOf(`
-`,i)+1}return{type:a,offset:this.offset,indent:this.indent,source:this.source}}startBlockValue(a){switch(this.type){case"alias":case"scalar":case"single-quoted-scalar":case"double-quoted-scalar":return this.flowScalar(this.type);case"block-scalar-header":return{type:"block-scalar",offset:this.offset,indent:this.indent,props:[this.sourceToken],source:""};case"flow-map-start":case"flow-seq-start":return{type:"flow-collection",offset:this.offset,indent:this.indent,start:this.sourceToken,items:[],end:[]};case"seq-item-ind":return{type:"block-seq",offset:this.offset,indent:this.indent,items:[{start:[this.sourceToken]}]};case"explicit-key-ind":{this.onKeyLine=!0;const i=tu(a),u=ia(i);return u.push(this.sourceToken),{type:"block-map",offset:this.offset,indent:this.indent,items:[{start:u,explicitKey:!0}]}}case"map-value-ind":{this.onKeyLine=!0;const i=tu(a),u=ia(i);return{type:"block-map",offset:this.offset,indent:this.indent,items:[{start:u,key:null,sep:[this.sourceToken]}]}}}return null}atIndentedComment(a,i){return this.type!=="comment"||this.indent<=i?!1:a.every(u=>u.type==="newline"||u.type==="space")}*documentEnd(a){this.type!=="doc-mode"&&(a.end?a.end.push(this.sourceToken):a.end=[this.sourceToken],this.type==="newline"&&(yield*this.pop()))}*lineEnd(a){switch(this.type){case"comma":case"doc-start":case"doc-end":case"flow-seq-end":case"flow-map-end":case"map-value-ind":yield*this.pop(),yield*this.step();break;case"newline":this.onKeyLine=!1;case"space":case"comment":default:a.end?a.end.push(this.sourceToken):a.end=[this.sourceToken],this.type==="newline"&&(yield*this.pop())}}}function F2(s){const a=s.prettyErrors!==!1;return{lineCounter:s.lineCounter||a&&new Z2||null,prettyErrors:a}}function W2(s,a={}){const{lineCounter:i,prettyErrors:u}=F2(a),o=new J2(i==null?void 0:i.addNewLine),f=new Y2(a);let h=null;for(const y of f.compose(o.parse(s),!0,s.length))if(!h)h=y;else if(h.options.logLevel!=="silent"){h.errors.push(new Si(y.range.slice(0,2),"MULTIPLE_DOCS","Source contains multiple documents; please use YAML.parseAllDocuments()"));break}return u&&i&&(h.errors.forEach(pp(s,i)),h.warnings.forEach(pp(s,i))),h}function I2(s,a,i){let u;const o=W2(s,i);if(!o)return null;if(o.warnings.forEach(f=>Fp(o.options.logLevel,f)),o.errors.length>0){if(o.options.logLevel!=="silent")throw o.errors[0];o.errors=[]}return o.toJS(Object.assign({reviver:u},i))}const P2=Object.assign({"./courses/32位全自动商业化辅助与逆向 - 传奇私服.md":Uv,"./courses/Unity 逆向 - 笔耘.md":kv,"./courses/极安御信 - Windows内核.md":Bv,"./courses/永恒之塔 2 逆向 - 笔耘.md":Hv,"./courses/特惠合集.md":qv,"./courses/虚幻逆向 - uintptr.md":Gv,"./courses/迪大学院 C／C++辅助是如何炼成的.md":Kv}),sa={highlights:["亮点","课程亮点"],includes:["包含","包含内容","课程包含","课程包含内容"],syllabus:["大纲","课程大纲"],materials:["资料","课程资料"],instructor:["讲师","讲师介绍"]};function eS(s){var i;const a=((i=s.split("/").pop())==null?void 0:i.toLowerCase())||"";return a.startsWith("~$")||/[ _.-]copy\.md$/i.test(a)||/\.(bak|tmp|temp)\.md$/i.test(a)}function tS(s){const a=s.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);return a?{meta:I2(a[1])||{},body:a[2]}:{meta:{},body:s}}function hu(s){return s.replace(/\s+/g,"").replace(/^课程/,"").replace(/介绍$/,"")}const nS=new Set(Object.values(sa).flat().map(s=>hu(s)));function bi(s,a){const i=a.map(u=>hu(u));for(const[u,o]of Object.entries(s))if(i.includes(hu(u)))return o;return""}function lS(s){if(/^\d+$/.test(s))return Number(s);const a={零:0,一:1,二:2,两:2,三:3,四:4,五:5,六:6,七:7,八:8,九:9};if(s==="十")return 10;if(!s.includes("十"))return a[s]??0;const[i,u]=s.split("十"),o=i?a[i]??0:1,f=u?a[u]??0:0;return o*10+f}function aS(s){const a=s.match(/^\s*[-*•]\s+(.+)$/);return a?a[1].trim():s.match(/^\s*\d+[.)、]\s*(.+)$/)?s.trim():""}function iS(s){const a={};let i="_about";const u=s.split(/\r?\n/);for(const N of u){const D=N.match(/^\s*##\s+(.+?)\s*$/);D&&nS.has(hu(D[1].trim()))?(i=D[1].trim(),a[i]=""):a[i]=(a[i]||"")+N+`
+`,i)+1}return{type:a,offset:this.offset,indent:this.indent,source:this.source}}startBlockValue(a){switch(this.type){case"alias":case"scalar":case"single-quoted-scalar":case"double-quoted-scalar":return this.flowScalar(this.type);case"block-scalar-header":return{type:"block-scalar",offset:this.offset,indent:this.indent,props:[this.sourceToken],source:""};case"flow-map-start":case"flow-seq-start":return{type:"flow-collection",offset:this.offset,indent:this.indent,start:this.sourceToken,items:[],end:[]};case"seq-item-ind":return{type:"block-seq",offset:this.offset,indent:this.indent,items:[{start:[this.sourceToken]}]};case"explicit-key-ind":{this.onKeyLine=!0;const i=tu(a),u=ia(i);return u.push(this.sourceToken),{type:"block-map",offset:this.offset,indent:this.indent,items:[{start:u,explicitKey:!0}]}}case"map-value-ind":{this.onKeyLine=!0;const i=tu(a),u=ia(i);return{type:"block-map",offset:this.offset,indent:this.indent,items:[{start:u,key:null,sep:[this.sourceToken]}]}}}return null}atIndentedComment(a,i){return this.type!=="comment"||this.indent<=i?!1:a.every(u=>u.type==="newline"||u.type==="space")}*documentEnd(a){this.type!=="doc-mode"&&(a.end?a.end.push(this.sourceToken):a.end=[this.sourceToken],this.type==="newline"&&(yield*this.pop()))}*lineEnd(a){switch(this.type){case"comma":case"doc-start":case"doc-end":case"flow-seq-end":case"flow-map-end":case"map-value-ind":yield*this.pop(),yield*this.step();break;case"newline":this.onKeyLine=!1;case"space":case"comment":default:a.end?a.end.push(this.sourceToken):a.end=[this.sourceToken],this.type==="newline"&&(yield*this.pop())}}}function F2(s){const a=s.prettyErrors!==!1;return{lineCounter:s.lineCounter||a&&new Z2||null,prettyErrors:a}}function W2(s,a={}){const{lineCounter:i,prettyErrors:u}=F2(a),o=new J2(i==null?void 0:i.addNewLine),f=new Y2(a);let h=null;for(const y of f.compose(o.parse(s),!0,s.length))if(!h)h=y;else if(h.options.logLevel!=="silent"){h.errors.push(new Si(y.range.slice(0,2),"MULTIPLE_DOCS","Source contains multiple documents; please use YAML.parseAllDocuments()"));break}return u&&i&&(h.errors.forEach(pp(s,i)),h.warnings.forEach(pp(s,i))),h}function I2(s,a,i){let u;const o=W2(s,i);if(!o)return null;if(o.warnings.forEach(f=>Fp(o.options.logLevel,f)),o.errors.length>0){if(o.options.logLevel!=="silent")throw o.errors[0];o.errors=[]}return o.toJS(Object.assign({reviver:u},i))}const P2=Object.assign({"./courses/32位全自动商业化辅助与逆向 - 传奇私服.md":Uv,"./courses/C／C++辅助是如何炼成的 - 迪大学院.md":kv,"./courses/Unity 逆向 - 笔耘.md":Bv,"./courses/Windows内核 - 极安御信.md":Hv,"./courses/永恒之塔 2 逆向 - 笔耘.md":qv,"./courses/特惠合集.md":Gv,"./courses/虚幻逆向 - uintptr.md":Kv}),sa={highlights:["亮点","课程亮点"],includes:["包含","包含内容","课程包含","课程包含内容"],syllabus:["大纲","课程大纲"],materials:["资料","课程资料"],instructor:["讲师","讲师介绍"]};function eS(s){var i;const a=((i=s.split("/").pop())==null?void 0:i.toLowerCase())||"";return a.startsWith("~$")||/[ _.-]copy\.md$/i.test(a)||/\.(bak|tmp|temp)\.md$/i.test(a)}function tS(s){const a=s.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);return a?{meta:I2(a[1])||{},body:a[2]}:{meta:{},body:s}}function hu(s){return s.replace(/\s+/g,"").replace(/^课程/,"").replace(/介绍$/,"")}const nS=new Set(Object.values(sa).flat().map(s=>hu(s)));function bi(s,a){const i=a.map(u=>hu(u));for(const[u,o]of Object.entries(s))if(i.includes(hu(u)))return o;return""}function lS(s){if(/^\d+$/.test(s))return Number(s);const a={零:0,一:1,二:2,两:2,三:3,四:4,五:5,六:6,七:7,八:8,九:9};if(s==="十")return 10;if(!s.includes("十"))return a[s]??0;const[i,u]=s.split("十"),o=i?a[i]??0:1,f=u?a[u]??0:0;return o*10+f}function aS(s){const a=s.match(/^\s*[-*•]\s+(.+)$/);return a?a[1].trim():s.match(/^\s*\d+[.)、]\s*(.+)$/)?s.trim():""}function iS(s){const a={};let i="_about";const u=s.split(/\r?\n/);for(const N of u){const D=N.match(/^\s*##\s+(.+?)\s*$/);D&&nS.has(hu(D[1].trim()))?(i=D[1].trim(),a[i]=""):a[i]=(a[i]||"")+N+`
 `}const o=(a._about||"").trim(),f=[],h=o.replace(/!\[([^\]]*)\]\(([^)]+)\)/g,(N,D,M)=>(f.push({src:M,alt:D}),"")).trim(),y=nu(bi(a,[...sa.highlights])),p=nu(bi(a,[...sa.includes])).map(N=>{const[D,...M]=N.split("|");return{icon:D.trim(),text:M.join("|").trim()}}),m=[],g=bi(a,[...sa.syllabus]).split(/(?=^\s*###\s+)/m).filter(Boolean);for(const N of g){const M=(N.split(/\r?\n/,1)[0]||"").match(/^\s*###\s*第\s*([0-9一二三四五六七八九十零两]+)\s*阶段(?:\s*[:：]\s*(.+))?\s*$/);if(!M)continue;const G=[],K=N.split(/\r?\n/).slice(1);for(const Q of K){const X=Q.match(/^\s*(?:[-*•]\s+|\d+[.)、]\s*)(?:\[doc\]\s*)?(.+)/);if(!X)continue;const I=Q.includes("[doc]"),Y=X[1].split("|").map(V=>V.trim());G.push({type:I?"doc":"video",title:Y[0],duration:Y[1]||""})}m.push({stage:lS(M[1]),title:(M[2]||"").trim(),active:G.length>0,lessons:G})}const v=nu(bi(a,[...sa.materials])).map(N=>{const D=N.split("|").map(M=>M.trim());return{title:D[0],type:D[1]||"",url:D[2]||"#"}});let w;const R=nu(bi(a,[...sa.instructor]));if(R.length){w={};const N={姓名:"name",头衔:"title",简介:"bio",头像:"avatar"};for(const D of R){const M=D.match(/^(.+?)[:：]\s*(.+)/);M&&(w[N[M[1]]||M[1]]=M[2])}}return{about:h,contentImages:f,highlights:y,includes:p,syllabus:m,materials:v,instructor:w}}function nu(s){return s?s.split(/\r?\n/).map(aS).filter(Boolean):[]}function sS(s){var a;return((a=s.split("/").pop())==null?void 0:a.replace(/\.md$/i,""))||""}const du=Object.entries(P2).filter(([s])=>!eS(s)).map(([s,a])=>{const{meta:i,body:u}=tS(a),o=iS(u),{id:f,year:h,subtitle:y,instructor:p,image:m,updating:S,category:g,rating:v,reviews:w,hasQAGroup:R,...N}=i;return{id:f,year:h,title:sS(s),subtitle:y,instructor:p,image:m,updating:!!S,category:g,rating:v,reviews:w,hasQAGroup:R,detail:{tags:N.tags,description:N.description,heroImage:N.heroImage||void 0,previewVideo:N.previewVideo||void 0,reviewCount:N.reviewCount,studentCount:N.studentCount,hasQAGroup:N.hasQAGroup??R,rating:N.rating??v,contentImages:o.contentImages,about:o.about,highlights:o.highlights,includes:o.includes,syllabus:o.syllabus,materials:o.materials,instructor:o.instructor}}}).sort((s,a)=>s.id-a.id);Object.freeze(du);const uS={逆向工程:uv,"C++开发":iv,前端开发:mv,后端开发:rv},cS=["向行业专家学习，通过实战项目精通逆向工程与游戏安全。","从零基础到实战，系统掌握 C++ 底层开发技术。","全栈进阶之路，精通现代 Web 前后端开发。","加入 100,000+ 开发者，从入门到成为行业专家。"];function rS(s,a=70,i=35,u=2e3){const[o,f]=z.useState(""),[h,y]=z.useState(0),[p,m]=z.useState(!1);return z.useEffect(()=>{const S=s[h];let g;return p?o.length>0?g=window.setTimeout(()=>f(o.slice(0,-1)),i):(m(!1),y(v=>(v+1)%s.length)):o.length<S.length?g=window.setTimeout(()=>f(S.slice(0,o.length+1)),a):g=window.setTimeout(()=>m(!0),u),()=>clearTimeout(g)},[o,h,p,s,a,i,u]),o}function oS(){const[s,a]=z.useState(""),[i,u]=z.useState(""),[o,f]=z.useState(""),[h,y]=z.useState("grid"),p=rS(cS),m=z.useMemo(()=>{const v=new Set;return du.forEach(w=>{"category"in w&&w.category&&v.add(w.category)}),[{label:"全部课程",icon:cp,value:""},...[...v].map(w=>({label:w,icon:uS[w]||ip,value:w}))]},[]),S=z.useMemo(()=>{const v=[...du].filter(w=>!(s&&w.category!==s||i&&!w.title.toLowerCase().includes(i.toLowerCase())));return o==="year"?v.sort((w,R)=>(R.year||0)-(w.year||0)):o==="rating"&&v.sort((w,R)=>(R.rating||0)-(w.rating||0)),v},[s,i,o]),g=v=>{const w=new Date().getFullYear()-v;return w<=0?"bg-emerald-500/15 text-emerald-400 border-emerald-500/30":w===1?"bg-primary/15 text-primary border-primary/30":w===2?"bg-amber-500/15 text-amber-400 border-amber-500/30":"bg-slate-800 text-slate-500 border-slate-700"};return x.jsxs("main",{className:"flex-grow",children:[x.jsx("section",{className:"relative w-full py-16 px-4 md:px-10 overflow-hidden",children:x.jsxs("div",{className:"max-w-7xl mx-auto rounded-2xl overflow-hidden relative min-h-[450px] flex items-center justify-center text-center p-8 bg-slate-900",children:[x.jsx("div",{className:"absolute inset-0 opacity-40",children:x.jsx("img",{src:"https://lh3.googleusercontent.com/aida-public/AB6AXuAGjLWfDeR5qN8ef5bB-75O9UDp1KY1K7Sp5gL66zM7ry7wYBSdAW1UpJyazPyRJYcv5r48mxdCghEKeC0pXIfjKyngfx442EDnxEdnw4JlYfLQ3fNAwyIUFgTSDnBukTSSOCQbY5ZvkU9FOb6DvFCBZlZhMV0-XP3oW4tVHxnEsdmlsF-KmkMlBVMPG2BXypRPuuu3wlDfVl9KYduQLDtpZt7keG404T_igNAKtDltUDc9dVC4NB8Rkt1lwzGxp8Q8T71ysGJk_QXb",alt:"Hero Background",className:"w-full h-full object-cover",referrerPolicy:"no-referrer"})}),x.jsx("div",{className:"absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent opacity-60"}),x.jsxs("div",{className:"relative z-10 max-w-2xl",children:[x.jsxs("h1",{className:"text-white text-4xl md:text-6xl font-black leading-tight tracking-tight mb-4",children:["掌握您的 ",x.jsx("span",{className:"text-primary",children:"技术技能"})]}),x.jsxs("p",{className:"text-slate-200 text-lg md:text-xl mb-8 font-medium h-[1.8em] md:h-[1.6em]",children:[p,x.jsx("span",{className:"inline-block w-[3px] h-[1.1em] bg-primary ml-0.5 align-text-bottom",style:{animation:"blink-cursor 0.8s step-end infinite"}})]}),x.jsxs("div",{className:"flex flex-col sm:flex-row gap-4 justify-center",children:[x.jsx("button",{onClick:()=>{var v;return(v=document.getElementById("courses"))==null?void 0:v.scrollIntoView({behavior:"smooth"})},className:"bg-primary text-white px-8 py-4 rounded-xl text-lg font-bold shadow-xl shadow-primary/30 hover:scale-105 transition-transform",children:"探索课程"}),x.jsxs("a",{href:"https://t.me/itking0",target:"_blank",rel:"noopener noreferrer",className:"flex items-center justify-center gap-2 bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl text-lg font-bold hover:bg-white/20 transition-all",children:[x.jsx(rp,{className:"w-5 h-5"}),"加入 Telegram"]})]})]})]})}),x.jsxs("div",{id:"courses",className:"max-w-7xl mx-auto px-4 md:px-10 mb-12",children:[x.jsxs("div",{className:"relative w-full max-w-md mb-8",children:[x.jsx("div",{className:"absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-slate-400",children:x.jsx(Tv,{className:"w-5 h-5"})}),x.jsx("input",{type:"text",placeholder:"搜索课程...",value:i,onChange:v=>u(v.target.value),className:"block w-full pl-12 pr-4 py-3 border border-slate-800 bg-slate-900 rounded-xl text-sm placeholder-slate-500 focus:ring-2 focus:ring-primary transition-all text-white outline-none"})]}),x.jsx("div",{className:"flex flex-wrap gap-3 items-center pb-8 overflow-x-auto no-scrollbar",children:m.map(v=>x.jsxs("button",{onClick:()=>a(v.value),className:`flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold text-sm whitespace-nowrap transition-colors ${s===v.value?"bg-primary text-white":"bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700"}`,children:[x.jsx(v.icon,{className:"w-5 h-5"}),v.label]},v.value))}),x.jsxs("div",{className:"flex flex-col sm:flex-row justify-between sm:items-end gap-4 mb-8",children:[x.jsxs("div",{children:[x.jsx("h2",{className:"text-2xl font-bold text-slate-100",children:"精选课程"}),x.jsx("p",{className:"text-slate-400 mt-1",children:"为您的职业生涯精心挑选的优质内容"})]}),x.jsxs("div",{className:"flex flex-col sm:flex-row sm:items-center gap-3",children:[x.jsxs("div",{className:"flex items-center gap-2",children:[x.jsx(Gb,{className:"w-4 h-4 text-slate-500 hidden sm:block"}),[{label:"最新",value:"year"},{label:"评分",value:"rating"}].map(v=>x.jsx("button",{onClick:()=>f(o===v.value?"":v.value),className:`px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${o===v.value?"bg-primary text-white":"bg-slate-800 text-slate-400 border border-slate-700 hover:bg-slate-700"}`,children:v.label},v.value))]}),x.jsxs("div",{className:"inline-flex items-center gap-1 rounded-xl border border-slate-800 bg-slate-900 p-1",children:[x.jsxs("button",{onClick:()=>y("grid"),className:`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${h==="grid"?"bg-primary text-white":"text-slate-400 hover:bg-slate-800 hover:text-slate-200"}`,children:[x.jsx(cp,{className:"h-4 w-4"}),"卡片"]}),x.jsxs("button",{onClick:()=>y("list"),className:`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${h==="list"?"bg-primary text-white":"text-slate-400 hover:bg-slate-800 hover:text-slate-200"}`,children:[x.jsx(vv,{className:"h-4 w-4"}),"列表"]})]})]})]}),h==="grid"?x.jsx("div",{className:"grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-6",children:S.map(v=>x.jsxs(It,{to:`/course/${v.id}`,className:"group flex flex-col bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-sm hover:shadow-xl transition-all duration-300",children:[x.jsxs("div",{className:"relative aspect-video overflow-hidden",children:[x.jsx("img",{src:v.image,alt:v.title,className:"w-full h-full object-cover group-hover:scale-110 transition-transform duration-500",referrerPolicy:"no-referrer"}),x.jsx("div",{className:`absolute top-2 left-2 lg:top-3 lg:left-3 ${v.updating?"bg-green-500":"bg-slate-600"} text-white text-[10px] lg:text-xs font-bold px-1.5 py-0.5 lg:px-2 lg:py-1 rounded`,children:v.updating?"更新中":"已完结"})]}),x.jsxs("div",{className:"p-3 lg:p-5 flex flex-col flex-1",children:[x.jsx("div",{className:"flex items-center gap-2 mb-1 lg:mb-2",children:x.jsxs("span",{className:`inline-flex items-center gap-1 text-[10px] lg:text-xs font-mono px-1.5 lg:px-2 py-0.5 rounded border ${g(v.year)}`,children:[x.jsx(sp,{className:"w-3 h-3"}),v.year]})}),x.jsx("h3",{className:"text-sm lg:text-lg font-bold text-white mb-0.5 lg:mb-1 line-clamp-2",children:v.title}),v.subtitle&&x.jsx("p",{className:"text-[10px] lg:text-xs text-slate-500 mb-1 lg:mb-2 line-clamp-1",children:v.subtitle}),x.jsx("p",{className:"text-xs lg:text-sm text-slate-400 mb-2 lg:mb-4",children:v.instructor}),x.jsxs("div",{className:"mt-auto",children:[v.rating!=null&&x.jsxs("div",{className:"flex items-center gap-1 mb-2 lg:mb-3",children:[x.jsx(co,{className:"w-3 h-3 lg:w-4 lg:h-4 text-yellow-500 fill-yellow-500"}),x.jsx("span",{className:"text-xs lg:text-sm font-bold text-slate-300",children:v.rating}),x.jsxs("span",{className:"text-[10px] lg:text-xs text-slate-500 hidden sm:inline",children:["(",v.reviews," 条评价)"]})]}),x.jsxs("div",{className:"flex items-center justify-between",children:[x.jsx("span",{className:"text-xs font-semibold uppercase tracking-[0.18em] text-slate-500",children:"Course Detail"}),x.jsx("button",{className:"text-primary hover:text-primary/80 transition-colors",children:x.jsx(ip,{className:"w-5 h-5 lg:w-6 lg:h-6"})})]})]})]})]},v.id))}):x.jsx("div",{className:"space-y-3",children:S.map(v=>x.jsxs(It,{to:`/course/${v.id}`,className:"group grid grid-cols-[112px_minmax(0,1fr)] gap-4 rounded-2xl border border-slate-800 bg-slate-900/90 p-4 transition-all hover:border-primary/30 hover:bg-slate-900 sm:grid-cols-[180px_minmax(0,1fr)_auto] sm:items-center",children:[x.jsxs("div",{className:"relative overflow-hidden rounded-xl bg-slate-800 aspect-[4/3] sm:aspect-video",children:[x.jsx("img",{src:v.image,alt:v.title,className:"h-full w-full object-cover transition-transform duration-500 group-hover:scale-105",referrerPolicy:"no-referrer"}),x.jsx("div",{className:`absolute left-2 top-2 text-[10px] font-bold px-2 py-1 rounded ${v.updating?"bg-green-500 text-white":"bg-slate-700 text-slate-200"}`,children:v.updating?"更新中":"已完结"})]}),x.jsxs("div",{className:"min-w-0 flex-1",children:[x.jsxs("div",{className:"flex flex-wrap items-center gap-2",children:[x.jsxs("span",{className:`inline-flex items-center gap-1 text-[10px] font-mono px-2 py-1 rounded border ${g(v.year)}`,children:[x.jsx(sp,{className:"w-3 h-3"}),v.year]}),v.category&&x.jsx("span",{className:"text-[10px] font-semibold px-2 py-1 rounded border border-slate-700 text-slate-400 bg-slate-800/70",children:v.category})]}),x.jsxs("div",{className:"mt-3 flex flex-col gap-1",children:[x.jsx("h3",{className:"text-lg font-bold text-white transition-colors group-hover:text-primary",children:v.title}),v.subtitle&&x.jsx("p",{className:"text-sm text-slate-500 line-clamp-1",children:v.subtitle}),x.jsx("p",{className:"text-sm text-slate-400",children:v.instructor})]})]}),x.jsxs("div",{className:"col-span-2 flex items-center justify-between gap-4 border-t border-slate-800 pt-3 sm:col-span-1 sm:border-t-0 sm:pt-0 sm:pl-4",children:[v.rating!=null?x.jsxs("div",{className:"flex items-center gap-1 text-sm text-slate-300",children:[x.jsx(co,{className:"h-4 w-4 text-yellow-500 fill-yellow-500"}),x.jsx("span",{className:"font-bold",children:v.rating}),x.jsxs("span",{className:"text-xs text-slate-500",children:["(",v.reviews,")"]})]}):x.jsx("div",{className:"text-xs text-slate-500",children:"暂无评分"}),x.jsxs("div",{className:"text-right",children:[x.jsx("div",{className:"text-sm font-semibold uppercase tracking-[0.16em] text-slate-200",children:"View Details"}),x.jsx("div",{className:"text-xs font-semibold text-primary",children:"Open course"})]})]})]},v.id))}),x.jsxs("div",{className:"mt-16 bg-primary/10 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 border border-primary/20",children:[x.jsxs("div",{className:"max-w-xl text-center md:text-left",children:[x.jsx("h2",{className:"text-3xl font-bold mb-4 text-white",children:"立即开启您的学习之旅"}),x.jsx("p",{className:"text-slate-400 text-lg",children:"加入 100,000+ 开发者，向行业专家学习最热门的技术技能。"})]}),x.jsxs("div",{className:"flex flex-col sm:flex-row gap-4 w-full md:w-auto",children:[x.jsx("button",{className:"bg-primary text-white px-8 py-3 rounded-lg font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform text-center",children:"立即开始"}),x.jsxs("a",{href:"https://t.me/itking0",target:"_blank",rel:"noopener noreferrer",className:"flex items-center justify-center gap-2 bg-slate-800 text-white border border-slate-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-700 transition-colors text-center",children:[x.jsx(rp,{className:"w-4 h-4"}),"加入 Telegram"]})]})]})]})]})}const fS={Clock:lv,BarChart:$b,Award:Yb,Infinity:yv,MessageCircle:qp};function hS(s){const a=[];let i=[],u=null,o=[];const f=()=>{const y=i.join(`
 `).trim();y&&a.push({type:"paragraph",content:y}),i=[]},h=()=>{u&&o.length&&a.push({type:u,items:[...o]}),u=null,o=[]};for(const y of s.split(/\r?\n/)){const p=y.trim();if(!p){f(),h();continue}const m=p.match(/^(#{1,6})\s+(.+)$/);if(m){f(),h(),a.push({type:"heading",level:m[1].length,content:m[2].trim()});continue}const S=p.match(/^(?:[-*•]\s*)?\d+[.)、]\s*(.+)$/);if(S){f(),u!=="ol"&&h(),u="ol",o.push(S[1].trim());continue}const g=p.match(/^[-*•]\s+(.+)$/);if(g){f(),u!=="ul"&&h(),u="ul",o.push(g[1].trim());continue}h(),i.push(p)}return f(),h(),a}function dS(){var m,S;const{id:s}=H1(),a=du.find(g=>g.id===Number(s)),i=a==null?void 0:a.detail,[u,o]=z.useState(1),[f,h]=z.useState("");z.useEffect(()=>{fetch("https://v2.xxapi.cn/api/head").then(g=>g.json()).then(g=>{g.code===200&&g.data&&h(g.data)}).catch(()=>{})},[s]);const y=g=>{o(u===g?null:g)};if(!a||!i)return x.jsx("main",{className:"flex-grow bg-[#020617] flex items-center justify-center py-32",children:x.jsx("p",{className:"text-slate-400 text-xl",children:"课程未找到"})});const p=hS(i.about||"");return x.jsxs("main",{className:"flex-grow bg-[#020617]",children:[x.jsxs("div",{className:"bg-[#020617] text-white py-16 px-6 md:px-20 relative overflow-hidden",children:[x.jsx("div",{className:"absolute inset-0 opacity-20 pointer-events-none",children:x.jsx("img",{src:i.heroImage||a.image,alt:"Data patterns",className:"w-full h-full object-cover",referrerPolicy:"no-referrer"})}),x.jsx("div",{className:"absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent"}),x.jsxs("div",{className:"max-w-7xl mx-auto grid md:grid-cols-3 gap-8 items-start relative z-10",children:[x.jsxs("div",{className:"min-w-0 md:col-span-2 space-y-5 md:space-y-6",children:[x.jsxs("div",{className:"flex flex-wrap items-center gap-2 text-[11px] font-bold uppercase tracking-[0.18em] sm:gap-3 sm:text-xs sm:tracking-widest",children:[i.tags.map(g=>x.jsx("span",{className:"max-w-full rounded border border-primary/30 bg-primary/20 px-3 py-1 text-primary [overflow-wrap:anywhere]",children:g},g)),x.jsx("span",{className:"rounded border border-slate-700 bg-slate-800 px-3 py-1 font-mono text-slate-300",children:a.year})]}),x.jsx("h1",{className:"break-words text-3xl font-black leading-tight tracking-tight [overflow-wrap:anywhere] sm:text-4xl md:text-6xl",children:a.title}),x.jsx("p",{className:"max-w-2xl break-words text-base leading-relaxed text-slate-400 [overflow-wrap:anywhere] md:text-xl",children:i.description}),x.jsxs("div",{className:"flex flex-wrap gap-4 pt-2 text-sm font-medium sm:gap-8 sm:pt-4",children:[i.rating!=null&&x.jsxs("div",{className:"flex items-center gap-2",children:[x.jsx(co,{className:"w-5 h-5 text-yellow-500 fill-yellow-500"}),x.jsx("span",{className:"text-xl font-bold",children:i.rating}),x.jsxs("span",{className:"text-slate-500",children:["(",i.reviewCount," 评价)"]})]}),i.studentCount!=null&&x.jsxs("div",{className:"flex items-center gap-2",children:[x.jsx(Lv,{className:"w-5 h-5 text-primary"}),x.jsx("span",{className:"text-xl font-bold",children:i.studentCount}),x.jsx("span",{className:"text-slate-500",children:"名学生已参加"})]}),x.jsx("div",{className:"flex items-center gap-2",children:x.jsx("span",{className:`text-xs font-bold px-3 py-1 rounded ${a.updating?"bg-green-500/20 text-green-400 border border-green-500/30":"bg-slate-700/50 text-slate-300 border border-slate-600"}`,children:a.updating?"更新中":"已完结"})}),i.hasQAGroup&&x.jsxs("div",{className:"flex items-center gap-2",children:[x.jsx(qp,{className:"w-5 h-5 text-primary"}),x.jsx("span",{className:"text-slate-300",children:"含答疑群"})]})]})]}),x.jsx("div",{className:"hidden md:block",children:x.jsxs("div",{className:"aspect-video rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center relative group cursor-pointer overflow-hidden shadow-2xl shadow-primary/10",style:{backgroundImage:`url('${i.previewVideo||a.image}')`,backgroundSize:"cover",backgroundPosition:"center"},children:[x.jsx("div",{className:"absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-all duration-300"}),x.jsx("div",{className:"z-10 bg-primary h-16 w-16 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300",children:x.jsx(wv,{className:"w-8 h-8 text-white fill-white ml-1"})}),x.jsx("p",{className:"absolute bottom-4 text-xs text-white bg-black/60 px-3 py-1 rounded-full backdrop-blur-sm",children:"预览课程视频"})]})})]})]}),x.jsxs("div",{className:"max-w-7xl mx-auto px-6 md:px-20 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12",children:[x.jsxs("div",{className:"lg:col-span-2 space-y-16",children:[x.jsxs("section",{id:"about",children:[x.jsx("h3",{className:"text-2xl font-bold mb-8 border-l-4 border-primary pl-4 text-white",children:"关于本课程"}),x.jsxs("div",{className:"text-slate-400 leading-relaxed space-y-6",children:[p.map((g,v)=>{if(g.type==="heading"){const w=g.level===1?"text-3xl font-black text-white":g.level===2?"text-2xl font-bold text-white":g.level===3?"text-xl font-bold text-slate-100":"text-lg font-semibold text-slate-200";return x.jsx("h4",{className:w,children:g.content},v)}return g.type==="paragraph"?x.jsx("p",{className:"whitespace-pre-line",children:g.content},v):g.type==="ol"?x.jsx("ol",{className:"space-y-2 pl-7",style:{listStyleType:"decimal-leading-zero"},children:g.items.map(w=>x.jsx("li",{children:w},w))},v):x.jsx("ul",{className:"list-disc space-y-2 pl-6",children:g.items.map(w=>x.jsx("li",{children:w},w))},v)}),((m=i.contentImages)==null?void 0:m.length)>0&&x.jsx("div",{className:"space-y-4",children:i.contentImages.map(g=>x.jsx("img",{src:g.src,alt:g.alt,className:"w-full rounded-xl border border-slate-800"},g.src))}),x.jsx("ul",{className:"grid sm:grid-cols-2 gap-6 mt-8",children:i.highlights.map(g=>x.jsxs("li",{className:"flex items-start gap-3 group",children:[x.jsx(Pb,{className:"w-5 h-5 text-primary flex-shrink-0 mt-0.5"}),x.jsx("span",{className:"group-hover:text-slate-200 transition-colors",children:g})]},g))})]})]}),x.jsxs("section",{id:"syllabus",children:[x.jsx("h3",{className:"text-2xl font-bold mb-8 border-l-4 border-primary pl-4 text-white",children:"课程大纲"}),x.jsx("div",{className:"space-y-4",children:i.syllabus.map(g=>x.jsxs("div",{className:`border border-slate-800 rounded-xl overflow-hidden transition-all ${g.active?"":"opacity-80"} ${u===g.stage?g.active?"bg-slate-900/60":"bg-slate-900/40":g.active?"bg-slate-900/40 hover:bg-slate-900/60":"bg-slate-900/20 hover:bg-slate-900/40"}`,children:[x.jsxs("div",{className:"p-5 flex justify-between items-center cursor-pointer",onClick:()=>y(g.stage),children:[x.jsxs("div",{className:"flex items-center gap-4",children:[x.jsxs("span",{className:`${g.active?"bg-primary text-white":"bg-slate-800 text-slate-400"} text-[10px] font-black px-2 py-1 rounded tracking-tighter`,children:["第 ",g.stage," 阶段"]}),x.jsx("h4",{className:`font-bold ${g.active?"text-white":"text-slate-300"}`,children:g.title})]}),u===g.stage?x.jsx(Wb,{className:"w-5 h-5 text-slate-500"}):x.jsx(Jb,{className:"w-5 h-5 text-slate-500"})]}),u===g.stage&&g.lessons.length>0&&x.jsx("div",{className:"px-5 pb-5 space-y-4 border-t border-slate-800/50 pt-4",children:g.lessons.map(v=>x.jsxs("div",{className:"flex justify-between items-center text-sm text-slate-400 hover:text-white transition-colors cursor-pointer group",children:[x.jsxs("span",{className:"flex items-center gap-3",children:[v.type==="video"?x.jsx(tv,{className:"w-4 h-4 text-slate-600 group-hover:text-primary transition-colors"}):x.jsx(up,{className:"w-4 h-4 text-slate-600 group-hover:text-primary transition-colors"}),v.title]}),x.jsx("span",{className:`text-slate-600 text-xs ${v.type==="video"?"font-mono":""}`,children:v.duration})]},v.title))})]},g.stage))})]}),((S=i.materials)==null?void 0:S.length)>0&&x.jsxs("section",{id:"materials",children:[x.jsx("h3",{className:"text-2xl font-bold mb-8 border-l-4 border-primary pl-4 text-white",children:"课程资料"}),x.jsx("div",{className:"space-y-3",children:i.materials.map(g=>x.jsxs("a",{href:g.url,target:"_blank",rel:"noopener noreferrer",className:"flex items-center justify-between p-4 bg-slate-900/50 rounded-xl border border-slate-800 hover:border-primary/30 transition-colors group",children:[x.jsxs("div",{className:"flex items-center gap-3",children:[x.jsx(up,{className:"w-5 h-5 text-slate-500 group-hover:text-primary transition-colors"}),x.jsxs("div",{children:[x.jsx("p",{className:"text-sm font-medium text-slate-200 group-hover:text-white transition-colors",children:g.title}),x.jsx("p",{className:"text-xs text-slate-500",children:g.type})]})]}),x.jsx(fv,{className:"w-4 h-4 text-slate-600 group-hover:text-primary transition-colors"})]},g.title))})]}),i.instructor&&x.jsxs("section",{id:"instructor",children:[x.jsx("h3",{className:"text-2xl font-bold mb-8 border-l-4 border-primary pl-4 text-white",children:"讲师介绍"}),x.jsxs("div",{className:"flex items-start gap-6 p-6 bg-slate-900/50 rounded-xl border border-slate-800",children:[f&&x.jsx("img",{src:f,alt:i.instructor.name,className:"w-20 h-20 rounded-full object-cover border-2 border-slate-700 flex-shrink-0",referrerPolicy:"no-referrer"}),x.jsxs("div",{className:"space-y-2",children:[x.jsx("h4",{className:"text-lg font-bold text-white",children:i.instructor.name}),i.instructor.title&&x.jsx("p",{className:"text-sm text-primary font-medium",children:i.instructor.title}),i.instructor.bio&&x.jsx("p",{className:"text-sm text-slate-400 leading-relaxed",children:i.instructor.bio})]})]})]})]}),x.jsx("div",{className:"lg:col-span-1",children:x.jsx("div",{className:"sticky top-24 space-y-6",children:x.jsxs("div",{className:"bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-2xl shadow-black/50",children:[x.jsx("button",{className:"w-full bg-primary hover:bg-primary/90 text-white font-black py-4 rounded-xl transition-all active:scale-95 shadow-xl shadow-primary/25 mb-4",children:"联系QQ：1727532"}),x.jsx("button",{className:"w-full bg-slate-800 hover:bg-slate-700 text-slate-100 font-bold py-4 rounded-xl transition-all mb-8 border border-slate-700",children:"免费试听第一节"}),x.jsxs("div",{className:"space-y-5",children:[x.jsx("p",{className:"text-xs font-black tracking-widest uppercase text-slate-500 border-b border-slate-800 pb-3",children:"课程包含内容"}),i.includes.map(g=>{const v=fS[g.icon];return x.jsxs("div",{className:"flex items-center gap-4 text-sm text-slate-300",children:[v&&x.jsx(v,{className:"w-5 h-5 text-primary"}),x.jsx("span",{children:g.text})]},g.text)})]})]})})})]})]})}function mS(){const{pathname:s}=Vt();return z.useEffect(()=>{window.scrollTo(0,0)},[s]),null}function pS(){return x.jsxs(Ab,{children:[x.jsx(mS,{}),x.jsxs("div",{className:"relative flex min-h-screen w-full flex-col overflow-x-hidden bg-background-dark text-slate-100 transition-colors duration-200",children:[x.jsx(zv,{}),x.jsxs(tb,{children:[x.jsx(lu,{path:"/",element:x.jsx(oS,{})}),x.jsx(lu,{path:"/course/:id",element:x.jsx(dS,{})}),x.jsx(lu,{path:"*",element:x.jsx(P1,{to:"/",replace:!0})})]}),x.jsx(Rv,{})]})]})}n1.createRoot(document.getElementById("root")).render(x.jsx(z.StrictMode,{children:x.jsx(pS,{})}));
