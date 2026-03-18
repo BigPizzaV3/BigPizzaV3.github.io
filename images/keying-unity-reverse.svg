@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">KeYing Unity Reverse</title>
+  <desc id="desc">Cover art for the course 科英 - Unity逆向.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173630" />
+      <stop offset="0.55" stop-color="#214b44" />
+      <stop offset="1" stop-color="#102621" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe6af" />
+      <stop offset="0.55" stop-color="#d59745" />
+      <stop offset="1" stop-color="#b56e2d" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.7">
+      <stop offset="0" stop-color="#fff3cf" stop-opacity="0.9" />
+      <stop offset="0.4" stop-color="#ffd78e" stop-opacity="0.24" />
+      <stop offset="1" stop-color="#ffd78e" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="720" rx="40" fill="url(#bg)" />
+  <rect x="28" y="28" width="1144" height="664" rx="30" fill="none" stroke="#f1d7a5" stroke-opacity="0.25" />
+  <circle cx="860" cy="240" r="290" fill="url(#glow)" />
+  <circle cx="940" cy="520" r="180" fill="#9bd0b2" fill-opacity="0.08" />
+  <circle cx="210" cy="120" r="120" fill="#ffe1a7" fill-opacity="0.08" />
+
+  <g transform="translate(724 150)">
+    <polygon points="120,0 228,64 228,192 120,256 12,192 12,64" fill="none" stroke="url(#gold)" stroke-width="14" />
+    <polyline points="12,64 120,128 228,64" fill="none" stroke="url(#gold)" stroke-width="14" />
+    <line x1="120" y1="128" x2="120" y2="256" stroke="url(#gold)" stroke-width="14" />
+    <polygon points="120,18 196,63 196,149 120,194 44,149 44,63" fill="#173630" fill-opacity="0.75" stroke="#ffecc4" stroke-opacity="0.6" stroke-width="6" />
+  </g>
+
+  <g fill="none" stroke="#f6deaa" stroke-opacity="0.22" stroke-width="2">
+    <path d="M76 554h420" />
+    <path d="M76 584h350" />
+    <path d="M76 614h290" />
+  </g>
+
+  <text x="80" y="146" fill="#ffe1aa" font-family="Trebuchet MS, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" letter-spacing="10">SECRET STASH COURSE</text>
+  <text x="80" y="248" fill="#fff7e4" font-family="Trebuchet MS, Microsoft YaHei, sans-serif" font-size="84" font-weight="800">KeYing</text>
+  <text x="80" y="338" fill="#fff7e4" font-family="Trebuchet MS, Microsoft YaHei, sans-serif" font-size="84" font-weight="800">Unity Reverse</text>
+  <text x="80" y="406" fill="#d7e4df" font-family="Trebuchet MS, Microsoft YaHei, sans-serif" font-size="30">
+    IL2CPP / Mono / GOM / ImGui / SDK
+  </text>
+
+  <g transform="translate(80 478)">
+    <rect width="242" height="68" rx="34" fill="#fff1cf" />
+    <text x="34" y="44" fill="#173630" font-family="Trebuchet MS, Microsoft YaHei, sans-serif" font-size="28" font-weight="800">
+      73 Learning Items
+    </text>
+  </g>
+
+  <g transform="translate(342 478)">
+    <rect width="184" height="68" rx="34" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.12" />
+    <text x="36" y="44" fill="#fff6de" font-family="Trebuchet MS, Microsoft YaHei, sans-serif" font-size="28" font-weight="800">
+      19 Materials
+    </text>
+  </g>
+</svg>
