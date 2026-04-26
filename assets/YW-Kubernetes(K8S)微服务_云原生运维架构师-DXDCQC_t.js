@@ -1,0 +1,603 @@
+const e=`---
+id: 1668
+title: "YW-Kubernetes(K8S)微服务&云原生运维架构师"
+year: 2026
+subtitle: "采集自 网工&运维&云原生"
+instructor: "课小猫的秘密宝箱"
+image: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
+updating: false
+category: "网工运维"
+rating: 5.0
+reviews: '0'
+hasQAGroup: true
+tags:
+  - "网工运维"
+  - AList采集
+description: "本课程根据 AList 采集目录自动整理，原始目录路径为 /网工&运维&云原生/YW-Kubernetes(K8S)微服务&云原生运维架构师。章节来自远程课程目录结构，适合先浏览完整目录后再联系宝箱管理员获取资料。"
+reviewCount: '0'
+studentCount: '0'
+---
+
+本课程根据 AList 采集目录自动整理，来源板块为「网工&运维&云原生」。
+
+原始路径：/网工&运维&云原生/YW-Kubernetes(K8S)微服务&云原生运维架构师
+
+## 亮点
+
+- 由远程目录自动整理为课程详情
+- 保留课程目录层级作为章节大纲
+- 支持在宝箱首页搜索、筛选和进入详情页浏览
+
+## 包含
+
+- Clock | 采集课程目录
+- BarChart | 按目录层级整理章节
+- Infinity | 可持续补充详情
+- MessageCircle | 可联系宝箱管理员获取资料
+
+## 大纲
+
+### 第 1 阶段: 课程资料
+
+- 1 Rec 0001-开班仪式_ev .dmm
+- 10 Rec 0010-docker 容器启动前提条件_ev .dmm
+- 100 Rec 0012-容器化运行promehtues二_ev .dmm
+- 101 Rec 0013-nfs安装一_ev .dmm
+- 102 Rec 0014-nfs安装二_ev .dmm
+- 103 Rec 0015-nfs容器化部署一_ev .dmm
+- 104 Rec 0016-nfs容器化部署二_ev .dmm
+- 105 Rec 0017-容器化运行promehtues三_ev .dmm
+- 106 Rec 0018-容器化运行promehtues四_ev .dmm
+- 107 Rec 0019-容器化运行promehtues五_ev .dmm
+- 108 Rec 0020-容器化运行promehtues六_ev .dmm
+- 109 Rec 0021-servicemonitor配置讲解_ev .dmm
+- 11 Rec 0011-docker 容器存储结构_ev .dmm
+- 110 Rec 0022-不同方式添加监控节点信息_ev .dmm
+- 111 Rec 0001-kubernetes cli基本使用一_ev .dmm
+- 112 Rec 0002-kubernetes cli基本使用二_ev .dmm
+- 113 Rec 0003-kubernetes cli基本使用三_ev .dmm
+- 114 Rec 0004-kubernetes cli基本使用四_ev .dmm
+- 115 Rec 0005-kubernetes cli基本使用五_ev .dmm
+- 116 Rec 0006-kubernetes cli基本使用六_ev .dmm
+- 117 Rec 0007-kubernetes cli基本使用七_ev .dmm
+- 118 Rec 0008-kubernetes资源对象-nodes_ev .dmm
+- 12 Rec 0012-容器与镜像存储的区别_ev .dmm
+- 120 Rec 0010-kubernetes资源对象-api使用一_ev .dmm
+- 121 Rec 0011-kubernetes资源对象-api使用二_ev .dmm
+- 122 Rec 0012-kubernetes资源对象-label一_ev .dmm
+- 123 Rec 0013-kubernetes资源对象-label二_ev .dmm
+- 124 Rec 0014-kubernetes资源对象-label三_ev .dmm
+- 125 Rec 0015-kubernetes资源对象-label四_ev .dmm
+- 126 Rec 0016-kubernetes资源对象-pod控制器_ev .dmm
+- 127 Rec 0017-kubernetes hosts修改_ev .dmm
+- 128 Rec 0018-kubernetes hostport控制一_ev .dmm
+- 129 Rec 0019-kubernetes hostport控制二_ev .dmm
+- 13 Rec 0013-容器的基本操作命令一_ev .dmm
+- 130 Rec 0020-kubernetes-RC控制器一_ev .dmm
+- 131 Rec 0021-kubernetes-RC控制器二_ev .dmm
+- 132 Rec 0022-kubernetes-RC控制器三_ev .dmm
+- 133 Rec 0023-kubernetes-RC控制器四_ev .dmm
+- 134 Rec 0001-promehtues监控mysql实例一_ev .dmm
+- 135 Rec 0002-promehtues监控mysql实例二_ev .dmm
+- 136 Rec 0003-promehtues监控mysql实例三_ev .dmm
+- 137 Rec 0004-promehtues监控mysql实例四_ev .dmm
+- 138 Rec 0005-promehtues监控mysql实例五_ev .dmm
+- 139 Rec 0006-promehtues监控mysql实例五_ev .dmm
+- 14 Rec 0014-容器的基本操作命令二_ev .dmm
+- 140 Rec 0007-promehtues监控mysql实例六_ev .dmm
+- 141 Rec 0008-promehtues监控mysql实例七_ev .dmm
+- 142 Rec 0009-kubernetes资源对象-rs控制器一_ev .dmm
+- 143 Rec 0010-kubernetes资源对象-rs控制器二_ev .dmm
+- 144 Rec 0011-kubernetes资源对象-deployment控制器一_ev .dmm
+- 145 Rec 0012-kubernetes资源对象-deployment控制器二_ev .dmm
+- 147 Rec 0014-kubernetes资源对象-deployment控制器四_ev .dmm
+- 148 Rec 0015-kubernetes资源对象-deployment控制器五_ev .dmm
+- 149 Rec 0016-kubernetes探针一_ev .dmm
+- 15 Rec 0015-容器的基本操作命令三_ev .dmm
+- 150 Rec 0017-kubernetes探针二_ev .dmm
+- 151 Rec 0018-kubernetes资源对象-ds控制器一_ev .dmm
+- 152 Rec 0019-kubernetes资源对象-ds控制器二_ev .dmm
+- 153 Rec 0020-kubernetes资源对象-ds控制器三_ev .dmm
+- 154 Rec 0021-kubernetes资源对象-ss控制器一_ev .dmm
+- 155 Rec 0022-kubernetes资源对象-ss控制器二_ev .dmm
+- 156 Rec 0023-kubernetes资源对象-ss控制器三_ev .dmm
+- 157 Rec 0024-kubernetes资源对象-ss控制器四_ev .dmm
+- 158 Rec 0025-kubernetes资源对象-ss控制器五_ev .dmm
+- 159 Rec 0026-kubernetes资源对象-ss控制器六_ev .dmm
+- 16 Rec 0016-容器的资源限制一_ev .dmm
+- 160 Rec 0027-kubernetes资源对象-ss控制器七_ev .dmm
+- 161 Rec 0001-kubernetes 资源限制一_ev .dmm
+- 162 Rec 0002-kubernetes资源限制二_ev .dmm
+- 163 Rec 0003-pod运行状态监控注意事项一_ev .dmm
+- 164 Rec 0004-pod运行状态监控注意事项二_ev .dmm
+- 165 Rec 0005-pod镜像拉取策略_ev .dmm
+- 166 Rec 0006-job运行任务一_ev .dmm
+- 167 Rec 0007-job运行任务二_ev .dmm
+- 168 Rec 0008-cronjob基本用法一_ev .dmm
+- 169 Rec 0009-cronjob基本用法二_ev .dmm
+- 17 Rec 0017-容器的资源限制二_ev .dmm
+- 170 Rec 0010cronjob基本用法三_ev .dmm
+- 171 Rec 0011-endpoints写法一_ev .dmm
+- 172 Rec 0012-endpoints写法二_ev .dmm
+- 173 Rec 0013-service-external配置_ev .dmm
+- 174 Rec 0014-service基本格式讲解一_ev .dmm
+- 175 Rec 0015-service基本格式讲解二_ev .dmm
+- 176 Rec 0016-hostport与nodeport区别一_ev .dmm
+- 177 Rec 0017-hostport与nodeport区别二_ev .dmm
+- 178 Rec 0018-kube-proxy工作模式切换_ev .dmm
+- 179 Rec 0019-dns的基本工作模式一_ev .dmm
+- 18 Rec 0018-容器的资源限制三_ev .dmm
+- 180 Rec 0020-dns的基本工作模式二_ev .dmm
+- 181 Rec 0021-dns的基本工作模式三_ev .dmm
+- 182 Rec 0022-dns的基本工作模式四_ev .dmm
+- 183 Rec 0023-dns优化查询localdns一_ev .dmm
+- 184 Rec 0024-dns优化查询localdns二_ev .dmm
+- 185 Rec 0025-dns优化查询localdns三_ev .dmm
+- 186 Rec 0001-kubernetes-secret讲解一_ev .dmm
+- 187 Rec 0002-kubernetes-secret讲解二_ev .dmm
+- 188 Rec 0003-kubernetes-secret讲解三_ev .dmm
+- 189 Rec 0004-kubernetes-secret讲解四_ev .dmm
+- 19 Rec 0001-容器网络模式一_ev .dmm
+- 190 Rec 0005-kubernetes-secret讲解五_ev .dmm
+- 191 Rec 0006-kubernetes-secret讲解六_ev .dmm
+- 192 Rec 0007-kubernetes-secret讲解七_ev .dmm
+- 193 Rec 0008-kubernetes-secret讲解八_ev .dmm
+- 194 Rec 0009-kubernetes-污点与容忍度一_ev .dmm
+- 195 Rec 0010-kubernetes-污点与容忍度二_ev .dmm
+- 196 Rec 0011-kubernetes-args使用方法_ev .dmm
+- 197 Rec 0012-今日内容总结_ev .dmm
+- 198 Rec 0001-kuberentes-rbac 权限讲解一_ev .dmm
+- 199 Rec 0002-kuberentes-rbac 权限讲解二_ev .dmm
+- 2 Rec 0002-基础环境讲解_ev .dmm
+- 20 Rec 0002-容器网络模式二_ev .dmm
+- 200 Rec 0003-kuberentes-rbac 权限讲解三_ev .dmm
+- 201 Rec 0004-kuberentes-rbac 权限讲解四_ev .dmm
+- 202 Rec 0005-kuberentes-rbac 权限讲解五_ev .dmm
+- 203 Rec 0006-kuberentes-rbac 权限讲解六_ev .dmm
+- 204 Rec 0007-kuberentes-rbac 权限讲解七_ev .dmm
+- 205 Rec 0008-kuberentes-rbac 权限讲解八_ev .dmm
+- 206 Rec 0009-kuberentes-rbac 权限讲解九_ev .dmm
+- 207 Rec 0010-kuberentes-rbac 权限讲解十_ev .dmm
+- 208 Rec 0011-kuberentes-rbac 权限讲解十一_ev .dmm
+- 209 Rec 0012-kuberentes-rbac 权限讲解十二_ev .dmm
+- 21 Rec 0003-容器网络模式三_ev .dmm
+- 210 Rec 0013-kuberentes-rbac 权限讲解十三_ev .dmm
+- 211 Rec 0014-kuberentes-rbac 权限讲解十四_ev .dmm
+- 212 Rec 0015-kuberentes-rbac 权限讲解十五_ev .dmm
+- 213 Rec 0016-kuberentes-rbac 权限讲解十六_ev .dmm
+- 214 Rec 0017-kuberentes-rbac 权限讲解十七_ev .dmm
+- 215 Rec 0018-kubernetes资源对象类型转换一_ev .dmm
+- 216 Rec 0019-kubernetes资源对象类型转换二_ev .dmm
+- 217 Rec 0020-kubernetes-pod 字段使用方法_ev .dmm
+- 218 Rec 0021-kubernetes-configmap讲解一_ev .dmm
+- 219 Rec 0022-kubernetes-configmap讲解二_ev .dmm
+- 22 Rec 0004-容器网络模式四_ev .dmm
+- 220 Rec 0023-kubernetes-configmap讲解三_ev .dmm
+- 221 Rec 0024-kubernetes-configmap讲解四_ev .dmm
+- 222 Rec 0025-kubernetes-configmap讲解五_ev .dmm
+- 223 Rec 0026-kubernetes-亲和性讲解一_ev .dmm
+- 224 Rec 0027-kubernetes-亲和性讲解二_ev .dmm
+- 225 Rec 0028-kubernetes-亲和性讲解三_ev .dmm
+- 226 Rec 0029-kubernetes-亲和性讲解四_ev .dmm
+- 227 Rec 0030-kubernetes-亲和性讲解五_ev .dmm
+- 228 Rec 0031-kubernetes-亲和性讲解六_ev .dmm
+- 229 Rec 0032-kubernetes-api内部交互一_ev .dmm
+- 23 Rec 0005-容器网络模式五_ev .dmm
+- 230 Rec 0033-kubernetes-api内部交互二_ev .dmm
+- 231 Rec 0034--kubernetes-api内部交互三_ev .dmm
+- 232 Rec 0001-kubernetes-volume概念_ev .dmm
+- 233 Rec 0002-kubernetes-volume 使用方法_ev .dmm
+- 234 Rec 0003-kubernetes-volume位置_ev .dmm
+- 235 Rec 0004-kubernetes-volume-emptydir_ev .dmm
+- 236 Rec 0005-kubernetes-volume基本层级_ev .dmm
+- 237 Rec 0006-kubernetes-volume使用场景_ev .dmm
+- 238 Rec 0007-kubernetes-pv讲解一_ev .dmm
+- 239 Rec 0008-kubernetes-pv讲解二_ev .dmm
+- 24 Rec 0006-容器网络模式六_ev .dmm
+- 240 Rec 0009-存储的基本概念讲解一_ev .dmm
+- 241 Rec 0010-存储的基本概念讲解二_ev .dmm
+- 242 Rec 0011-pv访问模式讲解一_ev .dmm
+- 243 Rec 0012-pv访问模式讲解二_ev .dmm
+- 244 Rec 0013-pvc与pv 绑定关系一_ev .dmm
+- 245 Rec 0014-pv绑定nfs一_ev .dmm
+- 246 Rec 0015-pv绑定nfs二_ev .dmm
+- 247 Rec 0016-pv绑定nfs三_ev .dmm
+- 248 Rec 0017-pvc与nfs挂载deployment一_ev .dmm
+- 249 Rec 0018-pvc与nfs挂载deployment二_ev .dmm
+- 25 Rec 0007-容器网络模式七_ev .dmm
+- 250 Rec 0019-存储类讲解一_ev .dmm
+- 251 Rec 0020-存储类讲解二_ev .dmm
+- 252 Rec 0021-kubernetes-flannel-vxlan模式一_ev .dmm
+- 253 Rec 0022-kubeadm部署kubernetes 1.23 集群一_ev .dmm
+- 254 Rec 0023-kubeadm部署kubernetes 1.23集群二_ev .dmm
+- 255 Rec 0024-kubeadm部署kubernetes 1.23 集群三_ev .dmm
+- 256 Rec 0025-kubeadm部署kubernetes 1.23 集群四_ev .dmm
+- 257 Rec 0026-kubeadm初始化集群配置文件一_ev .dmm
+- 258 Rec 0027-kubeadm初始化集群配置文件二_ev .dmm
+- 259 Rec 0028-kubeadm初始化集群-master节点一_ev .dmm
+- 26 Rec 0008-dockerfile一_ev .dmm
+- 260 Rec 0029-kubeadm初始化集群-master节点二_ev .dmm
+- 261 Rec 0030-kubeadm初始化集群-master节点三_ev .dmm
+- 262 Rec 0031-kubeadm初始化集群-worker节点一_ev .dmm
+- 263 Rec 0032-kubeadm安装网络插件-flannel_ev .dmm
+- 264 Rec 0033-kubeadm验证集群_ev .dmm
+- 265 Rec 0034-kubeadm 安装 kubernetes dashboard_ev .dmm
+- 267 Rec 0036-kubeadm增加master节点操作二_ev .dmm
+- 268 Rec 0037-kubeadm增加master节点操作三_ev .dmm
+- 269 Rec 0038-kubeadm增加master节点操作四_ev .dmm
+- 27 Rec 0009-dockerfile二_ev .dmm
+- 270 Rec 0039-kubeadm增加master节点操作完成_ev .dmm
+- 271 Rec 0040-kubeadm移除master节点_ev .dmm
+- 272 Rec 0041-kubeadm增加worker节点操作一_ev .dmm
+- 273 Rec 0042-kubeadm增加worker节点操作二_ev .dmm
+- 274 Rec 0043-kubeadmin移除worker节点操作_ev .dmm
+- 275 Rec 0044-二进制安装kubernetes更新证书一_ev .dmm
+- 276 Rec 0045-二进制安装kubernetes更新证书二_ev .dmm
+- 277 Rec 0046-kubeadm更新证书方式一_ev .dmm
+- 278 Rec 0047-kubeadm更新证书方式二_ev .dmm
+- 279 Rec 0048-kubeadm更新证书方式三_ev .dmm
+- 28 Rec 0010-dockerfile三_ev .dmm
+- 29 Rec 0011-dockerfile四_ev .dmm
+- 3 Rec 0003-docker基本介绍_ev .dmm
+- 30 Rec 0012-dockerfile五_ev .dmm
+- 31 Rec 0013-网络模型一_ev .dmm
+- 32 Rec 0014-网络模型二_ev .dmm
+- 33 Rec 0015-容器通信基础一_ev .dmm
+- 34 Rec 0016-容器通信基础二_ev .dmm
+- 35 Rec 0017-容器通信基础三_ev .dmm
+- 36 Rec 0018-容器通信基础四_ev .dmm
+- 37 Rec 0019-容器通信基础五_ev .dmm
+- 38 Rec 0001-二进制部署kuberntes 1.23 基础环境说明_ev .dmm
+- 39 Rec 0002-二进制部署kuberntes 1.23-环境初始化配置一_ev .dmm
+- 4 Rec 0004-docker的基本实现一_ev .dmm
+- 40 Rec 0003-二进制部署kuberntes 1.23-环境初始化配置二_ev .dmm
+- 41 Rec 0004-二进制部署kuberntes 1.23-环境初始化配置三_ev .dmm
+- 42 Rec 0005-二进制部署kuberntes 1.23-高可用ip_ev .dmm
+- 43 Rec 0006-https 加密过程讲解_ev .dmm
+- 44 Rec 0007-kuberntes ca讲解_ev .dmm
+- 45 Rec 0008-生成etcd 证书一_ev .dmm
+- 46 Rec 0009-生成etcd 证书二_ev .dmm
+- 47 Rec 0010-配置etcd一_ev .dmm
+- 48 Rec 0011-配置etcd二_ev .dmm
+- 49 Rec 0012-etcd 配置文件修改_ev .dmm
+- 5 Rec 0005-docker局限性与优势_ev .dmm
+- 50 Rec 0013-etcd 证书分发_ev .dmm
+- 51 Rec 0014-etcd 节点查询_ev .dmm
+- 52 Rec 0015-kubernetes 文件分发_ev .dmm
+- 53 Rec 0016-生成kubernetes 证书_ev .dmm
+- 54 Rec 0017-节点安装docker_ev .dmm
+- 55 Rec 0018-flannel基本介绍_ev .dmm
+- 56 Rec 0019-flanneld 配置介绍_ev .dmm
+- 57 Rec 0020-flanneld 启动_ev .dmm
+- 58 Rec 0021-etcd集群关闭_ev .dmm
+- 59 Rec 0001-apiserver 基本安装一_ev .dmm
+- 6 Rec 0006-docker基本安装_ev .dmm
+- 60 Rec 0002-apiserver 基本安装二_ev .dmm
+- 61 Rec 0003-token作用讲解_ev .dmm
+- 62 Rec 0004-apiserver 基本参数讲解_ev .dmm
+- 63 Rec 0005-master高可用方法_ev .dmm
+- 64 Rec 0006-创建客户端认证与操作用户_ev .dmm
+- 65 Rec 0007-设置客户端连接配置文件_ev .dmm
+- 66 Rec 0008-部署controller-manager组件一_ev .dmm
+- 67 Rec 0009-部署controller-manager组件二_ev .dmm
+- 68 Rec 0010-部署scheudler组件_ev .dmm
+- 69 Rec 0011-部署kubelet组件一_ev .dmm
+- 7 Rec 0007-docker基本信息讲解_ev .dmm
+- 70 Rec 0012-部署kubelet组件二_ev .dmm
+- 71 Rec 0013-服务端证书颁发_ev .dmm
+- 72 Rec 0014-部署kube-proxy 组件_ev .dmm
+- 73 Rec 0015-kubernetes运行测试_ev .dmm
+- 74 Rec 0016-kubernetes tls加密流程_ev .dmm
+- 75 Rec 0001-coredns部署一_ev .dmm
+- 76 Rec 0002-coredns部署二_ev .dmm
+- 77 Rec 0003-coredns部署三_ev .dmm
+- 78 Rec 0004-coredns测试_ev .dmm
+- 79 Rec 0005-部署dashaboard一_ev .dmm
+- 8 Rec 0008-docker配置监听模式_ev .dmm
+- 80 Rec 0006-部署dashaboard-二_ev .dmm
+- 81 Rec 0007-ingress 部署一_ev .dmm
+- 82 Rec 0008-ingress 部署二_ev .dmm
+- 83 Rec 0009-ingress 部署三_ev .dmm
+- 84 Rec 0010-ingress 部署四_ev .dmm
+- 85 Rec 0011-ingress 部署五_ev .dmm
+- 86 Rec 0012-ingress 部署六_ev .dmm
+- 87 Rec 0013-ingress 部署七_ev .dmm
+- 88 Rec 0014--ingress 部署八_ev .dmm
+- 89 Rec 0001-prometheus基本介绍一_ev .dmm
+- 9 Rec 0009-docker基本操作_ev .dmm
+- 90 Rec 0002-prometheus基本介绍二_ev .dmm
+- 91 Rec 0003-prometheus基本介绍三_ev .dmm
+- 92 Rec 0004-prometheus基本数据流_ev .dmm
+- 93 Rec 0005-promethues数据存储格式_ev .dmm
+- 94 Rec 0006-prometheus二进制部署一_ev .dmm
+- 95 Rec 0007-prometheus二进制部署二_ev .dmm
+- 96 Rec 0008-prometheus二进制部署三_ev .dmm
+- 97 Rec 0009-prometheus二进制部署三_ev .dmm
+- 98 Rec 0010-granfa图形数据展示_ev .dmm
+- 99 Rec 0011-容器化运行promehtues一_ev .dmm
+
+## 资料
+
+- 1 Rec 0001-开班仪式_ev .dmm | 课程资料
+- 10 Rec 0010-docker 容器启动前提条件_ev .dmm | 课程资料
+- 100 Rec 0012-容器化运行promehtues二_ev .dmm | 课程资料
+- 101 Rec 0013-nfs安装一_ev .dmm | 课程资料
+- 102 Rec 0014-nfs安装二_ev .dmm | 课程资料
+- 103 Rec 0015-nfs容器化部署一_ev .dmm | 课程资料
+- 104 Rec 0016-nfs容器化部署二_ev .dmm | 课程资料
+- 105 Rec 0017-容器化运行promehtues三_ev .dmm | 课程资料
+- 106 Rec 0018-容器化运行promehtues四_ev .dmm | 课程资料
+- 107 Rec 0019-容器化运行promehtues五_ev .dmm | 课程资料
+- 108 Rec 0020-容器化运行promehtues六_ev .dmm | 课程资料
+- 109 Rec 0021-servicemonitor配置讲解_ev .dmm | 课程资料
+- 11 Rec 0011-docker 容器存储结构_ev .dmm | 课程资料
+- 110 Rec 0022-不同方式添加监控节点信息_ev .dmm | 课程资料
+- 111 Rec 0001-kubernetes cli基本使用一_ev .dmm | 课程资料
+- 112 Rec 0002-kubernetes cli基本使用二_ev .dmm | 课程资料
+- 113 Rec 0003-kubernetes cli基本使用三_ev .dmm | 课程资料
+- 114 Rec 0004-kubernetes cli基本使用四_ev .dmm | 课程资料
+- 115 Rec 0005-kubernetes cli基本使用五_ev .dmm | 课程资料
+- 116 Rec 0006-kubernetes cli基本使用六_ev .dmm | 课程资料
+- 117 Rec 0007-kubernetes cli基本使用七_ev .dmm | 课程资料
+- 118 Rec 0008-kubernetes资源对象-nodes_ev .dmm | 课程资料
+- 12 Rec 0012-容器与镜像存储的区别_ev .dmm | 课程资料
+- 120 Rec 0010-kubernetes资源对象-api使用一_ev .dmm | 课程资料
+- 121 Rec 0011-kubernetes资源对象-api使用二_ev .dmm | 课程资料
+- 122 Rec 0012-kubernetes资源对象-label一_ev .dmm | 课程资料
+- 123 Rec 0013-kubernetes资源对象-label二_ev .dmm | 课程资料
+- 124 Rec 0014-kubernetes资源对象-label三_ev .dmm | 课程资料
+- 125 Rec 0015-kubernetes资源对象-label四_ev .dmm | 课程资料
+- 126 Rec 0016-kubernetes资源对象-pod控制器_ev .dmm | 课程资料
+- 127 Rec 0017-kubernetes hosts修改_ev .dmm | 课程资料
+- 128 Rec 0018-kubernetes hostport控制一_ev .dmm | 课程资料
+- 129 Rec 0019-kubernetes hostport控制二_ev .dmm | 课程资料
+- 13 Rec 0013-容器的基本操作命令一_ev .dmm | 课程资料
+- 130 Rec 0020-kubernetes-RC控制器一_ev .dmm | 课程资料
+- 131 Rec 0021-kubernetes-RC控制器二_ev .dmm | 课程资料
+- 132 Rec 0022-kubernetes-RC控制器三_ev .dmm | 课程资料
+- 133 Rec 0023-kubernetes-RC控制器四_ev .dmm | 课程资料
+- 134 Rec 0001-promehtues监控mysql实例一_ev .dmm | 课程资料
+- 135 Rec 0002-promehtues监控mysql实例二_ev .dmm | 课程资料
+- 136 Rec 0003-promehtues监控mysql实例三_ev .dmm | 课程资料
+- 137 Rec 0004-promehtues监控mysql实例四_ev .dmm | 课程资料
+- 138 Rec 0005-promehtues监控mysql实例五_ev .dmm | 课程资料
+- 139 Rec 0006-promehtues监控mysql实例五_ev .dmm | 课程资料
+- 14 Rec 0014-容器的基本操作命令二_ev .dmm | 课程资料
+- 140 Rec 0007-promehtues监控mysql实例六_ev .dmm | 课程资料
+- 141 Rec 0008-promehtues监控mysql实例七_ev .dmm | 课程资料
+- 142 Rec 0009-kubernetes资源对象-rs控制器一_ev .dmm | 课程资料
+- 143 Rec 0010-kubernetes资源对象-rs控制器二_ev .dmm | 课程资料
+- 144 Rec 0011-kubernetes资源对象-deployment控制器一_ev .dmm | 课程资料
+- 145 Rec 0012-kubernetes资源对象-deployment控制器二_ev .dmm | 课程资料
+- 147 Rec 0014-kubernetes资源对象-deployment控制器四_ev .dmm | 课程资料
+- 148 Rec 0015-kubernetes资源对象-deployment控制器五_ev .dmm | 课程资料
+- 149 Rec 0016-kubernetes探针一_ev .dmm | 课程资料
+- 15 Rec 0015-容器的基本操作命令三_ev .dmm | 课程资料
+- 150 Rec 0017-kubernetes探针二_ev .dmm | 课程资料
+- 151 Rec 0018-kubernetes资源对象-ds控制器一_ev .dmm | 课程资料
+- 152 Rec 0019-kubernetes资源对象-ds控制器二_ev .dmm | 课程资料
+- 153 Rec 0020-kubernetes资源对象-ds控制器三_ev .dmm | 课程资料
+- 154 Rec 0021-kubernetes资源对象-ss控制器一_ev .dmm | 课程资料
+- 155 Rec 0022-kubernetes资源对象-ss控制器二_ev .dmm | 课程资料
+- 156 Rec 0023-kubernetes资源对象-ss控制器三_ev .dmm | 课程资料
+- 157 Rec 0024-kubernetes资源对象-ss控制器四_ev .dmm | 课程资料
+- 158 Rec 0025-kubernetes资源对象-ss控制器五_ev .dmm | 课程资料
+- 159 Rec 0026-kubernetes资源对象-ss控制器六_ev .dmm | 课程资料
+- 16 Rec 0016-容器的资源限制一_ev .dmm | 课程资料
+- 160 Rec 0027-kubernetes资源对象-ss控制器七_ev .dmm | 课程资料
+- 161 Rec 0001-kubernetes 资源限制一_ev .dmm | 课程资料
+- 162 Rec 0002-kubernetes资源限制二_ev .dmm | 课程资料
+- 163 Rec 0003-pod运行状态监控注意事项一_ev .dmm | 课程资料
+- 164 Rec 0004-pod运行状态监控注意事项二_ev .dmm | 课程资料
+- 165 Rec 0005-pod镜像拉取策略_ev .dmm | 课程资料
+- 166 Rec 0006-job运行任务一_ev .dmm | 课程资料
+- 167 Rec 0007-job运行任务二_ev .dmm | 课程资料
+- 168 Rec 0008-cronjob基本用法一_ev .dmm | 课程资料
+- 169 Rec 0009-cronjob基本用法二_ev .dmm | 课程资料
+- 17 Rec 0017-容器的资源限制二_ev .dmm | 课程资料
+- 170 Rec 0010cronjob基本用法三_ev .dmm | 课程资料
+- 171 Rec 0011-endpoints写法一_ev .dmm | 课程资料
+- 172 Rec 0012-endpoints写法二_ev .dmm | 课程资料
+- 173 Rec 0013-service-external配置_ev .dmm | 课程资料
+- 174 Rec 0014-service基本格式讲解一_ev .dmm | 课程资料
+- 175 Rec 0015-service基本格式讲解二_ev .dmm | 课程资料
+- 176 Rec 0016-hostport与nodeport区别一_ev .dmm | 课程资料
+- 177 Rec 0017-hostport与nodeport区别二_ev .dmm | 课程资料
+- 178 Rec 0018-kube-proxy工作模式切换_ev .dmm | 课程资料
+- 179 Rec 0019-dns的基本工作模式一_ev .dmm | 课程资料
+- 18 Rec 0018-容器的资源限制三_ev .dmm | 课程资料
+- 180 Rec 0020-dns的基本工作模式二_ev .dmm | 课程资料
+- 181 Rec 0021-dns的基本工作模式三_ev .dmm | 课程资料
+- 182 Rec 0022-dns的基本工作模式四_ev .dmm | 课程资料
+- 183 Rec 0023-dns优化查询localdns一_ev .dmm | 课程资料
+- 184 Rec 0024-dns优化查询localdns二_ev .dmm | 课程资料
+- 185 Rec 0025-dns优化查询localdns三_ev .dmm | 课程资料
+- 186 Rec 0001-kubernetes-secret讲解一_ev .dmm | 课程资料
+- 187 Rec 0002-kubernetes-secret讲解二_ev .dmm | 课程资料
+- 188 Rec 0003-kubernetes-secret讲解三_ev .dmm | 课程资料
+- 189 Rec 0004-kubernetes-secret讲解四_ev .dmm | 课程资料
+- 19 Rec 0001-容器网络模式一_ev .dmm | 课程资料
+- 190 Rec 0005-kubernetes-secret讲解五_ev .dmm | 课程资料
+- 191 Rec 0006-kubernetes-secret讲解六_ev .dmm | 课程资料
+- 192 Rec 0007-kubernetes-secret讲解七_ev .dmm | 课程资料
+- 193 Rec 0008-kubernetes-secret讲解八_ev .dmm | 课程资料
+- 194 Rec 0009-kubernetes-污点与容忍度一_ev .dmm | 课程资料
+- 195 Rec 0010-kubernetes-污点与容忍度二_ev .dmm | 课程资料
+- 196 Rec 0011-kubernetes-args使用方法_ev .dmm | 课程资料
+- 197 Rec 0012-今日内容总结_ev .dmm | 课程资料
+- 198 Rec 0001-kuberentes-rbac 权限讲解一_ev .dmm | 课程资料
+- 199 Rec 0002-kuberentes-rbac 权限讲解二_ev .dmm | 课程资料
+- 2 Rec 0002-基础环境讲解_ev .dmm | 课程资料
+- 20 Rec 0002-容器网络模式二_ev .dmm | 课程资料
+- 200 Rec 0003-kuberentes-rbac 权限讲解三_ev .dmm | 课程资料
+- 201 Rec 0004-kuberentes-rbac 权限讲解四_ev .dmm | 课程资料
+- 202 Rec 0005-kuberentes-rbac 权限讲解五_ev .dmm | 课程资料
+- 203 Rec 0006-kuberentes-rbac 权限讲解六_ev .dmm | 课程资料
+- 204 Rec 0007-kuberentes-rbac 权限讲解七_ev .dmm | 课程资料
+- 205 Rec 0008-kuberentes-rbac 权限讲解八_ev .dmm | 课程资料
+- 206 Rec 0009-kuberentes-rbac 权限讲解九_ev .dmm | 课程资料
+- 207 Rec 0010-kuberentes-rbac 权限讲解十_ev .dmm | 课程资料
+- 208 Rec 0011-kuberentes-rbac 权限讲解十一_ev .dmm | 课程资料
+- 209 Rec 0012-kuberentes-rbac 权限讲解十二_ev .dmm | 课程资料
+- 21 Rec 0003-容器网络模式三_ev .dmm | 课程资料
+- 210 Rec 0013-kuberentes-rbac 权限讲解十三_ev .dmm | 课程资料
+- 211 Rec 0014-kuberentes-rbac 权限讲解十四_ev .dmm | 课程资料
+- 212 Rec 0015-kuberentes-rbac 权限讲解十五_ev .dmm | 课程资料
+- 213 Rec 0016-kuberentes-rbac 权限讲解十六_ev .dmm | 课程资料
+- 214 Rec 0017-kuberentes-rbac 权限讲解十七_ev .dmm | 课程资料
+- 215 Rec 0018-kubernetes资源对象类型转换一_ev .dmm | 课程资料
+- 216 Rec 0019-kubernetes资源对象类型转换二_ev .dmm | 课程资料
+- 217 Rec 0020-kubernetes-pod 字段使用方法_ev .dmm | 课程资料
+- 218 Rec 0021-kubernetes-configmap讲解一_ev .dmm | 课程资料
+- 219 Rec 0022-kubernetes-configmap讲解二_ev .dmm | 课程资料
+- 22 Rec 0004-容器网络模式四_ev .dmm | 课程资料
+- 220 Rec 0023-kubernetes-configmap讲解三_ev .dmm | 课程资料
+- 221 Rec 0024-kubernetes-configmap讲解四_ev .dmm | 课程资料
+- 222 Rec 0025-kubernetes-configmap讲解五_ev .dmm | 课程资料
+- 223 Rec 0026-kubernetes-亲和性讲解一_ev .dmm | 课程资料
+- 224 Rec 0027-kubernetes-亲和性讲解二_ev .dmm | 课程资料
+- 225 Rec 0028-kubernetes-亲和性讲解三_ev .dmm | 课程资料
+- 226 Rec 0029-kubernetes-亲和性讲解四_ev .dmm | 课程资料
+- 227 Rec 0030-kubernetes-亲和性讲解五_ev .dmm | 课程资料
+- 228 Rec 0031-kubernetes-亲和性讲解六_ev .dmm | 课程资料
+- 229 Rec 0032-kubernetes-api内部交互一_ev .dmm | 课程资料
+- 23 Rec 0005-容器网络模式五_ev .dmm | 课程资料
+- 230 Rec 0033-kubernetes-api内部交互二_ev .dmm | 课程资料
+- 231 Rec 0034--kubernetes-api内部交互三_ev .dmm | 课程资料
+- 232 Rec 0001-kubernetes-volume概念_ev .dmm | 课程资料
+- 233 Rec 0002-kubernetes-volume 使用方法_ev .dmm | 课程资料
+- 234 Rec 0003-kubernetes-volume位置_ev .dmm | 课程资料
+- 235 Rec 0004-kubernetes-volume-emptydir_ev .dmm | 课程资料
+- 236 Rec 0005-kubernetes-volume基本层级_ev .dmm | 课程资料
+- 237 Rec 0006-kubernetes-volume使用场景_ev .dmm | 课程资料
+- 238 Rec 0007-kubernetes-pv讲解一_ev .dmm | 课程资料
+- 239 Rec 0008-kubernetes-pv讲解二_ev .dmm | 课程资料
+- 24 Rec 0006-容器网络模式六_ev .dmm | 课程资料
+- 240 Rec 0009-存储的基本概念讲解一_ev .dmm | 课程资料
+- 241 Rec 0010-存储的基本概念讲解二_ev .dmm | 课程资料
+- 242 Rec 0011-pv访问模式讲解一_ev .dmm | 课程资料
+- 243 Rec 0012-pv访问模式讲解二_ev .dmm | 课程资料
+- 244 Rec 0013-pvc与pv 绑定关系一_ev .dmm | 课程资料
+- 245 Rec 0014-pv绑定nfs一_ev .dmm | 课程资料
+- 246 Rec 0015-pv绑定nfs二_ev .dmm | 课程资料
+- 247 Rec 0016-pv绑定nfs三_ev .dmm | 课程资料
+- 248 Rec 0017-pvc与nfs挂载deployment一_ev .dmm | 课程资料
+- 249 Rec 0018-pvc与nfs挂载deployment二_ev .dmm | 课程资料
+- 25 Rec 0007-容器网络模式七_ev .dmm | 课程资料
+- 250 Rec 0019-存储类讲解一_ev .dmm | 课程资料
+- 251 Rec 0020-存储类讲解二_ev .dmm | 课程资料
+- 252 Rec 0021-kubernetes-flannel-vxlan模式一_ev .dmm | 课程资料
+- 253 Rec 0022-kubeadm部署kubernetes 1.23 集群一_ev .dmm | 课程资料
+- 254 Rec 0023-kubeadm部署kubernetes 1.23集群二_ev .dmm | 课程资料
+- 255 Rec 0024-kubeadm部署kubernetes 1.23 集群三_ev .dmm | 课程资料
+- 256 Rec 0025-kubeadm部署kubernetes 1.23 集群四_ev .dmm | 课程资料
+- 257 Rec 0026-kubeadm初始化集群配置文件一_ev .dmm | 课程资料
+- 258 Rec 0027-kubeadm初始化集群配置文件二_ev .dmm | 课程资料
+- 259 Rec 0028-kubeadm初始化集群-master节点一_ev .dmm | 课程资料
+- 26 Rec 0008-dockerfile一_ev .dmm | 课程资料
+- 260 Rec 0029-kubeadm初始化集群-master节点二_ev .dmm | 课程资料
+- 261 Rec 0030-kubeadm初始化集群-master节点三_ev .dmm | 课程资料
+- 262 Rec 0031-kubeadm初始化集群-worker节点一_ev .dmm | 课程资料
+- 263 Rec 0032-kubeadm安装网络插件-flannel_ev .dmm | 课程资料
+- 264 Rec 0033-kubeadm验证集群_ev .dmm | 课程资料
+- 265 Rec 0034-kubeadm 安装 kubernetes dashboard_ev .dmm | 课程资料
+- 267 Rec 0036-kubeadm增加master节点操作二_ev .dmm | 课程资料
+- 268 Rec 0037-kubeadm增加master节点操作三_ev .dmm | 课程资料
+- 269 Rec 0038-kubeadm增加master节点操作四_ev .dmm | 课程资料
+- 27 Rec 0009-dockerfile二_ev .dmm | 课程资料
+- 270 Rec 0039-kubeadm增加master节点操作完成_ev .dmm | 课程资料
+- 271 Rec 0040-kubeadm移除master节点_ev .dmm | 课程资料
+- 272 Rec 0041-kubeadm增加worker节点操作一_ev .dmm | 课程资料
+- 273 Rec 0042-kubeadm增加worker节点操作二_ev .dmm | 课程资料
+- 274 Rec 0043-kubeadmin移除worker节点操作_ev .dmm | 课程资料
+- 275 Rec 0044-二进制安装kubernetes更新证书一_ev .dmm | 课程资料
+- 276 Rec 0045-二进制安装kubernetes更新证书二_ev .dmm | 课程资料
+- 277 Rec 0046-kubeadm更新证书方式一_ev .dmm | 课程资料
+- 278 Rec 0047-kubeadm更新证书方式二_ev .dmm | 课程资料
+- 279 Rec 0048-kubeadm更新证书方式三_ev .dmm | 课程资料
+- 28 Rec 0010-dockerfile三_ev .dmm | 课程资料
+- 29 Rec 0011-dockerfile四_ev .dmm | 课程资料
+- 3 Rec 0003-docker基本介绍_ev .dmm | 课程资料
+- 30 Rec 0012-dockerfile五_ev .dmm | 课程资料
+- 31 Rec 0013-网络模型一_ev .dmm | 课程资料
+- 32 Rec 0014-网络模型二_ev .dmm | 课程资料
+- 33 Rec 0015-容器通信基础一_ev .dmm | 课程资料
+- 34 Rec 0016-容器通信基础二_ev .dmm | 课程资料
+- 35 Rec 0017-容器通信基础三_ev .dmm | 课程资料
+- 36 Rec 0018-容器通信基础四_ev .dmm | 课程资料
+- 37 Rec 0019-容器通信基础五_ev .dmm | 课程资料
+- 38 Rec 0001-二进制部署kuberntes 1.23 基础环境说明_ev .dmm | 课程资料
+- 39 Rec 0002-二进制部署kuberntes 1.23-环境初始化配置一_ev .dmm | 课程资料
+- 4 Rec 0004-docker的基本实现一_ev .dmm | 课程资料
+- 40 Rec 0003-二进制部署kuberntes 1.23-环境初始化配置二_ev .dmm | 课程资料
+- 41 Rec 0004-二进制部署kuberntes 1.23-环境初始化配置三_ev .dmm | 课程资料
+- 42 Rec 0005-二进制部署kuberntes 1.23-高可用ip_ev .dmm | 课程资料
+- 43 Rec 0006-https 加密过程讲解_ev .dmm | 课程资料
+- 44 Rec 0007-kuberntes ca讲解_ev .dmm | 课程资料
+- 45 Rec 0008-生成etcd 证书一_ev .dmm | 课程资料
+- 46 Rec 0009-生成etcd 证书二_ev .dmm | 课程资料
+- 47 Rec 0010-配置etcd一_ev .dmm | 课程资料
+- 48 Rec 0011-配置etcd二_ev .dmm | 课程资料
+- 49 Rec 0012-etcd 配置文件修改_ev .dmm | 课程资料
+- 5 Rec 0005-docker局限性与优势_ev .dmm | 课程资料
+- 50 Rec 0013-etcd 证书分发_ev .dmm | 课程资料
+- 51 Rec 0014-etcd 节点查询_ev .dmm | 课程资料
+- 52 Rec 0015-kubernetes 文件分发_ev .dmm | 课程资料
+- 53 Rec 0016-生成kubernetes 证书_ev .dmm | 课程资料
+- 54 Rec 0017-节点安装docker_ev .dmm | 课程资料
+- 55 Rec 0018-flannel基本介绍_ev .dmm | 课程资料
+- 56 Rec 0019-flanneld 配置介绍_ev .dmm | 课程资料
+- 57 Rec 0020-flanneld 启动_ev .dmm | 课程资料
+- 58 Rec 0021-etcd集群关闭_ev .dmm | 课程资料
+- 59 Rec 0001-apiserver 基本安装一_ev .dmm | 课程资料
+- 6 Rec 0006-docker基本安装_ev .dmm | 课程资料
+- 60 Rec 0002-apiserver 基本安装二_ev .dmm | 课程资料
+- 61 Rec 0003-token作用讲解_ev .dmm | 课程资料
+- 62 Rec 0004-apiserver 基本参数讲解_ev .dmm | 课程资料
+- 63 Rec 0005-master高可用方法_ev .dmm | 课程资料
+- 64 Rec 0006-创建客户端认证与操作用户_ev .dmm | 课程资料
+- 65 Rec 0007-设置客户端连接配置文件_ev .dmm | 课程资料
+- 66 Rec 0008-部署controller-manager组件一_ev .dmm | 课程资料
+- 67 Rec 0009-部署controller-manager组件二_ev .dmm | 课程资料
+- 68 Rec 0010-部署scheudler组件_ev .dmm | 课程资料
+- 69 Rec 0011-部署kubelet组件一_ev .dmm | 课程资料
+- 7 Rec 0007-docker基本信息讲解_ev .dmm | 课程资料
+- 70 Rec 0012-部署kubelet组件二_ev .dmm | 课程资料
+- 71 Rec 0013-服务端证书颁发_ev .dmm | 课程资料
+- 72 Rec 0014-部署kube-proxy 组件_ev .dmm | 课程资料
+- 73 Rec 0015-kubernetes运行测试_ev .dmm | 课程资料
+- 74 Rec 0016-kubernetes tls加密流程_ev .dmm | 课程资料
+- 75 Rec 0001-coredns部署一_ev .dmm | 课程资料
+- 76 Rec 0002-coredns部署二_ev .dmm | 课程资料
+- 77 Rec 0003-coredns部署三_ev .dmm | 课程资料
+- 78 Rec 0004-coredns测试_ev .dmm | 课程资料
+- 79 Rec 0005-部署dashaboard一_ev .dmm | 课程资料
+- 8 Rec 0008-docker配置监听模式_ev .dmm | 课程资料
+- 80 Rec 0006-部署dashaboard-二_ev .dmm | 课程资料
+- 81 Rec 0007-ingress 部署一_ev .dmm | 课程资料
+- 82 Rec 0008-ingress 部署二_ev .dmm | 课程资料
+- 83 Rec 0009-ingress 部署三_ev .dmm | 课程资料
+- 84 Rec 0010-ingress 部署四_ev .dmm | 课程资料
+- 85 Rec 0011-ingress 部署五_ev .dmm | 课程资料
+- 86 Rec 0012-ingress 部署六_ev .dmm | 课程资料
+- 87 Rec 0013-ingress 部署七_ev .dmm | 课程资料
+- 88 Rec 0014--ingress 部署八_ev .dmm | 课程资料
+- 89 Rec 0001-prometheus基本介绍一_ev .dmm | 课程资料
+- 9 Rec 0009-docker基本操作_ev .dmm | 课程资料
+- 90 Rec 0002-prometheus基本介绍二_ev .dmm | 课程资料
+- 91 Rec 0003-prometheus基本介绍三_ev .dmm | 课程资料
+- 92 Rec 0004-prometheus基本数据流_ev .dmm | 课程资料
+- 93 Rec 0005-promethues数据存储格式_ev .dmm | 课程资料
+- 94 Rec 0006-prometheus二进制部署一_ev .dmm | 课程资料
+- 95 Rec 0007-prometheus二进制部署二_ev .dmm | 课程资料
+- 96 Rec 0008-prometheus二进制部署三_ev .dmm | 课程资料
+- 97 Rec 0009-prometheus二进制部署三_ev .dmm | 课程资料
+- 98 Rec 0010-granfa图形数据展示_ev .dmm | 课程资料
+- 99 Rec 0011-容器化运行promehtues一_ev .dmm | 课程资料
+
+## 讲师
+
+- 姓名: 课小猫的秘密宝箱
+- 头衔: 课程采集与整理
+- 简介: 由课小猫的秘密宝箱自动收录并整理课程目录，后续可继续补充封面、讲师与课程说明。
+`;export{e as default};

@@ -1,0 +1,536 @@
+const e=`---
+id: 1177
+title: "LJC-0"
+year: 2026
+subtitle: "采集自 安全板块目录"
+instructor: "课小猫的秘密宝箱"
+image: https://lh3.googleusercontent.com/aida-public/AB6AXuBU5Epy6jC5CurzTsOBv1a1AfrMlDBdqxUELTKYOCLVvqfSEaKr2tErllmvMwBEz_DrXtOoMkERICWtBsbhbrW7sv4chtm4peU1G7LpvdMzGzccr8P1YEk6lWd1yz-RhSWQFAZPoNmtAjD5UBlMhGaFnjDX9V6WhuXBsmaUrfGXpFgLc7-NjwxbXJPzQbZ3Vc8nF0rMbEXQRcInt_r9iv4BuS1amcDac3O6Vmmr9APUyuBYyxaJq6k-tFgOq-A04jgrT0js1uktuHx2
+updating: false
+category: "网络安全"
+rating: 5.0
+reviews: '0'
+hasQAGroup: true
+tags:
+  - "网络安全"
+  - AList采集
+description: "本课程根据 AList 采集目录自动整理，原始目录路径为 /安全板块目录/LJC-0。章节来自远程课程目录结构，适合先浏览完整目录后再联系宝箱管理员获取资料。"
+reviewCount: '0'
+studentCount: '0'
+---
+
+本课程根据 AList 采集目录自动整理，来源板块为「安全板块目录」。
+
+原始路径：/安全板块目录/LJC-0
+
+## 亮点
+
+- 由远程目录自动整理为课程详情
+- 保留课程目录层级作为章节大纲
+- 支持在宝箱首页搜索、筛选和进入详情页浏览
+
+## 包含
+
+- Clock | 采集课程目录
+- BarChart | 按目录层级整理章节
+- Infinity | 可持续补充详情
+- MessageCircle | 可联系宝箱管理员获取资料
+
+## 大纲
+
+### 第 1 阶段: 00.往期视频（MP4）
+
+- [doc] 暂无公开章节
+
+### 第 2 阶段: 00.往期资料库
+
+- [doc] 暂无公开章节
+
+### 第 3 阶段: a.25新款视频2024.11-2026.5（持续更新中）
+
+- 第100天：JAVA攻防-常规漏洞&SQL注入四类型&XXE引用点&RCE原生&框架URL跳转&URL处理类_ev .dmm | 428.86MB
+- 第101天：JAVA攻防-专题漏洞&SPEL表达式&SSTI模版&Swagger接口&Actuator泄露&Spring特检_ev .dmm | 548.16MB
+- 第102天：JAVA攻防-专题漏洞&反序列化&原生类引用&三方组件&JNDI注入&版本限制&审计Sink_ev .dmm | 432.58MB
+- 第103天：JAVA攻防-反序列化利用&JNDI注入&高版本绕过&依赖Jar包&gadge包链&自动Bypass_ev .dmm | 645.75MB
+- 第104天：JAVA攻防-FastJson专题&各版本Gadget链&autoType开关&黑名单&依赖包&本地代码_ev .dmm | 476.21MB
+- 第105天：JAVA攻防-FastJson专题&面试不出网利用&BCEL字节码&C3P0二次&Impl链&延时判断_ev .dmm | 378.60MB
+- 第106天：JAVA攻防-Shiro专题&断点调试&有key利用链&URL&CC&CB&原生反序列化&加密逻辑_ev .dmm | 513.03MB
+- 第107天：JAVA攻防-Shiro专题&key利用链&CC&CB1链分析&入口点&调用链&执行地&Class加载_ev .dmm | 439.44MB
+- 第108天：JAVA攻防-Shiro专题&有key无利用链&JRMP协议&CC1&CB1链分析&Transform执行链_ev .dmm | 409.98MB
+- 第109天：JAVA攻防-Ys项目Gadget链分析&CC1&CC2&CC4&CC5&CC7&入口点改动&触发点改动_ev .dmm | 525.35MB
+- 第10天：基础入门-传输加密&数据格式&编码算法&密文存储&代码混淆&逆向保护&安全影响_ev .dmm | 415.25MB
+- 第110天：JAVA攻防-手搓代码&Gadget链细节分析&反射调用&类传入&成员变量&CC2&CC4&CC5_ev .dmm | 470.89MB
+- 第111天：JAVA攻防-内存马技术&中间型&框架型&Shell上植入&平台生成&无文件逃离&防查杀检测_ev .dmm | 336.66MB
+- 第112天：JAVA攻防-内存马技术&手搓代码&调试反射&Tomcat中间件&Listen监听器&Filter过滤器_ev .dmm | 616.51MB
+- 第113天：JAVA攻防-内存马技术&手搓代码&调试反射&Tomcat中间件&Servlet路由器&Valve管道器_ev .dmm | 373.85MB
+- 第114天：JAVA攻防-内存马技术&手搓代码&SpringMVC框架&Controller控制器&Interceptor拦截器_ev .dmm | 428.66MB
+- 第115天：JAVA攻防-Webshell免杀&JSP&JSPX脚本&远程分离&BCEL字节码&反射类加载&混淆加密_ev .dmm | 486.87MB
+- 第116天：JAVA攻防-Agent技术&JVM字节码&Premain启动加载&Agentmain运行附加&内存马应用_ev .dmm | 331.11MB
+- 第117天：JAVA攻防-Webshell免杀&JSP&JSPX脚本&URL类加载&远程分离&文件包含&工具特征消除_ev .dmm | 478.16MB
+- 第118天：API攻防-接口类型&测试方法&端点提取&暴漏攻击&枚举规则&RESTful风格&GraphQL语法_ev .dmm | 498.74MB
+- 第119天：API攻防-接口类型&GraphQL语法&内省利用查询&安全漏洞联动&端点结果解析&路径枚举_ev .dmm | 394.52MB
+- 第11天：基础入门-算法解密&散列对称非对称&字典碰撞&前后端逆向&MD5&AES&DES&RSA_ev .dmm | 335.67MB
+- 第120天：API攻防-接口类型&SOAP&OpenAPI&导入项目识别&WSDL解析&JSON解析&联动扫描器_ev .dmm | 374.24MB
+- 第121天：API攻防-接口类型&WebSocketAPI&WSS协议抓包&修改并发包&通讯利用&CSWSH伪造_ev .dmm | 484.65MB
+- 第122天：服务攻防-数据库安全&Redis&CouchDB&H2database&配置不当&未授权访问&CVE漏洞_ev .dmm | 428.18MB
+- 第123天：服务攻防-中间件安全&Apache&Tomcat&Jetty&Weblogic&AJP协议&反序列化&CVE漏洞_ev .dmm | 456.75MB
+- 第124天：服务攻防-Java组件安全&Solrs搜索&Shrio鉴权&Log4j日志&JDK高版本绕过&CVE历史漏洞_ev .dmm | 427.49MB
+- 第125天：服务攻防-Java组件安全&数据处理&FastJson&JackSon&XStream&自动BP插件&CVE漏洞_ev .dmm | 488.82MB
+- 第126天：服务攻防-Java组件安全&FastJson&高版本JNDI&不出网C3P0&编码绕WAF&写入文件CI链_ev .dmm | 590.98MB
+- 第127天：服务攻防-开发框架安全&ThinkPHP&Laravel&SpringBoot&Struts2&SpringCloud&复现_ev .dmm | 519.59MB
+- 第128天：服务攻防-处理平台安全&消息队列&ActiveMQ&RocketMQ&Kafka&Spring包&CVE复现_ev .dmm | 466.03MB
+- 第129天：服务攻防-端口协议安全&未授权访问&弱口令枚举&Hydra项目&集成GUI检测&CVE复现_ev .dmm | 387.56MB
+- 第12天：基础入门-HTTP数据包&红蓝队研判&自定义构造&请求方法&请求头修改&状态码判断 .dmm | 353.72MB
+- 第130天：APP攻防-资产收集篇&反代理&反证书&反模拟器&反调试&Msgisk&LSP模块&系统证书_ev .dmm | 458.29MB
+- 第131天：APP攻防-资产收集篇&Frida&Hook&JS技术&综合信息提取&双向证书绕过&云真机使用_ev .dmm | 470.85MB
+- 第132天：APP攻防-逆向工程篇&反编译&加签名&重打包&查脱壳&Smail语法&Activity视图&4组件_ev .dmm | 570.76MB
+- 第133天：APP攻防-逆向工程篇&CE项目&内存扫描&本地存储&数据资源修改&辅助功能&漏洞挖掘_ev .dmm | 349.40MB
+- 第134天：APP攻防-逆向工程篇&动态调试&JEB断点附加&CE通讯搜索&加密算法还原&内存数据修改_ev .dmm | 440.20MB
+- 第135天：APP攻防-逆向工程篇&算法组手&HOOK技术&算法分析&模拟器检测&反ROOT&代理绕过-1_ev .dmm | 267.37MB
+- 第135天：APP攻防-逆向工程篇&算法组手&HOOK技术&算法分析&模拟器检测&反ROOT&代理绕过-2_ev .dmm | 100.88MB
+- 第136天：APP攻防-逆向工程篇&实战某色APP&算法组手&会员绕过&算法分析&资产抓包&渗透测试_ev .dmm | 52.40MB
+- 第137天：APP攻防-逆向工程篇&脱壳技术&加固类别&DEX修复&Frida-dexdump项目&Fundex2插件_ev .dmm | 354.95MB
+- 第138天：漏扫发现-操作系统篇&Windows&Linux&Nessus&Nexpose&本地自检&溢出提权&远程CVE_ev .dmm | 284.73MB
+- 第139天：漏扫发现-Web服务篇&Top10常规&Poc专项&综合资产&Nuclei&Afrog&Awvs&Yakit&Goby_ev .dmm | 372.83MB
+- 第13天：基础入门-网站协议&身份鉴权&OAuth2安全&Token令牌&JWT值&Authirization标头 .dmm | 349.63MB
+- 第140天：漏扫发现-Web服务篇&Poc开发&Nuclei项目&Yaml语法&Burp插件生成&数据匹配&交互提取_ev .dmm | 814.40MB
+- 第141天：漏扫发现-Web服务篇&Poc开发&Yakit插件编写&Afrog项目&Yaml语法&Yak语言&接受匹配_ev .dmm | 373.78MB
+- 第142天：漏扫发现-Web服务篇&Poc开发&Burp插件编写&UI设计融入&Java请求发包&主逻辑依赖包_ev .dmm | 368.44MB
+- 第143天：漏扫发现-插件拓展篇&武装Burp及浏览器&Poc管理&被动漏扫&信息收集&JS提取&综合分析_ev .dmm | 316.04MB
+- 第144天：云上攻防-云服务篇&对象存储&Bucket桶&ACL策略&文件遍历&上传&域名接管&AKSK泄漏_ev .dmm | 617.57MB
+- 第145天：云上攻防-云服务篇&RAM控制&元数据利用&AK&SK&STS利用&ECS弹性计算&RDS数据库_ev .dmm | 572.27MB
+- 第146天：云上攻防-云原生篇&Docker安全&环境检测&容器逃逸&特权模式&Socket挂载&Procfs宿主_ev .dmm | 412.11MB
+- 第147天：云上攻防-云原生篇&Docker安全&容器逃逸&系统内核&版本漏洞&API未授权&一键CDK项目_ev .dmm | 319.30MB
+- 第148天：云上攻防-云原生篇&Docker安全&容器逃逸&系统内核&敏感挂载&etc和log目录&API未授权_ev .dmm | 357.72MB
+- 第149天：云上攻防-云原生篇&Docker安全&Dockfile文件构建制作&不安全的镜像&不安全第三方组件_ev .dmm | 378.52MB
+- 第14天：基础入门-ChatGPT4篇&注册升级&专业接口&结合红蓝队&Ai工具插件&高效赋能需求 .dmm | 311.50MB
+- 第150天：云上攻防-云原生篇&Kubernetes集群&K8s安全&配置不当&APIServer&Kubelet未授权访问_ev .dmm | 638.79MB
+- 第151天：云上攻防-云原生篇&Kubernetes集群&Etcd存储&Dashboard面板&Porxy暴漏&Config泄露_ev .dmm | 373.60MB
+- 第152天：云上攻防-云原生篇&Kubernetes集群&K8s安全&Taint污点横向&Pod绑定部署&实战场景模拟_ev .dmm | 366.63MB
+- 第153天：云上攻防-云产品篇&堡垒机场景&JumpServer&绿盟SAS&Teleport&麒麟&齐治&虚拟化技术_ev .dmm | 248.71MB
+- 第154天：云上攻防-云产品篇&虚拟化场景&VMware技术&ESXI&VCenter集群&内网后渗透&克隆启动_ev .dmm | 305.54MB
+- 第155天：代码审计-PHP专题&原生开发&SQL注入&1day分析构造&正则搜索&语句执行监控&功能定位_ev .dmm | 370.31MB
+- 第156天：代码审计-PHP专题&原生开发&文件上传删除包含&文件操作监控&Zend源码解密&1day分析_ev .dmm | 545.75MB
+- 第157天：代码审计-PHP专题&MVC开发&控制视图&URL路由&文件定位&SQL注入&文件安全&1day分析_ev .dmm | 387.12MB
+- 第158天：代码审计-PHP专题&MVC开发&文件差异对比法&模版引擎&SSTI注入&RCE执行&1day分析_ev .dmm | 335.05MB
+- 第159天：代码审计-PHP专题&MVC开发&原生反序列化&TP框架反序列化&Phar文件利用&1day分析_ev .dmm | 400.46MB
+- 第15天：基础入门-系统命令&终端开发&Shell编程&Bat批处理&文件属性权限&用户及组划分 .dmm | 307.65MB
+- 第160天：代码审计-PHP专题&MVC开发&TP框架&SQL注入&版本漏洞&不安全写法&Phar反序列化_ev .dmm | 355.07MB
+- 第161天：代码审计-PHP专题&MVC开发&TP框架&反序列化&POP链&文件删除&RCE执行&Phar利用_ev .dmm | 341.40MB
+- 第162天：代码审计-PHP专题&MVC开发&TP框架&断点调试&变量覆盖&文件包含&组合拼接&SQL注入_ev .dmm | 383.32MB
+- 第163天：代码审计-PHP专题&PHP原生&变量覆盖&双$使用&extract使用&引发未授权&引发文件包含_ev .dmm | 359.93MB
+- 第164天：代码审计-PHP专题&MVC开发&XSS跨站&功能点输出&存储持续&XML解析&XXE带外注入_ev .dmm | 390.26MB
+- 第165天：代码审计-PHP专题&MVC开发&Yii框架&反序列化&POP利用链&版本历史漏洞&不安全使用_ev .dmm | 444.50MB
+- 第166天：代码审计-PHP专题&MVC开发&Laravel框架&反序列化&POP链&版本历史漏洞&文件安全_ev .dmm | 390.77MB
+- 第167天：代码审计-ASP.NET专题&原生开发&DLL反编译&继承引用架构&SQL注入挖掘&MSSQL监控_ev .dmm | 518.50MB
+- 第168天：代码审计-ASP.NET专题&原生开发&预编译架构&文件操作&操作函数&功能追踪&挖掘分析_ev .dmm | 557.62MB
+- 第169天：代码审计-ASP.NET专题&原生开发&DLL动态调试&应用逆向重打包&未授权访问&鉴权脆弱_ev .dmm | 420.34MB
+- 第16天：信息收集-主机服务器&系统识别&IP资产&反查技术&端口扫描&协议探针&角色定性 .dmm | 303.31MB
+- 第170天：代码审计-JavaEE专题&JDBC拼接&MyBatis查询&Hibernate模型&SQL注入&无预编译语法_ev .dmm | 534.62MB
+- 第171天：代码审计-JavaEE专题&文件安全&上传下载读取写入&操作类方法&功能点追踪&关键字搜索_ev .dmm | 363.57MB
+- 第172天：代码审计-JavaEE专题&鉴权逻辑&身份校验&路径匹配绕过&Filter过滤器&Interceptor拦截器_ev .dmm | 293.86MB
+- 第173天：代码审计-JavaEE专题&鉴权逻辑&身份校验&Shiro组件&版本绕过漏洞&JWT技术&攻击手法_ev .dmm | 335.37MB
+- 第174天：代码审计-JavaEE专题&前端安全&SSTI注入&模版引擎&FreeMarker&Thymeleaf&Velocity等_ev .dmm | 309.81MB
+- 第175天：代码审计-JavaEE专题&第三方组件&引用包&Shiro&FastJson&SnakeYaml&Log4j&H2数据库_ev .dmm | 319.64MB
+- 第176天：代码审计-JavaEE专题&第三方组件&引用包&Swagger&Druid&Actuator&XXL-JOB&监控分布_ev .dmm | 350.37MB
+- 第177天：代码审计-JavaEE专题&其他漏洞&XSS跨站&XXE注入&SSRF请求&功能点追踪&类方法引用_ev .dmm | 358.62MB
+- 第178天：代码审计-JavaEE专题&第三方组件&Log4j2&XStream&反序列化&gadget链&Jndi断点调试_ev .dmm | 380.76MB
+- 第179天：代码审计-JavaEE专题&中间件平台&Weblogic&IIOP&T3协议&XMLDecode解析&反序列化链_ev .dmm | 484.89MB
+- 第17天：信息收集-Web应用&备案产权&Whois反查&域名枚举&DNS记录&证书特征&相似查询 .dmm | 359.68MB
+- 第180天：代码审计-JavaEE专题&中间件平台&Tomcat&原生反序列化&源码升级对比法&gadget链_ev .dmm | 360.95MB
+- 第181天：代码审计-JavaEE专题&重点资产系统&用友NC&原生反序列化&批量反编译搜索&Nday挖掘_ev .dmm | 324.40MB
+- 第182天：代码审计-JavaEE专题&SDL核心&SAST静态&IDEA插件&AI配合MCP协议&SCA工具项目_ev .dmm | 319.46MB
+- 第183天：代码审计-各语言专题&SDL核心&SAST静态&CodeQL利用&IDEA插件&&专项SCA&工具项目_ev .dmm | 398.67MB
+- 第184天：代码审计-各语言专题&SDL核心&IAST交互&DAST动态&IDEA插件&&Agent部署&工具项目_ev .dmm | 216.35MB
+- 第185天：代码审计-从0到1开发AI代码审计系统(上) .dmm | 418.24MB
+- 第186天：代码审计-从0到1开发AI代码审计系统(下) .dmm | 412.27MB
+- 第187天：代码审计-LLM大模型&MCP协议&Cursor开发&Stdio和SSE模式&构建与接入&安全结合 .dmm | 324.13MB
+- 第188天：代码审计-LLM大模型&MCP协议&Cursor开发&Stdio本地调用&构建与接入&安全项目结合 .dmm | 258.20MB
+- 第189天：代码审计-Web3安全&智能合约&区块链&Solidity开发&合约创建&函数接口&接受ETH(上) .dmm | 366.72MB
+- 第18天：信息收集-Web应用&搭建架构&指纹识别&WAF判断&蜜罐排除&开发框架&组件应用 .dmm | 415.08MB
+- 第190天：代码审计-Web3安全&智能合约&区块链&Solidity开发&msg和tx&编码加密&Web3.js(下) .dmm | 407.27MB
+- 第191天：代码审计-Web3安全&智能合约&区块链&Solidity安全&重入攻击&整数溢出&选择器碰撞 .dmm | 352.30MB
+- 第192天：代码审计-Web3安全&智能合约&区块链&Solidity安全&ERC代币&权限&签名&泄露&长度 .dmm | 361.99MB
+- 第193天：代码审计-Web3安全&智能合约&区块链&Solidity安全&ERC721代币&NFT&&重入&钓鱼等 .dmm | 439.19MB
+- 第194天：代码审计-Web3安全&智能合约&区块链&Solidity安全&CTF靶场&链上平台&应急响应&工具 .dmm | 280.83MB
+- 第195天：权限提升-Web应用&脚本类型&宿主机差异&后台系统&数据库管理&相互转移&认知和分类 .dmm | 249.40MB
+- 第196天：权限提升-Windows系统&Web脚本&自主搭建&溢出漏洞&土豆家族&通杀全系&Server版本 .dmm | 321.17MB
+- 第197天：权限提升-Windows系统&Web脚本&集成软件&环境系统&溢出漏洞&C2插件化&Server版本 .dmm | 274.50MB
+- 第198天：权限提升-Windows系统&Web脚本&数据库类型&MYSQL&MSSQL&ORACLE&自动化项目 .dmm | 277.63MB
+- 第199天：权限提升-Windows系统&Web脚本&数据库类型&Redis&PostgreSQL&第三方应用&密钥文件 .dmm | 226.59MB
+- 第19天：信息收集-Web应用&源码获取&闭源备份开发泄漏&WebPack打包&资源搜索&ICO定位 .dmm | 394.67MB
+- 第1天：基础入门-Web应用&架构搭建&域名源码&站库分离&MVC模型&解析受限&对应路径 .dmm | 384.59MB
+- 第200天：权限提升-Windows系统&计算机用户&进程注入&令牌窃取&服务启动&远程管理&降权通讯 .dmm | 211.80MB
+- 第201天：权限提升-Windows系统&计算机用户&DLL劫持&UAC绕过&未引号路径&不安全服务权限 .dmm | 390.31MB
+- 第202天：权限提升-Linux系统&内核溢出&检测脚本&Dcow&Pwnkit&Dirty&CVE漏洞&Vulnhub靶场 .dmm | 333.59MB
+- 第203天：权限提升-Linux系统&SUID所有者&GUID用户组&SUDO指令&SUDO版本&Vulnhub靶场 .dmm | 434.10MB
+- 第204天：权限提升-Linux系统&NFS服务配合SUID&Crontab计时任务&PATH环境变量&Vulnhub靶场 .dmm | 281.43MB
+- 第205天：权限提升-Linux系统&Capability能力&LD_Preload特权加载&第三方数据库&Vulhub靶场_ev .dmm | 166.21MB
+- 第206天：权限提升-Linux系统&虚拟化&LXD&Docker&容器逃逸&rbash绕过&历史泄露&Vulhub靶场_ev .dmm | 178.03MB
+- 第207天：权限提升-Linux系统&虚拟化&Docker容器&逃逸后提升&写密钥&计时任务&破密文&CVE漏洞_ev .dmm | 147.72MB
+- 第208天：权限提升-Windows系统&AD内网域控&NetLogon&ADCS&NTML&PAC&KDC&CVE漏洞_ev .dmm | 217.17MB
+- 第209天：免杀对抗-WebShell篇&静态代码&调用拦截&流量特征&加密混淆&脚本加载执行&Profile头部_ev .dmm | 171.17MB
+- 第20天：信息收集-Web应用&JS架构&URL提取&数据匹配&Fuzz接口&WebPack分析&自动化 .dmm | 508.11MB
+- 第210天：免杀对抗-WebShell篇&静态代码&内存执行&分离加载&加密混淆&AI二改特征&版权防逆向_ev .dmm | 170.61MB
+- 第211天：免杀对抗-WebShell篇&JSP脚本&反射调用&远程类加载&BCEL字节码&特性编码&加密混淆_ev .dmm | 262.61MB
+- 第212天：免杀对抗-WebShell篇&二改魔改&冰蝎4.X&打乱流量特征&新增加密协议&新增菜单功能(上)_ev .dmm | 240.52MB
+- 第213天：免杀对抗-WebShell篇&二改魔改&冰蝎4.X&UI添加修改&新增免杀生成&代码BUG修复(下)_ev .dmm | 144.06MB
+- 第214天：免杀对抗-WebShell篇&二改魔改&哥斯拉4.X&打乱流量特征&生成bin替换&新增通讯协议(上)_ev .dmm | 168.46MB
+- 第215天：免杀对抗-WebShell篇&二改魔改&哥斯拉4.X&混淆前后数据&动态通讯Key&新增功能插件(下)_ev .dmm | 279.51MB
+- 第216天：免杀对抗-C2项目篇&CS&VShell&RShell&Adaptix使用&ShellCode分析&通讯特征&加载模式_ev .dmm | 238.62MB
+- 第217天：免杀对抗-C2项目篇&CS&ShellCode混淆&静态特征&XOR&AES&DES&自定义算法&沙箱情报_ev .dmm | 317.14MB
+- 第218天：免杀对抗-C2项目篇&Adaptix&ShellCode数据分离&File提取&Http协议&Argv参数&Sock管道_ev .dmm | 238.12MB
+- 第219天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&反云沙箱分析&抗虚拟运行&绕过微步X60动态_ev .dmm | 276.46MB
+- 第21天：信息收集-Web应用&CDN绕过&加速部署&漏洞回链&全网扫描&反向邮件&解析记录 .dmm | 422.73MB
+- 第220天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&反调试插桩分析&抗虚拟运行&绕过微步行为动态_ev .dmm | 223.53MB
+- 第221天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&InlineHook&动态API&回调加载&隐藏导入表_ev .dmm | 220.25MB
+- 第222天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&进程操作&傀儡镂空&早鸟APC注入&映射共享_ev .dmm | 204.14MB
+- 第223天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&DLL操作&白加黑&PE映射&反射注入&镂空劫持_ev .dmm | 209.51MB
+- 第224天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&DLL操作&白加黑挖掘&签名程序链&代理侧加载_ev .dmm | 312.70MB
+- 第225天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&DLL操作&白加黑挖掘&签名程序链&单程序加载_ev .dmm | 152.29MB
+- 第226天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&HOOK操作&用户内核态&SYSCALL&IAT&VEH_ev .dmm | 220.39MB
+- 第227天：免杀对抗-C2项目篇&Adaptix&Windows内置&AMSI接口&ETW记录&Bypass绕过&后渗透溯源_ev .dmm | 306.24MB
+- 第228天：免杀对抗-C2项目篇&CobaltStrike&PowerShell&混淆变形&分离无文件&内存执行&绕过AMSI_ev .dmm | 282.02MB
+- 第229天：免杀对抗-C2项目篇&Adaptix&Go加载&混淆分离&NT函数HOOK&分块内存&反沙箱反调试_ev .dmm | 178.14MB
+- 第22天：信息收集-Web应用&各语言框架&安全组件&联动系统&数据特征&人工分析&识别项目 .dmm | 412.59MB
+- 第23天：信息收集-APP应用&产权渠道&服务资产&通讯抓包&静态提取&动态调试&测试范围 .dmm | 374.76MB
+- 第24天：信息收集-小程序应用&逆向反编译&外在抓包&动态调试&自动化提取&主包分包源码 .dmm | 356.12MB
+- 第25天：信息收集-项目系统&一键打点&资产侦察&企查产权&空间引擎&风险监测&利器部署 .dmm | 440.98MB
+- 第26天：信息收集-公众号资产&供应链回溯&Github泄漏&多渠道泄漏&资产监控&引擎语法 .dmm | 377.35MB
+- 第27天：Web开发-PHP应用&原生语法&全局变量&数据接受&身份验证&变量覆盖&任意上传 .dmm | 370.44MB
+- 第28天：Web开发-PHP应用&Cookie脆弱&Session固定&Token唯一&身份验证&数据库通讯_ev .dmm | 409.70MB
+- 第29天：Web开发-PHP应用&弱类型脆弱&Hash加密&Bool类型&Array数组&函数转换比较_ev .dmm | 270.72MB
+- 第2天：基础入门-Web应用&架构类别&源码类别&镜像容器&建站模版&编译封装&前后端分离 .dmm | 488.14MB
+- 第30天：Web开发-PHP应用&组件框架&前端模版渲染&三方插件&富文本编辑器&CVE审计_ev .dmm | 421.87MB
+- 第31天：Web开发-PHP应用&TP框架&MVC模型&路由访问&模版渲染&安全写法&版本漏洞_ev .dmm | 356.78MB
+- 第32天：Web开发-PHP应用&文件操作安全&上传下载&任意读取删除&目录遍历&文件包含_ev .dmm | 306.12MB
+- 第33天：Web开发-PHP应用&代码执行&命令注入&RCE安全&数据解析&引发函数&CVE审计_ev .dmm | 353.58MB
+- 第34天：Web开发-PHP应用&鉴别修复&AI算法&流量检测&PHP.INI&通用过滤&内置函数_ev .dmm | 504.14MB
+- 第35天：Web开发-JS应用&原生代码&Ajax技术&JQuery库&Axios库&前端校验&安全结合_ev .dmm | 316.34MB
+- 第36天：Web开发-JS应用&原生代码&BOM浏览器对象&DOM文档树&XSS重定向&安全实例_ev .dmm | 277.68MB
+- 第37天：Web开发-JS应用&原生代码&前端数据加密&CryptoJS库&代码混淆&Obfuscator库_ev .dmm | 320.24MB
+- 第38天：Web开发-JS应用&NodeJS&原型链污染&文件系统&Express模块&数据库通讯&审计_ev .dmm | 392.86MB
+- 第39天：Web开发-JS应用&WebPack构建&打包Mode&映射DevTool&源码泄漏&识别还原_ev .dmm | 217.65MB
+- 第3天：基础入门-Web应用&OSS存储&负载均衡&CDN加速&反向代理&WAF防护&部署影响 .dmm | 373.43MB
+- 第40天：Web开发-JS应用&VueJS框架&Vite构建&启动打包&渲染XSS&源码泄露&代码审计_ev .dmm | 283.58MB
+- 第41天：Web开发-JS应用&微信小程序&源码架构&编译预览&逆向调试&嵌套资产&代码审计_ev .dmm | 406.30MB
+- 第42天：Web开发-JavaEE应用&Servlet技术&路由配置&生命周期&过滤器Filter&监听器Listen_ev .dmm | 336.35MB
+- 第43天：Web开发-JavaEE应用&ORM框架&SQL预编译&JDBC&MyBatis&Hibernate&Maven_ev .dmm | 647.68MB
+- 第44天：Web开发-JavaEE应用&反射机制&类加载器&利用链&成员变量&构造方法&抽象方法_ev .dmm | 477.91MB
+- 第45天：Web开发-JavaEE应用&动态接口代理&原生反序列化&危险Invoke&重写方法&利用链_ev .dmm | 369.70MB
+- 第46天：Web开发-JavaEE应用&原生和FastJson反序列化&URLDNS链&JDBC链&Gadget手搓_ev .dmm | 475.01MB
+- 第47天：Web开发-JavaEE应用&JNDI注入&RMI服务&LDAP服务&DNS服务&高版本限制绕过_ev .dmm | 378.28MB
+- 第48天：Web开发-JavaEE应用&依赖包&Log4j日志&Shiro验证&FastJson数据&XStream格式_ev .dmm | 541.57MB
+- 第49天：Web开发-JavaEE应用&SpringBoot栈&模版注入&Thymeleaf&Freemarker&Velocity_ev .dmm | 532.80MB
+- 第4天：基础入门-Web应用&蜜罐系统&堡垒机运维&API内外接口&第三方拓展架构&部署影响 .dmm | 284.88MB
+- 第50天：Web开发-JavaEE应用&SpringBoot栈&Actuator&Swagger&HeapDump&提取自动化_ev .dmm | 567.30MB
+- 第51天：Web开发-JavaEE应用&SpringBoot栈&身份验证&JWT令牌&Security鉴权&安全绕过_ev .dmm | 396.53MB
+- 第52天：Web开发-JavaEE应用&SpringBoot栈&SnakeYaml反序列化链&JAR&WAR&构建打包_ev .dmm | 373.86MB
+- 第53天：Web攻防-SQL注入&数据库类型&用户权限&架构分层&符号干扰&利用过程&发现思路_ev .dmm | 249.60MB
+- 第53天：Web开发-Python应用&Flask框架&Jinja模版&绑定路由&参数传递&页面解析&SSTI注入_ev .dmm | 382.05MB
+- 第54天：Web攻防-SQL注入&数据类型&参数格式&JSON&XML&编码加密&符号闭合&复盘报告_ev .dmm | 348.87MB
+- 第55天：Web攻防-SQL注入&增删改查&HTTP头&UA&XFF&Referer&Cookie&无回显报错&复盘_ev .dmm | 364.30MB
+- 第56天：Web攻防-SQL注入&增删改查&盲注&延时&布尔&报错&有无回显&错误处理&审计复盘_ev .dmm | 420.46MB
+- 第57天：Web攻防-SQL注入&高权限判定&跨库查询&文件读写&DNS带外&SecurePriv开关绕过_ev .dmm | 372.66MB
+- 第58天：Web攻防-SQL注入&二次攻击&堆叠执行&SQLMAP&Tamper编写&指纹修改&分析调试_ev .dmm | 599.33MB
+- 第59天：Web攻防-XSS跨站&反射型&存储型&DOM型&接受输出&JS执行&标签操作&SRC复盘_ev .dmm | 312.84MB
+- 第5天：基础入门-APP应用&微信小程序&原生态开发&H5+Vue技术&封装打包&反编译抓包点 .dmm | 320.31MB
+- 第60天：Web攻防-XSS跨站&文件类型&功能逻辑&SVG&PDF&SWF&PMessage&LocalStorage_ev .dmm | 446.20MB
+- 第61天：Web攻防-XSS跨站&浏览器UXSS&突变MXSS&Vue&React框架&JQuery库&写法和版本_ev .dmm | 479.59MB
+- 第62天：Web攻防-XSS跨站&Cookie盗取&数据包提交&网络钓鱼&BEEF项目&XSS平台&危害利用_ev .dmm | 434.49MB
+- 第63天：Web攻防-XSS跨站&CSP策略&HttpOnly属性&Filter代码&符号标签&AI绕过&工具项目_ev .dmm | 397.13MB
+- 第64天：Web攻防-CSRF跨站请求伪造&Referer同源&Token校验&复用删除置空&联动上传或XSS_ev .dmm | 405.36MB
+- 第65天：Web攻防-SSRF服务端伪造&伪协议利玩法&域名及IP绕过&无回显利用&挖掘点&SRC复盘 .dmm | 587.38MB
+- 第66天：Web攻防-SSRF服务端伪造&功能逻辑&SRC实践复盘&参数盲测&自动化检测&流量插件 .dmm | 311.24MB
+- 第67天：Web攻防-文件上传&黑白名单&MIME&JS泄露&执行权限&编码解析&OSS存储&分域名 .dmm | 608.80MB
+- 第68天：Web攻防-文件上传&条件竞争&JS泄露&开源审计漏洞&编辑器安全&思维体系&SRC复盘 .dmm | 448.87MB
+- 第69天：Web攻防-文件包含&LFI&RFI&伪协议条件&编码算法&无文件利用&JAVA应用&SRC复盘 .dmm | 504.22MB
+- 第6天：基础入门-抓包技术&HTTPS协议&APP&小程序&PC应用&Web&证书信任&转发联动_ev .dmm | 351.06MB
+- 第70天：Web攻防-任意文件下载&文件读取&文件删除&索引泄露&目录遍历&路径穿越&SRC复盘 .dmm | 419.82MB
+- 第71天：Web攻防-XML&XXE&无回显带外&SSRF元数据&DTD实体&OOB盲注&文件拓展&复盘 .dmm | 459.50MB
+- 第72天：Web攻防-XML&XXE&上传解析&文件预览&接口服务&白盒审计&应用功能&SRC复盘 .dmm | 454.16MB
+- 第73天：Web攻防-RCE&代码执行&命令执行&无回显方案&语言表达式&黑盒功能点&白盒方法名 .dmm | 374.73MB
+- 第74天：Web攻防-SSTI服务端&模版注入&利用分类&语言引擎&数据渲染&项目工具&挖掘思路 .dmm | 430.58MB
+- 第75天：Web攻防-PHP反序列化&魔术方法&触发条件&POP链构造&变量属性修改&黑白盒角度 .dmm | 433.19MB
+- 第76天：Web攻防-PHP反序列化&原生内置&Exception类&SoapClient类&SimpleXMLElement .dmm | 464.18MB
+- 第77天：Web攻防-PHP反序列化&字符逃逸&增多减少&成员变量属性&解析不敏感&Wakeup绕过 .dmm | 430.36MB
+- 第78天：Web攻防-PHP反序列化&Phar文件类&CLI框架类&PHPGGC生成器&TP&Yii&Laravel .dmm | 561.49MB
+- 第79天：Web攻防-访问控制篇&水平越权&垂直越权&未授权访问&级别架构&项目插件&SRC复盘 .dmm | 487.63MB
+- 第7天：基础入门-抓包技术&全局协议&扶墙双层&多项目联动&网卡模式&检验绕过&移动应用_ev .dmm | 378.89MB
+- 第80天：Web攻防-身份验证篇&JWT令牌&空密钥&未签名&密钥爆破&JWK&JWU&KID&算法替换 .dmm | 683.95MB
+- 第81天：Web攻防-身份验证篇&OAuth认证&授权分类及参数&重定向接管&State缺陷&Scope篡改 .dmm | 593.34MB
+- 第82天：Web攻防-业务逻辑篇&密码找回&重定向目标&响应包检验&流程跳过&回显泄露&验证枚举 .dmm | 393.23MB
+- 第83天：Web攻防-业务逻辑篇&购买支付&篡改属性值&算法溢出&签约并发&四舍五入法&订单对冲 .dmm | 341.07MB
+- 第84天：Web攻防-业务逻辑篇&短信验证码&劫持爆破回显&图片验证码&识别复用绕过&接口滥用 .dmm | 439.46MB
+- 第85天：Web攻防-业务逻辑篇&Fuzz技术&数据并发&条件竞争&JS挖掘&参数盲猜&Turbo插件&复盘 .dmm | 480.74MB
+- 第86天：Web攻防-业务逻辑篇&APP隐私合规&资源处理&违规收集&拒绝服务&在线检测&项目工具 .dmm | 423.64MB
+- 第87天：Web攻防-大模型应用&LLM安全&提示词注入&不安全输出&代码注入&直接间接&数据投毒 .dmm | 207.98MB
+- 第88天：Web攻防-大模型应用&LLM搭建&接入第三方&内容喂养&AI插件&安全WiKI库&技术赋能 .dmm | 451.57MB
+- 第89天：JS逆向-开发者工具&网络请求筛选&调用堆栈链&断点调试方法&数据作用域&控制台分析 .dmm | 425.38MB
+- 第8天：基础入门-数据不回显&数据不出网&出入站策略&正反向连接&反弹Shell&外带延迟写入_ev .dmm | 365.05MB
+- 第90天：JS逆向-反调试绕过&事件检测&无限Debug&篡改猴Hook&替换指向&匹配修改&条件断点 .dmm | 518.43MB
+- 第91天：JS逆向-HOOK钩子&脚本开发&注入逻辑&油管猴配置&绕过Debug&定时循环&构造函数 .dmm | 378.75MB
+- 第92天：JS逆向-加密数据&算法解密&提交返回还原&扣代码调用&替换库模拟&堆栈定位&特征搜索 .dmm | 596.89MB
+- 第93天：JS逆向-Sign签名&绕过技术&算法可逆&替换库模拟发包&堆栈定位&特征搜索&安全影响 .dmm | 444.53MB
+- 第94天：JS逆向-代码混淆&EVAL执行&OB算法&AA和JJ&特征识别&解密还原&美化输出&自动项目 .dmm | 761.16MB
+- 第95天：JS逆向-代码混淆&AST技术&抽象语法树&Obfuscator混淆&还原接口&数据节点&AI生成 .dmm | 503.62MB
+- 第96天：JS逆向-WX小程序&反编译解包&HOOK注入点&在线调试&断点分析&算法还原&特定版本 .dmm | 395.23MB
+- 第97天：JS逆向-安全辅助项目&JSRpc远程调用&Burp插件autoDecode&浏览器拓展V_Jstools(上) .dmm | 548.25MB
+- 第98天：JS逆向-安全辅助项目&接口联动&JSRpc进阶调用&BP插件autoDecode&JsEncrypter(下)_ev .dmm | 560.67MB
+- 第99天：JS逆向-安全辅助项目&Yakit热加载&魔术方法&模版插件语法&JSRpc进阶调用&接口联动_ev .dmm | 501.22MB
+- 第9天：基础入门-反弹Shell&渗透命令&Reverse反向&Bind正向&利用语言&文件下载&多姿势_ev .dmm | 350.10MB
+
+### 第 4 阶段: a.25新款文档（持续更新中）
+
+- [doc] 第100天：JAVA攻防-常规漏洞&SQL注入四类型&XXE引用点&RCE原生&框架URL跳转&URL处理类.7z | 464.19KB
+- [doc] 第101天：JAVA攻防-专题漏洞&SPEL表达式&SSTI模版&Swagger接口&Actuator泄露&Spring特检.7z | 466.00KB
+- [doc] 第102天：JAVA攻防-专题漏洞&反序列化&原生类引用&三方组件&JNDI注入&版本限制&审计Sink.7z | 937.83KB
+- [doc] 第103天：JAVA攻防-反序列化利用&JNDI注入&高版本绕过&依赖Jar包&gadge包链&自动Bypass.7z | 1.12MB
+- [doc] 第104天：JAVA攻防-FastJson专题&各版本Gadget链&autoType开关&黑名单&依赖包&本地代码.7z | 1.28MB
+- [doc] 第105天：JAVA攻防-FastJson专题&面试不出网利用&BCEL字节码&C3P0二次&Impl链&延时判断.7z | 1.28MB
+- [doc] 第106天：JAVA攻防-Shiro专题&断点调试&有key利用链&URL&CC&CB&原生反序列化&加密逻辑.7z | 1.28MB
+- [doc] 第107天：JAVA攻防-Shiro专题&key利用链&CC&CB1链分析&入口点&调用链&执行地&Class加载.7z | 1.46MB
+- [doc] 第108天：JAVA攻防-Shiro专题&有key无利用链&JRMP协议&CC1&CB1链分析&Transform执行链.7z | 1.46MB
+- [doc] 第109天：JAVA攻防-Ys项目Gadget链分析&CC1&CC2&CC4&CC5&CC7&入口点改动&触发点改动.7z | 1.88MB
+- [doc] 第10天：基础入门-传输加密&数据格式&编码算法&密文存储&代码混淆&逆向保护&安全影响.7z | 67.84KB
+- [doc] 第110天：JAVA攻防-手搓代码&Gadget链细节分析&反射调用&类传入&成员变量&CC2&CC4&CC5.7z | 1.88MB
+- [doc] 第111天：JAVA攻防-内存马技术&中间型&框架型&Shell上植入&平台生成&无文件逃离&防查杀检测.7z | 3.54MB
+- [doc] 第112天：JAVA攻防-内存马技术&手搓代码&调试反射&Tomcat中间件&Listen监听器&Filter过滤器.7z | 2.20MB
+- [doc] 第113天：JAVA攻防-内存马技术&手搓代码&调试反射&Tomcat中间件&Servlet路由器&Valve管道器.7z | 2.20MB
+- [doc] 第114天：JAVA攻防-内存马技术&手搓代码&SpringMVC框架&Controller控制器&Interceptor拦截器.7z | 2.20MB
+- [doc] 第115天：JAVA攻防-Webshell免杀&JSP&JSPX脚本&远程分离&BCEL字节码&反射类加载&混淆加密.7z | 2.20MB
+- [doc] 第116天：JAVA攻防-Agent技术&JVM字节码&Premain启动加载&Agentmain运行附加&内存马应用.7z | 2.20MB
+- [doc] 第117天：JAVA攻防-Webshell免杀&JSP&JSPX脚本&URL类加载&远程分离&文件包含&工具特征消除.7z | 2.20MB
+- [doc] 第118天：API攻防-接口类型&测试方法&端点提取&暴漏攻击&枚举规则&RESTful风格&GraphQL语法.7z | 367.52KB
+- [doc] 第119天：API攻防-接口类型&GraphQL语法&内省利用查询&安全漏洞联动&端点结果解析&路径枚举.7z | 369.59KB
+- [doc] 第11天：基础入门-算法解密&散列对称非对称&字典碰撞&前后端逆向&MD5&AES&DES&RSA.7z | 618.50KB
+- [doc] 第120天：API攻防-接口类型&SOAP&OpenAPI&导入项目识别&WSDL解析&JSON解析&联动扫描器.7z | 371.00KB
+- [doc] 第121天：API攻防-接口类型&WebSocketAPI&WSS协议抓包&修改并发包&通讯利用&CSWSH伪造.7z | 559.42KB
+- [doc] 第122天：服务攻防-数据库安全&Redis&CouchDB&H2database&配置不当&未授权访问&CVE漏洞.7z | 353.14KB
+- [doc] 第123天：服务攻防-中间件安全&Apache&Tomcat&Jetty&Weblogic&AJP协议&反序列化&CVE漏洞.7z | 355.36KB
+- [doc] 第124天：服务攻防-Java组件安全&Solrs搜索&Shrio鉴权&Log4j日志&JDK高版本绕过&CVE历史漏洞.7z | 358.88KB
+- [doc] 第125天：服务攻防-Java组件安全&数据处理&FastJson&JackSon&XStream&自动BP插件&CVE漏洞.7z | 362.05KB
+- [doc] 第126天：服务攻防-Java组件安全&FastJson&高版本JNDI&不出网C3P0&编码绕WAF&写入文件CI链.7z | 364.36KB
+- [doc] 第127天：服务攻防-开发框架安全&ThinkPHP&Laravel&SpringBoot&Struts2&SpringCloud&复现.7z | 368.61KB
+- [doc] 第128天：服务攻防-处理平台安全&消息队列&ActiveMQ&RocketMQ&Kafka&Spring包&CVE复现.7z | 465.98KB
+- [doc] 第129天：服务攻防-端口协议安全&未授权访问&弱口令枚举&Hydra项目&集成GUI检测&CVE复现.7z | 648.33KB
+- [doc] 第12天：基础入门-HTTP数据包&红蓝队研判&自定义构造&请求方法&请求头修改&状态码判断.7z | 615.19KB
+- [doc] 第130天：APP攻防-资产收集篇&反代理&反证书&反模拟器&反调试&Msgisk&LSP模块&系统证书.7z | 2.44MB
+- [doc] 第131天：APP攻防-资产收集篇&Frida&Hook&JS技术&综合信息提取&双向证书绕过&云真机使用.7z | 2.44MB
+- [doc] 第132天：APP攻防-逆向工程篇&反编译&加签名&重打包&查脱壳&Smail语法&Activity视图&4组件.7z | 389.59KB
+- [doc] 第133天：APP攻防-逆向工程篇&CE项目&内存扫描&本地存储&数据资源修改&辅助功能&漏洞挖掘.7z | 390.03KB
+- [doc] 第134天：APP攻防-逆向工程篇&动态调试&JEB断点附加&CE通讯搜索&加密算法还原&内存数据修改.7z | 391.17KB
+- [doc] 第135天：APP攻防-逆向工程篇&算法组手&HOOK技术&算法分析&模拟器检测&反ROOT&代理绕过.7z | 391.78KB
+- [doc] 第136天：APP攻防-逆向工程篇&实战某色APP&算法组手&会员绕过&算法分析&资产抓包&渗透测试.7z | 393.83KB
+- [doc] 第137天：APP攻防-逆向工程篇&脱壳技术&DEX修复&存储安全&Frida-dexdump项目&Fundex2插件.7z | 395.67KB
+- [doc] 第138天：漏扫发现-操作系统篇&Windows&Linux&Nessus&Nexpose&本地自检&溢出提权&远程CVE.7z | 607.31KB
+- [doc] 第139天：漏扫发现-Web服务篇&Top10常规&Poc专项&综合资产&Nuclei&Afrog&Awvs&Yakit&Goby.7z | 347.42KB
+- [doc] 第13天：基础入门-网站协议&身份鉴权&OAuth2安全&Token令牌&JWT值&Authirization标头.7z | 1.33MB
+- [doc] 第140天：漏扫发现-Web服务篇&Poc开发&Nuclei项目&Yaml语法&Burp插件生成&数据匹配&交互提取.7z | 349.52KB
+- [doc] 第141天：漏扫发现-Web服务篇&Poc开发&Yakit插件编写&Afrog项目&Yaml语法&Yak语言&接受匹配.7z | 350.39KB
+- [doc] 第142天：漏扫发现-Web服务篇&Poc开发&Burp插件编写&UI设计融入&Java请求发包&主逻辑依赖包.7z | 351.48KB
+- [doc] 第143天：漏扫发现-插件拓展篇&武装Burp及浏览器&Poc管理&被动漏扫&信息收集&JS提取&综合分析.7z | 352.14KB
+- [doc] 第144-1天：云服务对象存储攻防挖掘案例.7z | 1.06MB
+- [doc] 第144天：云上攻防-云服务篇&对象存储&Bucket桶&ACL策略&文件遍历&上传&域名接管&AKSK泄漏.7z | 141.08KB
+- [doc] 第145-1天：云上攻防-如何利用SSRF直接打穿云上内网.7z | 5.90MB
+- [doc] 第145天：云上攻防-云服务篇&RAM控制&元数据利用&AK&SK&STS利用&ECS弹性计算&RDS数据库.7z | 142.80KB
+- [doc] 第146天：云上攻防-云原生篇&Docker安全&环境检测&容器逃逸&特权模式&Socket挂载&Procfs宿主.7z | 491.36KB
+- [doc] 第147天：云上攻防-云原生篇&Docker安全&容器逃逸&系统内核&版本漏洞&API未授权&一键CDK项目.7z | 493.98KB
+- [doc] 第148天：云上攻防-云原生篇&Docker安全&容器逃逸&系统内核&敏感挂载&etc和log目录&API未授权.7z | 495.17KB
+- [doc] 第149天：云上攻防-云原生篇&Docker安全&Dockfile文件构建制作&不安全的镜像&不安全第三方组件.7z | 496.30KB
+- [doc] 第14天：笔记备份压缩文件.7z | 9.08KB
+- [doc] 第150天：云上攻防-云原生篇&Kubernetes集群&K8s安全&配置不当&APIServer&Kubelet未授权访问.7z | 543.58KB
+- [doc] 第151天：云上攻防-云原生篇&Kubernetes集群&Etcd存储&Dashboard面板&Porxy暴漏&Config泄露.7z | 547.34KB
+- [doc] 第152天：云上攻防-云原生篇&Kubernetes集群&K8s安全&Taint污点横向&Pod绑定部署&实战场景模拟.7z | 549.94KB
+- [doc] 第153天：云上攻防-云产品篇&堡垒机场景&JumpServer&绿盟SAS&Teleport&麒麟&齐治&虚拟化技术.7z | 551.95KB
+- [doc] 第154天：云上攻防-云产品篇&虚拟化场景&VMware技术&ESXI&VCenter集群&内网后渗透&克隆启动.7z | 541.72KB
+- [doc] 第155天：代码审计-PHP专题&原生开发&SQL注入&1day分析构造&正则搜索&语句执行监控&功能定位.7z | 643.52KB
+- [doc] 第156天：代码审计-PHP专题&原生开发&文件上传删除包含&文件操作监控&Zend源码解密&1day分析.7z | 664.91KB
+- [doc] 第157天：代码审计-PHP专题&MVC开发&控制视图&URL路由&文件定位&SQL注入&文件安全&1day分析.7z | 665.25KB
+- [doc] 第158天：代码审计-PHP专题&MVC开发&文件差异对比法&模版引擎&SSTI注入&RCE执行&1day分析.7z | 665.86KB
+- [doc] 第159天：代码审计-PHP专题&MVC开发&原生反序列化&TP框架反序列化&Phar文件利用&1day分析.7z | 668.23KB
+- [doc] 第15天：基础入门-系统命令&终端开发&Shell编程&Bat批处理&文件属性权限&用户及组划分.7z | 71.14KB
+- [doc] 第160天：代码审计-PHP专题&MVC开发&TP框架&SQL注入&版本漏洞&不安全写法&Phar反序列化.7z | 669.02KB
+- [doc] 第161天：代码审计-PHP专题&MVC开发&TP框架&反序列化&POP链&文件删除&RCE执行&Phar利用.7z | 970.50KB
+- [doc] 第162天：代码审计-PHP专题&MVC开发&TP框架&断点调试&变量覆盖&文件包含&组合拼接&SQL注入.7z | 814.98KB
+- [doc] 第163天：代码审计-PHP专题&PHP原生&变量覆盖&双$使用&extract使用&引发未授权&引发文件包含.7z | 666.92KB
+- [doc] 第164天：代码审计-PHP专题&MVC开发&XSS跨站&功能点输出&存储持续&XML解析&XXE带外注入.7z | 667.63KB
+- [doc] 第165天：代码审计-PHP专题&MVC开发&Yii框架&反序列化&POP利用链&版本历史漏洞&不安全使用_20260101_190750.7z | 667.44KB
+- [doc] 第165天：代码审计-PHP专题&MVC开发&Yii框架&反序列化&POP利用链&版本历史漏洞&不安全使用.7z | 667.38KB
+- [doc] 第166天：代码审计-PHP专题&MVC开发&Laravel框架&反序列化&POP链&版本历史漏洞&文件安全.7z | 667.45KB
+- [doc] 第167天：代码审计-ASP.NET专题&原生开发&DLL反编译&继承引用架构&SQL注入挖掘&MSSQL监控.7z | 640.55KB
+- [doc] 第168天：代码审计-ASP.NET专题&原生开发&预编译架构&文件操作&操作函数&功能追踪&挖掘分析.7z | 788.81KB
+- [doc] 第169天：代码审计-ASP.NET专题&原生开发&DLL动态调试&应用逆向重打包&未授权访问&鉴权脆弱.7z | 790.69KB
+- [doc] 第16天：信息收集-主机服务器&系统识别&IP资产&反查技术&端口扫描&协议探针&角色定性.7z | 367.94KB
+- [doc] 第170天：代码审计-JavaEE专题&JDBC拼接&MyBatis查询&Hibernate模型&SQL注入&无预编译语法.7z | 785.84KB
+- [doc] 第171天：代码审计-JavaEE专题&文件安全&上传下载读取写入&操作类方法&功能点追踪&关键字搜索.7z | 786.58KB
+- [doc] 第172天：代码审计-JavaEE专题&鉴权逻辑&身份校验&路径匹配绕过&Filter过滤器&Interceptor拦截器.7z | 790.03KB
+- [doc] 第173天：代码审计-JavaEE专题&鉴权逻辑&身份校验&Shiro组件&版本绕过漏洞&JWT技术&攻击手法.7z | 841.44KB
+- [doc] 第174天：代码审计-JavaEE专题&前端安全&SSTI注入&模版引擎&FreeMarker&Thymeleaf&Velocity等.7z | 1.02MB
+- [doc] 第175天：代码审计-JavaEE专题&第三方组件&引用包&Shiro&FastJson&SnakeYaml&Log4j&H2数据库.7z | 1.03MB
+- [doc] 第176天：代码审计-JavaEE专题&第三方组件&引用包&Swagger&Druid&Actuator&XXL-JOB&监控分布.7z | 1.03MB
+- [doc] 第177天：代码审计-JavaEE专题&其他漏洞&XSS跨站&XXE注入&SSRF请求&功能点追踪&类方法引用.7z | 1.03MB
+- [doc] 第178天：代码审计-JavaEE专题&第三方组件&Log4j2&XStream&反序列化&gadget链&Jndi断点调试.7z | 1.03MB
+- [doc] 第179天：代码审计-JavaEE专题&中间件平台&Weblogic&IIOP&T3协议&XMLDecode解析&反序列化链.7z | 1.54MB
+- [doc] 第17天：信息收集-Web应用&备案产权&Whois反查&域名枚举&DNS记录&证书特征&相似查询.7z | 136.03KB
+- [doc] 第180天：代码审计-JavaEE专题&中间件平台&Tomcat&原生反序列化&源码升级对比法&gadget链.7z | 1.54MB
+- [doc] 第181天：代码审计-JavaEE专题&重点资产系统&用友NC&原生反序列化&批量反编译搜索&Nday挖掘.7z | 1.54MB
+- [doc] 第182天：代码审计-JavaEE专题&SDL核心&SAST静态&IDEA插件&AI配合MCP协议&SCA工具项目.7z | 598.50KB
+- [doc] 第183天：代码审计-各语言专题&SDL核心&SAST静态&CodeQL利用&IDEA插件&&专项SCA&工具项目.7z | 600.05KB
+- [doc] 第184天：代码审计-各语言专题&SDL核心&IAST交互&DAST动态&IDEA插件&&Agent部署&工具项目.7z | 600.56KB
+- [doc] 第185天：代码审计-从0到1开发AI代码审计系统(上).7z | 713.55KB
+- [doc] 第186天：代码审计-从0到1开发AI代码审计系统(下).7z | 715.16KB
+- [doc] 第187天：代码审计-LLM大模型&MCP协议&Cursor开发&Stdio和SSE模式&构建与接入&安全结合.7z | 1.43MB
+- [doc] 第188天：代码审计-LLM大模型&MCP协议&Cursor开发&Stdio本地调用&构建与接入&安全项目结合.7z | 1.43MB
+- [doc] 第189天：代码审计-Web3安全&智能合约&区块链&Solidity开发&合约创建&函数接口&接受ETH(上).7z | 609.78KB
+- [doc] 第18天：信息收集-Web应用&搭建架构&指纹识别&WAF判断&蜜罐排除&开发框架&组件应用.7z | 996.66KB
+- [doc] 第190天：代码审计-Web3安全&智能合约&区块链&Solidity开发&msg和tx&编码加密&Web3.js(下).7z | 613.59KB
+- [doc] 第191天：代码审计-Web3安全&智能合约&区块链&Solidity安全&重入攻击&整数溢出&选择器碰撞.7z | 616.77KB
+- [doc] 第192天：代码审计-Web3安全&智能合约&区块链&Solidity安全&ERC代币&权限&签名&泄露&长度.7z | 617.98KB
+- [doc] 第193天：代码审计-Web3安全&智能合约&区块链&Solidity安全&ERC721代币&NFT&&重入&钓鱼等.7z | 618.94KB
+- [doc] 第194天：代码审计-Web3安全&智能合约&区块链&Solidity安全&CTF靶场&链上平台&应急响应&工具.7z | 1.74MB
+- [doc] 第195天：权限提升-Web应用&脚本类型&宿主机差异&后台系统&数据库管理&相互转移&认知和分类.7z | 775.91KB
+- [doc] 第196天：权限提升-Windows系统&Web脚本&自主搭建&溢出漏洞&土豆家族&通杀全系&Server版本.7z | 777.45KB
+- [doc] 第197天：权限提升-Windows系统&Web脚本&集成软件&环境系统&溢出漏洞&C2插件化&Server版本.7z | 779.03KB
+- [doc] 第198天：权限提升-Windows系统&Web脚本&数据库类型&MYSQL&MSSQL&ORACLE&自动化项目.7z | 780.25KB
+- [doc] 第199天：权限提升-Windows系统&Web脚本&数据库类型&Redis&PostgreSQL&第三方应用&密钥文件.7z | 782.00KB
+- [doc] 第19天：信息收集-Web应用&源码获取&闭源备份开发泄漏&WebPack打包&资源搜索&ICO定位.7z | 133.44KB
+- [doc] 第1天：基础入门-Web应用&架构搭建&域名源码&站库分离&MVC模型&解析受限&对应路径.7z | 67.06KB
+- [doc] 第200天：权限提升-Windows系统&计算机用户&进程注入&令牌窃取&服务启动&远程管理&降权通讯.7z | 782.31KB
+- [doc] 第201天：权限提升-Windows系统&计算机用户&DLL劫持&UAC绕过&未引号路径&不安全服务权限.7z | 784.02KB
+- [doc] 第202天：权限提升-Linux系统&内核溢出&检测脚本&Dcow&Pwnkit&Dirty&CVE漏洞&Vulnhub靶场.7z | 785.70KB
+- [doc] 第203天：权限提升-Linux系统&SUID所有者&GUID用户组&SUDO指令&SUDO版本&Vulnhub靶场.7z | 787.80KB
+- [doc] 第204天：权限提升-Linux系统&NFS服务配合SUID&Crontab计时任务&PATH环境变量&Vulnhub靶场.7z | 789.48KB
+- [doc] 第205天：权限提升-Linux系统&Capability能力&LD_Preload特权加载&第三方数据库&Vulhub靶场.7z | 791.61KB
+- [doc] 第206天：权限提升-Linux系统&虚拟化&LXD&Docker&容器逃逸&rbash绕过&历史泄露&Vulhub靶场.7z | 793.42KB
+- [doc] 第207天：权限提升-Linux系统&虚拟化&Docker容器&逃逸后提升&写密钥&计时任务&破密文&CVE漏洞.7z | 794.39KB
+- [doc] 第208天：权限提升-Windows系统&AD内网域控&NetLogon&ADCS&NTML&PAC&KDC&CVE漏洞.7z | 780.20KB
+- [doc] 第209天：免杀对抗-WebShell篇&静态代码&调用拦截&流量特征&加密混淆&脚本加载执行&Profile头部.7z | 248.22KB
+- [doc] 第20天：信息收集-Web应用&JS架构&URL提取&数据匹配&Fuzz接口&WebPack分析&自动化.7z | 134.78KB
+- [doc] 第210天：免杀对抗-WebShell篇&静态代码&内存执行&分离加载&加密混淆&AI二改特征&版权防逆向.7z | 249.64KB
+- [doc] 第211天：免杀对抗-WebShell篇&JSP脚本&反射调用&远程类加载&BCEL字节码&特性编码&加密混淆.7z | 251.58KB
+- [doc] 第212天：免杀对抗-WebShell篇&二改魔改&冰蝎4.X&打乱流量特征&新增加密协议&新增菜单功能(上).7z | 253.20KB
+- [doc] 第213天：免杀对抗-WebShell篇&二改魔改&冰蝎4.X&UI添加修改&新增免杀生成&代码BUG修复(下).7z | 256.09KB
+- [doc] 第214天：免杀对抗-WebShell篇&二改魔改&哥斯拉4.X&打乱流量特征&生成bin替换&新增通讯协议(上).7z | 256.94KB
+- [doc] 第215天：免杀对抗-WebShell篇&二改魔改&哥斯拉4.X&混淆前后数据&动态通讯Key&新增功能插件(下).7z | 417.03KB
+- [doc] 第216天：免杀对抗-C2项目篇&CS&VShell&RShell&Adaptix使用&ShellCode分析&通讯特征&加载模式.7z | 249.55KB
+- [doc] 第217天：免杀对抗-C2项目篇&CS&ShellCode混淆&静态特征&XOR&AES&DES&自定义算法&沙箱情报.7z | 250.06KB
+- [doc] 第218天：免杀对抗-C2项目篇&Adaptix&ShellCode数据分离&File提取&Http协议&Argv参数&Sock管道.7z | 251.14KB
+- [doc] 第219天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&反云沙箱分析&抗虚拟运行&绕过微步X60动态.7z | 254.22KB
+- [doc] 第21天：信息收集-Web应用&CDN绕过&加速部署&漏洞回链&全网扫描&反向邮件&解析记录.7z | 133.95KB
+- [doc] 第220天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&反调试插桩分析&抗虚拟运行&绕过微步行为动态.7z | 254.17KB
+- [doc] 第221天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&InlineHook&动态API&回调加载&隐藏导入表.7z | 255.81KB
+- [doc] 第222天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&进程操作&傀儡镂空&早鸟APC注入&映射共享.7z | 261.56KB
+- [doc] 第223天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&DLL操作&白加黑&PE映射&反射注入&镂空劫持.7z | 265.70KB
+- [doc] 第224天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&DLL操作&白加黑挖掘&签名程序链&代理侧加载.7z | 302.28KB
+- [doc] 第225天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&DLL操作&白加黑挖掘&签名程序链&单程序加载.7z | 302.81KB
+- [doc] 第226天：免杀对抗-C2项目篇&Adaptix&ShellCode存储&HOOK操作&用户内核态&SYSCALL&IAT&VEH.7z | 572.42KB
+- [doc] 第227天：免杀对抗-C2项目篇&Adaptix&Windows内置&AMSI接口&ETW记录&Bypass绕过&后渗透溯源(1).7z | 653.70KB
+- [doc] 第228天：免杀对抗-C2项目篇&CobaltStrike&PowerShell&混淆变形&分离无文件&内存执行&绕过AMSI.7z | 654.47KB
+- [doc] 第22天：信息收集-Web应用&各语言框架&安全组件&联动系统&数据特征&人工分析&识别项目.7z | 131.28KB
+- [doc] 第23天：信息收集-APP应用&产权渠道&服务资产&通讯抓包&静态提取&动态调试&测试范围.7z | 129.89KB
+- [doc] 第24-1天：小程序抓包反编译安全挖掘案例.7z | 4.42MB
+- [doc] 第24天：信息收集-小程序应用&逆向反编译&外在抓包&动态调试&自动化提取&主包分包源码.7z | 130.98KB
+- [doc] 第25天：信息收集-项目系统&一键打点&资产侦察&企查产权&空间引擎&风险监测&利器部署.7z | 129.44KB
+- [doc] 第26天：信息收集-公众号资产&供应链回溯&Github泄漏&多渠道泄漏&资产监控&引擎语法.7z | 129.27KB
+- [doc] 第27天：Web开发-PHP应用&原生语法&全局变量&数据接受&身份验证&变量覆盖&任意上传.7z | 427.56KB
+- [doc] 第28天：Web开发-PHP应用&Cookie脆弱&Session固定&Token唯一&身份验证&数据库通讯.7z | 167.52KB
+- [doc] 第29天：Web开发-PHP应用&弱类型脆弱&Hash加密&Bool类型&Array数组&函数转换比较.7z | 158.70KB
+- [doc] 第2天：基础入门-Web应用&架构类别&源码类别&镜像容器&建站模版&编译封装&前后端分离.7z | 68.34KB
+- [doc] 第30天：Web开发-PHP应用&组件框架&前端模版渲染&三方插件&富文本编辑器&CVE审计.7z | 162.58KB
+- [doc] 第31天：Web开发-PHP应用&TP框架&MVC模型&路由访问&模版渲染&安全写法&版本漏洞.7z | 162.34KB
+- [doc] 第32天：Web开发-PHP应用&文件操作安全&上传下载&任意读取删除&目录遍历&文件包含.7z | 162.52KB
+- [doc] 第33天：Web开发-PHP应用&代码执行&命令注入&RCE安全&数据解析&引发函数&CVE审计.7z | 162.38KB
+- [doc] 第34天：Web开发-PHP应用&鉴别修复&AI算法&流量检测&PHP.INI&通用过滤&内置函数.7z | 166.59KB
+- [doc] 第35天：Web开发-JS应用&原生代码&Ajax技术&JQuery库&Axios库&前端校验&安全结合.7z | 266.77KB
+- [doc] 第36天：Web开发-JS应用&原生代码&BOM浏览器对象&DOM文档树&XSS重定向&安全实例.7z | 313.52KB
+- [doc] 第37天：Web开发-JS应用&原生代码&前端数据加密&CryptoJS库&代码混淆&Obfuscator库.7z | 313.86KB
+- [doc] 第38天：Web开发-JS应用&NodeJS&原型链污染&文件系统&Express模块&数据库通讯&审计.7z | 606.34KB
+- [doc] 第39天：Web开发-JS应用&WebPack构建&打包Mode&映射DevTool&源码泄漏&识别还原.7z | 607.77KB
+- [doc] 第3天：基础入门-Web应用&OSS存储&负载均衡&CDN加速&反向代理&WAF防护&部署影响.7z | 770.34KB
+- [doc] 第40天：Web开发-JS应用&VueJS框架&Vite构建&启动打包&渲染XSS&源码泄露&代码审计.7z | 609.03KB
+- [doc] 第41天：Web开发-JS应用&微信小程序&源码架构&编译预览&逆向调试&嵌套资产&代码审计.7z | 606.78KB
+- [doc] 第42天：Web开发-JavaEE应用&Servlet技术&路由配置&生命周期&过滤器Filter&监听器Listen.7z | 451.75KB
+- [doc] 第43天：Web开发-JavaEE应用&ORM框架&SQL预编译&JDBC&MyBatis&Hibernate&Maven.7z | 245.14KB
+- [doc] 第44天：Web开发-JavaEE应用&反射机制&类加载器&利用链&成员变量&构造方法&抽象方法.7z | 841.92KB
+- [doc] 第45天：Web开发-JavaEE应用&动态接口代理&原生反序列化&危险Invoke&重写方法&利用链.7z | 428.09KB
+- [doc] 第46天：Web开发-JavaEE应用&原生和FastJson反序列化&URLDNS链&JDBC链&Gadget手搓.7z | 625.97KB
+- [doc] 第47天：Web开发-JavaEE应用&JNDI注入&RMI服务&LDAP服务&DNS服务&高版本限制绕过.7z | 633.06KB
+- [doc] 第48天：Web开发-JavaEE应用&依赖包&Log4j日志&Shiro验证&FastJson数据&XStream格式.7z | 1.47MB
+- [doc] 第49天：Web开发-JavaEE应用&SpringBoot栈&模版注入&Thymeleaf&Freemarker&Velocity.7z | 161.78KB
+- [doc] 第4天：基础入门-Web应用&蜜罐系统&堡垒机运维&API内外接口&第三方拓展架构&部署影响.7z | 68.77KB
+- [doc] 第50天：Web开发-JavaEE应用&SpringBoot栈&Actuator&Swagger&HeapDump&提取自动化.7z | 298.89KB
+- [doc] 第51天：Web开发-JavaEE应用&SpringBoot栈&身份验证&JWT令牌&Security鉴权&安全绕过.7z | 219.08KB
+- [doc] 第52天：Web开发-JavaEE应用&SpringBoot栈&SnakeYaml反序列化链&JAR&WAR&构建打包.7z | 162.13KB
+- [doc] 第53天：Web攻防-SQL注入&数据库类型&用户权限&架构分层&符号干扰&利用过程&发现思路.7z | 885.50KB
+- [doc] 第53天：Web开发-Python应用&Flask框架&Jinja模版&绑定路由&参数传递&页面解析&SSTI注入.7z | 162.44KB
+- [doc] 第54天：Web攻防-SQL注入&数据类型&参数格式&JSON&XML&编码加密&符号闭合&复盘报告.7z | 885.97KB
+- [doc] 第55天：Web攻防-SQL注入&增删改查&HTTP头&UA&XFF&Referer&Cookie&无回显报错&复盘.7z | 885.36KB
+- [doc] 第56天：Web攻防-SQL注入&增删改查&盲注&延时&布尔&报错&有无回显&错误处理&审计复盘.7z | 885.97KB
+- [doc] 第57天：Web攻防-SQL注入&高权限判定&跨库查询&文件读写&DNS带外&SecurePriv开关绕过.7z | 885.80KB
+- [doc] 第58天：Web攻防-SQL注入&二次攻击&堆叠执行&SQLMAP&Tamper编写&指纹修改&分析调试.7z | 5.95MB
+- [doc] 第59天：Web攻防-XSS跨站&反射型&存储型&DOM型&接受输出&JS执行&标签操作&SRC复盘.7z | 776.19KB
+- [doc] 第5天：基础入门-APP应用&微信小程序&原生态开发&H5+Vue技术&封装打包&反编译抓包点.7z | 68.42KB
+- [doc] 第60天：Web攻防-XSS跨站&文件类型&功能逻辑&SVG&PDF&SWF&PMessage&LocalStorage.7z | 779.63KB
+- [doc] 第61天：Web攻防-XSS跨站&浏览器UXSS&突变MXSS&Vue&React框架&JQuery库&写法和版本.7z | 982.33KB
+- [doc] 第62天：Web攻防-XSS跨站&Cookie盗取&数据包提交&网络钓鱼&BEEF项目&XSS平台&危害利用.7z | 778.41KB
+- [doc] 第63天：Web攻防-XSS跨站&CSP策略&HttpOnly属性&Filter代码&符号标签&AI绕过&工具项目.7z | 778.66KB
+- [doc] 第64天：Web攻防-CSRF跨站请求伪造&Referer同源&Token校验&复用删除置空&联动上传或XSS.7z | 1.21MB
+- [doc] 第65天：Web攻防-SSRF服务端伪造&伪协议利玩法&域名及IP绕过&无回显利用&挖掘点&SRC复盘.7z | 641.31KB
+- [doc] 第66天：Web攻防-SSRF服务端伪造&功能逻辑&SRC实践复盘&参数盲测&自动化检测&流量插件.7z | 643.95KB
+- [doc] 第67天：Web攻防-文件上传&黑白名单&MIME&JS泄露&执行权限&编码解析&OSS存储&分域名.7z | 377.72KB
+- [doc] 第68天：Web攻防-文件上传&条件竞争&JS泄露&开源审计漏洞&编辑器安全&思维体系&SRC复盘.7z | 502.17KB
+- [doc] 第69天：Web攻防-文件包含&LFI&RFI&伪协议条件&编码算法&无文件利用&JAVA应用&SRC复盘.7z | 515.86KB
+- [doc] 第6天：基础入门-抓包技术&HTTPS协议&APP&小程序&PC应用&Web&证书信任&转发联动.7z | 68.81KB
+- [doc] 第70天：Web攻防-任意文件下载&文件读取&文件删除&索引泄露&目录遍历&路径穿越&SRC复盘.7z | 376.38KB
+- [doc] 第71天：Web攻防-XML&XXE&无回显带外&SSRF元数据&DTD实体&OOB盲注&文件拓展&复盘.7z | 2.43MB
+- [doc] 第72天：Web攻防-XML&XXE&上传解析&文件预览&接口服务&白盒审计&应用功能&SRC复盘.7z | 2.43MB
+- [doc] 第73天：Web攻防-RCE&代码执行&命令执行&无回显方案&语言表达式&黑盒功能点&白盒方法名.7z | 376.78KB
+- [doc] 第74天：Web攻防-SSTI服务端&模版注入&利用分类&语言引擎&数据渲染&项目工具&挖掘思路.7z | 671.17KB
+- [doc] 第75天：Web攻防-PHP反序列化&魔术方法&触发条件&POP链构造&变量属性修改&黑白盒角度.7z | 795.59KB
+- [doc] 第76天：Web攻防-PHP反序列化&原生内置&Exception类&SoapClient类&SimpleXMLElement.7z | 799.58KB
+- [doc] 第77天：Web攻防-PHP反序列化&字符逃逸&增多减少&成员变量属性&解析不敏感&Wakeup绕过.7z | 801.36KB
+- [doc] 第78天：Web攻防-PHP反序列化&Phar文件类&CLI框架类&PHPGGC生成器&TP&Yii&Laravel.7z | 1.03MB
+- [doc] 第79-1天：实战SRC越权未授权挖掘分享案例.7z | 2.78MB
+- [doc] 第79天：Web攻防-访问控制篇&水平越权&垂直越权&未授权访问&级别架构&项目插件&SRC复盘.7z | 395.94KB
+- [doc] 第7天：基础入门-抓包技术&全局协议&扶墙双层&多项目联动&网卡模式&检验绕过&移动应用.7z | 68.61KB
+- [doc] 第80天：Web攻防-身份验证篇&JWT令牌&空密钥&未签名&密钥爆破&JWK&JWU&KID&算法替换.7z | 668.97KB
+- [doc] 第81天：Web攻防-身份验证篇&OAuth认证&授权分类及参数&重定向接管&State缺陷&Scope篡改.7z | 1.16MB
+- [doc] 第82-1天：实战SRC验证逻辑挖掘分享案例.7z | 1.36MB
+- [doc] 第82天：Web攻防-业务逻辑篇&密码找回&重定向目标&响应包检验&流程跳过&回显泄露&验证枚举.7z | 793.66KB
+- [doc] 第83-1天：实战SRC支付购买挖掘分享案例.7z | 462.66KB
+- [doc] 第83天：Web攻防-业务逻辑篇&购买支付&篡改属性值&算法溢出&签约并发&四舍五入法&订单对冲.7z | 795.14KB
+- [doc] 第84-1天：实战SRC验证码机制挖掘分享案例.7z | 479.70KB
+- [doc] 第84天：Web攻防-业务逻辑篇&短信验证码&劫持爆破回显&图片验证码&识别复用绕过&接口滥用.7z | 795.95KB
+- [doc] 第85-1天：实战SRC并发&FUZZ技术案例挖掘.7z | 1.34MB
+- [doc] 第85天：Web攻防-业务逻辑篇&Fuzz技术&数据并发&条件竞争&JS挖掘&参数盲猜&Turbo插件&复盘.7z | 1.01MB
+- [doc] 第86天：Web攻防-业务逻辑篇&APP隐私合规&资源处理&违规收集&拒绝服务&在线检测&项目工具.7z | 1.01MB
+- [doc] 第87天：Web攻防-大模型应用&LLM安全&提示词注入&不安全输出&代码注入&直接间接&数据投毒.7z | 284.56KB
+- [doc] 第88天：Web攻防-大模型应用&LLM搭建&接入第三方&内容喂养&AI插件&安全WiKI库&技术赋能.7z | 286.66KB
+- [doc] 第89天：JS逆向-开发者工具&网络请求筛选&调用堆栈链&断点调试方法&数据作用域&控制台分析.7z | 199.80KB
+- [doc] 第8天：基础入门-数据不回显&数据不出网&出入站策略&正反向连接&反弹Shell&外带延迟写入.7z | 197.80KB
+- [doc] 第90天：JS逆向-反调试绕过&事件检测&无限Debug&篡改猴Hook&替换指向&匹配修改&条件断点.7z | 239.25KB
+- [doc] 第91天：JS逆向-HOOK钩子&脚本开发&注入逻辑&油管猴配置&绕过Debug&定时循环&构造函数.7z | 239.91KB
+- [doc] 第92天：JS逆向-加密数据&算法解密&提交返回还原&扣代码调用&替换库模拟&堆栈定位&特征搜索.7z | 372.59KB
+- [doc] 第93天：JS逆向-Sign签名&绕过技术&算法可逆&替换库模拟发包&堆栈定位&特征搜索&安全影响.7z | 375.14KB
+- [doc] 第94天：JS逆向-代码混淆&EVAL执行&OB算法&AA和JJ&特征识别&解密还原&美化输出&自动项目.7z | 376.13KB
+- [doc] 第95天：JS逆向-代码混淆&AST技术&抽象语法树&Obfuscator混淆&还原接口&数据节点&AI生成.7z | 377.19KB
+- [doc] 第96天：JS逆向-WX小程序&反编译解包&HOOK注入点&在线调试&断点分析&算法还原&特定版本.7z | 377.44KB
+- [doc] 第97天：JS逆向-安全辅助项目&JSRpc远程调用&Burp插件autoDecode&浏览器拓展V_Jstools(上).7z | 378.16KB
+- [doc] 第98天：JS逆向-安全辅助项目&接口联动&JSRpc进阶调用&BP插件autoDecode&JsEncrypter(下).7z | 379.42KB
+- [doc] 第99天：JS逆向-安全辅助项目&Yakit热加载&魔术方法&模版插件语法&JSRpc进阶调用&接口联动.7z | 382.19KB
+- [doc] 第9天：基础入门-反弹Shell&渗透命令&Reverse反向&Bind正向&利用语言&文件下载&多姿势.7z | 199.44KB
+
+### 第 5 阶段: a.25新款资料库（持续更新中）
+
+- [doc] 暂无公开章节
+
+## 资料
+
+- 远程课程目录 | AList目录
+
+## 讲师
+
+- 姓名: 课小猫的秘密宝箱
+- 头衔: 课程采集与整理
+- 简介: 由课小猫的秘密宝箱自动收录并整理课程目录，后续可继续补充封面、讲师与课程说明。
+`;export{e as default};
